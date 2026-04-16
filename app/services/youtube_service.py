@@ -12,6 +12,17 @@ import traceback
 logger = logging.getLogger(__name__)
 
 CHANNEL_URL = "https://www.youtube.com/@BhajanMarg"
+PROGRESS_FILE = "extraction_progress.txt"
+
+import os
+import time
+
+def log_progress(msg: str):
+    """Helper to write visible progress to a text file for the user."""
+    timestamp = time.strftime("%H:%M:%S")
+    with open(PROGRESS_FILE, "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] {msg}\n")
+    logger.info(msg)
 
 def fetch_latest_videos(max_count: int = 10) -> List[dict]:
     """Uses yt-dlp to fetch the latest video metadata from the channel."""
@@ -67,14 +78,17 @@ def get_transcript_chunks(video_id: str, chunk_duration: int = 180) -> List[str]
         
     return chunks
 
-def process_channel_videos(db: Session, max_videos: int = 10) -> dict:
+def process_channel_videos(db: Session, max_videos: int = 100) -> dict:
     """End-to-End pipeline to fetch videos, pull transcripts, extract QA via LLM, and index them."""
+    log_progress(f"--- STARTING EXTRACTION FOR {max_videos} VIDEOS ---")
     videos = fetch_latest_videos(max_count=max_videos)
-    logger.info(f"Found {len(videos)} videos.")
+    log_progress(f"Found {len(videos)} total videos to scan.")
     
     total_qa_extracted = 0
+    videos_with_content = 0
     
     for v in videos:
+        log_progress(f"Scanning Video: {v['title']}")
         # Check if video already in db
         existing_vid = db.query(Video).filter(Video.youtube_id == v['id']).first()
         if not existing_vid:
@@ -85,27 +99,49 @@ def process_channel_videos(db: Session, max_videos: int = 10) -> dict:
         else:
             db_video = existing_vid
             
-        logger.info(f"Processing Video: {v['title']} ({v['id']})")
         chunks = get_transcript_chunks(v['id'])
         
+        if not chunks:
+            log_progress(f"  [X] No transcript found. Skipping.")
+            continue
+            
+        log_progress(f"  [+] Found {len(chunks)} transcript segments. Processing...")
         video_qa_pairs = []
         for i, chunk in enumerate(chunks):
-            logger.info(f"  Extracting QA from chunk {i+1}/{len(chunks)}")
+            log_progress(f"    -> Extracting from segment {i+1}/{len(chunks)}...")
+            time.sleep(1) # Safety delay
+            
             extracted_pairs = extract_qa_pairs(chunk)
             
-            for pair in extracted_pairs:
-                if 'question' in pair and 'answer' in pair:
-                    db_qa = QAPair(
-                        video_id=db_video.id,
-                        question=pair['question'],
-                        answer=pair['answer'],
-                        timestamp=pair.get('timestamp', 0)
-                    )
-                    db.add(db_qa)
-                    db.commit()
-                    db.refresh(db_qa)
-                    video_qa_pairs.append(db_qa)
-                    add_to_index(db_qa)
-                    total_qa_extracted += 1
+            if extracted_pairs:
+                log_progress(f"      - Extracted {len(extracted_pairs)} QA pairs from segment.")
+                for pair in extracted_pairs:
+                    if 'question' in pair and 'answer' in pair:
+                        db_qa = QAPair(
+                            video_id=db_video.id,
+                            question=pair['question'],
+                            answer=pair['answer'],
+                            timestamp=pair.get('timestamp', 0)
+                        )
+                        db.add(db_qa)
+                        db.commit()
+                        db.refresh(db_qa)
+                        video_qa_pairs.append(db_qa)
+                        add_to_index(db_qa)
+                        total_qa_extracted += 1
+            else:
+                log_progress(f"      - No distinct QA pairs found in this segment.")
+        
+        if video_qa_pairs:
+            videos_with_content += 1
+            log_progress(f"  [SUCCESS] Total QA pairs for this video: {len(video_qa_pairs)}")
             
-    return {"status": "success", "videos_processed": len(videos), "total_qa_extracted": total_qa_extracted}
+    log_progress(f"--- EXTRACTION COMPLETE ---")
+    log_progress(f"Extracted {total_qa_extracted} total pairs from {videos_with_content} videos.")
+    
+    return {
+        "status": "success", 
+        "videos_processed": len(videos), 
+        "videos_with_content": videos_with_content,
+        "total_qa_extracted": total_qa_extracted
+    }

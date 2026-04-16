@@ -73,7 +73,7 @@ def generate_answer(query: str, context: str) -> str:
                 headers = {
                     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
                     "HTTP-Referer": "http://localhost:8000",
-                    "X-Title": "Premanand AI",
+                    "X-Title": "Bhakti Marg AI",
                     "Content-Type": "application/json"
                 }
                 data = {

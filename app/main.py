@@ -10,7 +10,7 @@ import os
 # Create database tables
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Premanand AI", version="1.0.0")
+app = FastAPI(title="Bhakti Marg AI", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,

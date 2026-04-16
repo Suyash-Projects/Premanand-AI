@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const label = document.createElement('span');
         label.className = `text-xs px-2 ${sender === 'user' ? 'text-gray-400' : 'text-saffron-400'}`;
-        label.innerText = sender === 'user' ? 'You' : 'Premanand AI';
+        label.innerText = sender === 'user' ? 'You' : 'Bhakti Marg AI';
 
         const bubble = document.createElement('div');
         bubble.className = `p-4 shadow-lg font-hindi text-lg font-medium tracking-wide ${
