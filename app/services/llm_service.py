@@ -29,7 +29,8 @@ def generate_answer(query: str, context: str) -> str:
         "1. Answer ONLY from the provided context.\n"
         "2. Answer ALWAYS in pure Hindi, regardless of the input language.\n"
         "3. Keep the tone respectful and spiritual.\n"
-        "4. If the answer is not in the context, politely state in Hindi that you don't have the information."
+        "4. Provide detailed, comprehensive, and expansive answers. DO NOT just give a short summary. Explain the spiritual concept thoroughly using the provided context.\n"
+        "5. If the answer is not in the context, politely state in Hindi that you don't have the information."
     )
     
     user_prompt = f"Context:\n{context}\n\nQuestion: {query}"
@@ -43,7 +44,7 @@ def generate_answer(query: str, context: str) -> str:
                 "Content-Type": "application/json"
             }
             data = {
-                "model": "llama3-8b-8192", # Known working fast groq model
+                "model": "llama-3.1-8b-instant",  # Fast Groq model for answering
                 "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
@@ -135,30 +136,42 @@ def extract_qa_pairs(chunk_text: str) -> list:
         "If there are no clear questions, return an empty JSON array []."
     )
     
-    try:
-        url = f"{GROQ_BASE_URL}/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {GROQ_API_KEY}",
-            "Content-Type": "application/json"
-        }
-        data = {
-            "model": "llama3-8b-8192",
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": f"Transcript:\n{chunk_text}"}
-            ],
-            "temperature": 0.3
-        }
-        res = requests.post(url, headers=headers, json=data, timeout=20)
-        if res.status_code == 200:
-            content = res.json()["choices"][0]["message"]["content"]
-            # remove formatting if wrapped in markdown
-            content = content.replace("```json", "").replace("```", "").strip()
-            return json.loads(content)
-        else:
-            logger.error(f"Groq Extraction failed: {res.text}")
-    except Exception as e:
-        logger.error(f"Groq Extraction exception: {e}")
+    import time
+    max_retries = 10
+    attempts = 0
+    while attempts < max_retries:
+        try:
+            url = f"{GROQ_BASE_URL}/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {GROQ_API_KEY}",
+                "Content-Type": "application/json"
+            }
+            data = {
+                "model": "llama-3.1-8b-instant",  # Used for high-volume extraction
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": f"Transcript:\n{chunk_text}"}
+                ],
+                "temperature": 0.3
+            }
+            res = requests.post(url, headers=headers, json=data, timeout=20)
+            if res.status_code == 200:
+                content = res.json()["choices"][0]["message"]["content"]
+                # remove formatting if wrapped in markdown
+                content = content.replace("```json", "").replace("```", "").strip()
+                return json.loads(content)
+            elif res.status_code == 429:
+                err_msg = res.json().get("error", {}).get("message", "Rate limit exceeded")
+                print(f"    [Groq Rate Limit] Sleeping 10s... ({err_msg[:40]}...)")
+                time.sleep(10)
+                attempts += 1
+                continue
+            else:
+                logger.error(f"Groq Extraction failed: {res.text}")
+                break
+        except Exception as e:
+            logger.error(f"Groq Extraction exception: {e}")
+            break
         
     return []
 

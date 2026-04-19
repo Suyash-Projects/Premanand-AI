@@ -1,0 +1,1349 @@
+[13:12:36] Found 41 transcript files to ingest.
+[13:12:47] 
+[1/41] -86b4oaiw7Q.json
+[13:12:47]   SKIP (already in DB, 24 pairs): Ekantik Vartalaap Collection / 18-03-2026 / Shri H
+[13:12:47]   => 24 new Q&A pairs. Total so far: 24. Elapsed: 0.0min
+[13:12:47] 
+[2/41] -aDTTy-o7vE.json
+[13:12:47]   SKIP (already in DB, 5 pairs): #1231 Ekantik Vartalaap & Darshan/10-04-2026/ Shri
+[13:12:47]   => 5 new Q&A pairs. Total so far: 29. Elapsed: 0.0min
+[13:12:47] 
+[3/41] -g6LTKH7BT8.json
+[13:12:47]   SKIP (already in DB, 6 pairs): Ekantik Vartalaap Collection / 14-03-2026 / Shri H
+[13:12:47]   => 6 new Q&A pairs. Total so far: 35. Elapsed: 0.0min
+[13:12:47] 
+[4/41] -lS_YGR9ESo.json
+[13:12:47]   SKIP (already in DB, 1 pairs): #1229 Ekantik Vartalaap & Darshan/08-04-2026/ Shri
+[13:12:47]   => 1 new Q&A pairs. Total so far: 36. Elapsed: 0.0min
+[13:12:47] 
+[5/41] 3Y3COxRnhHY.json
+[13:12:47]   SKIP (already in DB, 5 pairs): #1215 Ekantik Vartalaap & Darshan/25-03-2026/ Shri
+[13:12:47]   => 5 new Q&A pairs. Total so far: 41. Elapsed: 0.0min
+[13:12:47] 
+[6/41] 4Of240PBnug.json
+[13:12:47]   SKIP (already in DB, 5 pairs): #1217 Ekantik Vartalaap & Darshan/27-03-2026/ Shri
+[13:12:47]   => 5 new Q&A pairs. Total so far: 46. Elapsed: 0.0min
+[13:12:47] 
+[7/41] 4uWOa7JNRYI.json
+[13:12:47]   SKIP (already in DB, 2 pairs): #1214 Ekantik Vartalaap & Darshan/24-03-2026/ Shri
+[13:12:47]   => 2 new Q&A pairs. Total so far: 48. Elapsed: 0.0min
+[13:12:47] 
+[8/41] 6JjOPJy1Pm0.json
+[13:12:47]   SKIP (already in DB, 2 pairs): #1222 Ekantik Vartalaap & Darshan/01-04-2026/ Shri
+[13:12:47]   => 2 new Q&A pairs. Total so far: 50. Elapsed: 0.0min
+[13:12:47] 
+[9/41] 6jRUlcwj-fY.json
+[13:12:47]   SKIP (already in DB, 9 pairs): एक संत माताजी ने पूछा: आंतरिक साधना में रुकावट बनी
+[13:12:47]   => 9 new Q&A pairs. Total so far: 59. Elapsed: 0.0min
+[13:12:47] 
+[10/41] 9c4VLtAPeGg.json
+[13:12:47]   SKIP (already in DB, 18 pairs): #1209 Ekantik Vartalaap & Darshan/10-03-2026/ Shri
+[13:12:47]   => 18 new Q&A pairs. Total so far: 77. Elapsed: 0.0min
+[13:12:47] 
+[11/41] C-avB01mLdU.json
+[13:12:47]   SKIP (already in DB, 12 pairs): Ekantik Vartalaap Collection / 13-03-2026 / Shri H
+[13:12:47]   => 12 new Q&A pairs. Total so far: 89. Elapsed: 0.0min
+[13:12:47] 
+[12/41] FaOOPMnjb6s.json
+[13:12:47]   Processing 17 chunks from: Ekantik Vartalaap Collection / 16-03-2026 / Shri Hit Pr
+[13:12:49]     Chunk 1/17: 0 pairs
+[13:12:52]     Chunk 2/17: +3 pairs
+[13:12:57]     Chunk 3/17: +4 pairs
+[13:12:59]     Chunk 4/17: 0 pairs
+[13:12:59]     Chunk 5/17: 0 pairs
+[13:13:00]     Chunk 6/17: 0 pairs
+[13:13:01]     Chunk 7/17: 0 pairs
+[13:13:02]     Chunk 8/17: 0 pairs
+[13:13:03]     Chunk 9/17: 0 pairs
+[13:13:04]     Chunk 10/17: 0 pairs
+[13:13:05]     Chunk 11/17: 0 pairs
+[13:13:05]     Chunk 12/17: 0 pairs
+[13:13:06]     Chunk 13/17: 0 pairs
+[13:13:07]     Chunk 14/17: 0 pairs
+[13:13:08]     Chunk 15/17: 0 pairs
+[13:13:09]     Chunk 16/17: 0 pairs
+[13:13:10]     Chunk 17/17: 0 pairs
+[13:13:10]   => 7 new Q&A pairs. Total so far: 96. Elapsed: 0.4min
+[13:13:10] 
+[13/41] FoMP32N036A.json
+[13:13:10]   Processing 12 chunks from: #1206 Ekantik Vartalaap & Darshan/07-03-2026/ Shri Hit 
+[13:13:13]     Chunk 1/12: 0 pairs
+[13:13:15]     Chunk 2/12: 0 pairs
+[13:13:16]     Chunk 3/12: 0 pairs
+[13:13:18]     Chunk 4/12: 0 pairs
+[13:13:18]     Chunk 5/12: 0 pairs
+[13:13:19]     Chunk 6/12: 0 pairs
+[13:13:20]     Chunk 7/12: 0 pairs
+[13:13:21]     Chunk 8/12: 0 pairs
+[13:13:22]     Chunk 9/12: 0 pairs
+[13:13:23]     Chunk 10/12: 0 pairs
+[13:13:25]     Chunk 11/12: +2 pairs
+[13:13:26]     Chunk 12/12: 0 pairs
+[13:13:26]   => 2 new Q&A pairs. Total so far: 98. Elapsed: 0.7min
+[13:13:26] 
+[14/41] H8Z3qUMXsCs.json
+[13:13:26]   Processing 8 chunks from: #1224 Ekantik Vartalaap & Darshan/03-04-2026/ Shri Hit 
+[13:13:27]     Chunk 1/8: 0 pairs
+[13:13:28]     Chunk 2/8: 0 pairs
+[13:13:29]     Chunk 3/8: 0 pairs
+[13:13:30]     Chunk 4/8: 0 pairs
+[13:13:31]     Chunk 5/8: 0 pairs
+[13:13:32]     Chunk 6/8: 0 pairs
+[13:13:33]     Chunk 7/8: 0 pairs
+[13:13:34]     Chunk 8/8: 0 pairs
+[13:13:34]   => 0 new Q&A pairs. Total so far: 98. Elapsed: 0.8min
+[13:13:34] 
+[15/41] ImZmtmq1Dv8.json
+[13:13:34]   Processing 9 chunks from: #1235 Ekantik Vartalaap & Darshan/14-04-2026/ Shri Hit 
+[13:13:35]     Chunk 1/9: 0 pairs
+[13:13:36]     Chunk 2/9: 0 pairs
+[13:13:37]     Chunk 3/9: 0 pairs
+[13:13:38]     Chunk 4/9: 0 pairs
+[13:13:39]     Chunk 5/9: 0 pairs
+[13:13:40]     Chunk 6/9: 0 pairs
+[13:13:41]     Chunk 7/9: 0 pairs
+[13:13:42]     Chunk 8/9: 0 pairs
+[13:13:44]     Chunk 9/9: +5 pairs
+[13:13:44]   => 5 new Q&A pairs. Total so far: 103. Elapsed: 1.0min
+[13:13:44] 
+[16/41] KyGcmmB8hhY.json
+[13:13:44]   Processing 9 chunks from: #1236 Ekantik Vartalaap & Darshan/15-04-2026/ Shri Hit 
+[13:13:45]     Chunk 1/9: 0 pairs
+[13:13:45]     Chunk 2/9: 0 pairs
+[13:13:46]     Chunk 3/9: 0 pairs
+[13:13:47]     Chunk 4/9: 0 pairs
+[13:13:48]     Chunk 5/9: 0 pairs
+[13:13:49]     Chunk 6/9: 0 pairs
+[13:13:50]     Chunk 7/9: 0 pairs
+[13:13:51]     Chunk 8/9: 0 pairs
+[13:13:52]     Chunk 9/9: 0 pairs
+[13:13:52]   => 0 new Q&A pairs. Total so far: 103. Elapsed: 1.1min
+[13:13:52] 
+[17/41] M0IH15wC8Ok.json
+[13:13:52]   Processing 11 chunks from: #1218 Ekantik Vartalaap & Darshan/28-03-2026/ Shri Hit 
+[13:13:53]     Chunk 1/11: 0 pairs
+[13:13:54]     Chunk 2/11: 0 pairs
+[13:13:55]     Chunk 3/11: 0 pairs
+[13:13:55]     Chunk 4/11: 0 pairs
+[13:13:56]     Chunk 5/11: 0 pairs
+[13:13:59]     Chunk 6/11: 0 pairs
+[13:14:00]     Chunk 7/11: 0 pairs
+[13:14:02]     Chunk 8/11: +7 pairs
+[13:14:03]     Chunk 9/11: 0 pairs
+[13:14:04]     Chunk 10/11: 0 pairs
+[13:14:05]     Chunk 11/11: 0 pairs
+[13:14:05]   => 7 new Q&A pairs. Total so far: 110. Elapsed: 1.3min
+[13:14:05] 
+[18/41] MQwn6rZU2xo.json
+[13:14:05]   Processing 14 chunks from: Ekantik Vartalaap Collection / 12-03-2026 / Shri Hit Pr
+[13:14:06]     Chunk 1/14: 0 pairs
+[13:14:07]     Chunk 2/14: 0 pairs
+[13:14:08]     Chunk 3/14: 0 pairs
+[13:14:09]     Chunk 4/14: 0 pairs
+[13:14:13]     Chunk 5/14: 0 pairs
+[13:14:15]     Chunk 6/14: 0 pairs
+[13:14:16]     Chunk 7/14: 0 pairs
+[13:14:17]     Chunk 8/14: 0 pairs
+[13:14:18]     Chunk 9/14: 0 pairs
+[13:14:19]     Chunk 10/14: 0 pairs
+[13:14:20]     Chunk 11/14: 0 pairs
+[13:14:21]     Chunk 12/14: 0 pairs
+[13:14:22]     Chunk 13/14: 0 pairs
+[13:14:24]     Chunk 14/14: +6 pairs
+[13:14:24]   => 6 new Q&A pairs. Total so far: 116. Elapsed: 1.6min
+[13:14:24] 
+[19/41] NABG9UTDAh0.json
+[13:14:24]   Processing 11 chunks from: #1220 Ekantik Vartalaap & Darshan/30-03-2026/ Shri Hit 
+[13:14:25]     Chunk 1/11: 0 pairs
+[13:14:27]     Chunk 2/11: 0 pairs
+[13:14:28]     Chunk 3/11: 0 pairs
+[13:14:29]     Chunk 4/11: 0 pairs
+[13:14:30]     Chunk 5/11: 0 pairs
+[13:14:31]     Chunk 6/11: 0 pairs
+[13:14:32]     Chunk 7/11: 0 pairs
+[13:14:37]     Chunk 8/11: +11 pairs
+[13:14:40]     Chunk 9/11: 0 pairs
+[13:14:41]     Chunk 10/11: 0 pairs
+[13:14:41]     Chunk 11/11: 0 pairs
+[13:14:41]   => 11 new Q&A pairs. Total so far: 127. Elapsed: 1.9min
+[13:14:41] 
+[20/41] NgzVYyD8bL8.json
+[13:14:41]   Processing 8 chunks from: #1232 Ekantik Vartalaap & Darshan/11-04-2026/ Shri Hit 
+[13:14:43]     Chunk 1/8: 0 pairs
+[13:14:44]     Chunk 2/8: 0 pairs
+[13:14:48]     Chunk 3/8: 0 pairs
+[13:14:51]     Chunk 4/8: 0 pairs
+[13:14:52]     Chunk 5/8: 0 pairs
+[13:14:52]     Chunk 6/8: 0 pairs
+[13:14:53]     Chunk 7/8: 0 pairs
+[13:14:54]     Chunk 8/8: 0 pairs
+[13:14:54]   => 0 new Q&A pairs. Total so far: 127. Elapsed: 2.1min
+[13:14:54] 
+[21/41] OA3iTRGx1Sw.json
+[13:14:54]   Processing 11 chunks from: #1211 Ekantik Vartalaap & Darshan/21-03-2026/ Shri Hit 
+[13:14:55]     Chunk 1/11: 0 pairs
+[13:14:56]     Chunk 2/11: 0 pairs
+[13:14:57]     Chunk 3/11: 0 pairs
+[13:15:02]     Chunk 4/11: +10 pairs
+[13:15:02]     Chunk 5/11: 0 pairs
+[13:15:04]     Chunk 6/11: 0 pairs
+[13:15:04]     Chunk 7/11: 0 pairs
+[13:15:05]     Chunk 8/11: 0 pairs
+[13:15:06]     Chunk 9/11: 0 pairs
+[13:15:07]     Chunk 10/11: 0 pairs
+[13:15:08]     Chunk 11/11: 0 pairs
+[13:15:08]   => 3 new Q&A pairs. Total so far: 130. Elapsed: 2.4min
+[13:15:08] 
+[22/41] PNADXkppcOU.json
+[13:15:08]   Processing 9 chunks from: #1238 Ekantik Vartalaap & Darshan/17-04-2026/ Shri Hit 
+[13:15:09]     Chunk 1/9: 0 pairs
+[13:15:10]     Chunk 2/9: 0 pairs
+[13:15:13]     Chunk 3/9: 0 pairs
+[13:15:14]     Chunk 4/9: 0 pairs
+[13:15:15]     Chunk 5/9: 0 pairs
+[13:15:16]     Chunk 6/9: 0 pairs
+[13:15:17]     Chunk 7/9: 0 pairs
+[13:15:18]     Chunk 8/9: 0 pairs
+[13:15:20]     Chunk 9/9: +6 pairs
+[13:15:20]   => 6 new Q&A pairs. Total so far: 136. Elapsed: 2.6min
+[13:15:20] 
+[23/41] QphRewyKHlM.json
+[13:15:20]   Processing 15 chunks from: Ekantik Vartalaap Collection / 15-03-2026 / Shri Hit Pr
+[13:15:21]     Chunk 1/15: 0 pairs
+[13:15:22]     Chunk 2/15: 0 pairs
+[13:15:23]     Chunk 3/15: 0 pairs
+[13:15:24]     Chunk 4/15: 0 pairs
+[13:15:25]     Chunk 5/15: 0 pairs
+[13:15:26]     Chunk 6/15: 0 pairs
+[13:15:27]     Chunk 7/15: 0 pairs
+[13:15:28]     Chunk 8/15: 0 pairs
+[13:15:29]     Chunk 9/15: 0 pairs
+[13:15:30]     Chunk 10/15: 0 pairs
+[13:15:30]     Chunk 11/15: 0 pairs
+[13:15:31]     Chunk 12/15: 0 pairs
+[13:15:32]     Chunk 13/15: 0 pairs
+[13:15:33]     Chunk 14/15: 0 pairs
+[13:15:35]     Chunk 15/15: +4 pairs
+[13:15:35]   => 4 new Q&A pairs. Total so far: 140. Elapsed: 2.8min
+[13:15:35] 
+[24/41] Ril6ZN8ckuY.json
+[13:15:35]   Processing 7 chunks from: #1221 Ekantik Vartalaap & Darshan/31-03-2026/ Shri Hit 
+[13:15:36]     Chunk 1/7: 0 pairs
+[13:15:37]     Chunk 2/7: 0 pairs
+[13:15:38]     Chunk 3/7: 0 pairs
+[13:15:39]     Chunk 4/7: 0 pairs
+[13:15:40]     Chunk 5/7: 0 pairs
+[13:15:41]     Chunk 6/7: 0 pairs
+[13:15:42]     Chunk 7/7: 0 pairs
+[13:15:42]   => 0 new Q&A pairs. Total so far: 140. Elapsed: 2.9min
+[13:15:42] 
+[25/41] TytCVbM3G5Y.json
+[13:15:42]   Processing 9 chunks from: #1234 Ekantik Vartalaap & Darshan/13-04-2026/ Shri Hit 
+[13:15:44]     Chunk 1/9: +3 pairs
+[13:15:45]     Chunk 2/9: 0 pairs
+[13:15:46]     Chunk 3/9: 0 pairs
+[13:15:46]     Chunk 4/9: 0 pairs
+[13:15:47]     Chunk 5/9: 0 pairs
+[13:15:48]     Chunk 6/9: 0 pairs
+[13:15:49]     Chunk 7/9: 0 pairs
+[13:15:50]     Chunk 8/9: 0 pairs
+[13:15:51]     Chunk 9/9: 0 pairs
+[13:15:51]   => 3 new Q&A pairs. Total so far: 143. Elapsed: 3.1min
+[13:15:51] 
+[26/41] V656nuG_ziM.json
+[13:15:51]   Processing 13 chunks from: #1210 Ekantik Vartalaap & Darshan/11-03-2026/ Shri Hit 
+[13:15:52]     Chunk 1/13: 0 pairs
+[13:15:53]     Chunk 2/13: 0 pairs
+[13:15:54]     Chunk 3/13: 0 pairs
+[13:15:55]     Chunk 4/13: 0 pairs
+[13:15:56]     Chunk 5/13: 0 pairs
+[13:15:57]     Chunk 6/13: 0 pairs
+[13:15:57]     Chunk 7/13: 0 pairs
+[13:16:00]     Chunk 8/13: +9 pairs
+[13:16:01]     Chunk 9/13: 0 pairs
+[13:16:01]     Chunk 10/13: 0 pairs
+[13:16:03]     Chunk 11/13: 0 pairs
+[13:16:03]     Chunk 12/13: 0 pairs
+[13:16:04]     Chunk 13/13: 0 pairs
+[13:16:04]   => 0 new Q&A pairs. Total so far: 143. Elapsed: 3.3min
+[13:16:04] 
+[27/41] _-A2IMW1Kts.json
+[13:16:04]   Processing 9 chunks from: #1237 Ekantik Vartalaap & Darshan/16-04-2026/ Shri Hit 
+[13:16:05]     Chunk 1/9: 0 pairs
+[13:16:06]     Chunk 2/9: 0 pairs
+[13:16:08]     Chunk 3/9: 0 pairs
+[13:16:09]     Chunk 4/9: 0 pairs
+[13:16:09]     Chunk 5/9: 0 pairs
+[13:16:10]     Chunk 6/9: 0 pairs
+[13:16:11]     Chunk 7/9: 0 pairs
+[13:16:12]     Chunk 8/9: 0 pairs
+[13:16:13]     Chunk 9/9: 0 pairs
+[13:16:13]   => 0 new Q&A pairs. Total so far: 143. Elapsed: 3.4min
+[13:16:13] 
+[28/41] _ynawxVezT4.json
+[13:16:13]   Processing 8 chunks from: #1227 Ekantik Vartalaap & Darshan/06-04-2026/ Shri Hit 
+[13:16:14]     Chunk 1/8: 0 pairs
+[13:16:15]     Chunk 2/8: 0 pairs
+[13:16:16]     Chunk 3/8: 0 pairs
+[13:16:18]     Chunk 4/8: 0 pairs
+[13:16:19]     Chunk 5/8: 0 pairs
+[13:16:20]     Chunk 6/8: 0 pairs
+[13:16:21]     Chunk 7/8: 0 pairs
+[13:16:23]     Chunk 8/8: 0 pairs
+[13:16:23]   => 0 new Q&A pairs. Total so far: 143. Elapsed: 3.6min
+[13:16:23] 
+[29/41] bhi3V3vdLBM.json
+[13:16:23]   Processing 13 chunks from: #1208 Ekantik Vartalaap & Darshan/09-03-2026/ Shri Hit 
+[13:16:24]     Chunk 1/13: 0 pairs
+[13:16:25]     Chunk 2/13: 0 pairs
+[13:16:26]     Chunk 3/13: 0 pairs
+[13:16:27]     Chunk 4/13: 0 pairs
+[13:16:28]     Chunk 5/13: 0 pairs
+[13:16:29]     Chunk 6/13: 0 pairs
+[13:16:29]     Chunk 7/13: 0 pairs
+[13:16:30]     Chunk 8/13: 0 pairs
+[13:16:31]     Chunk 9/13: 0 pairs
+[13:16:32]     Chunk 10/13: 0 pairs
+[13:16:33]     Chunk 11/13: 0 pairs
+[13:16:34]     Chunk 12/13: 0 pairs
+[13:16:35]     Chunk 13/13: 0 pairs
+[13:16:35]   => 0 new Q&A pairs. Total so far: 143. Elapsed: 3.8min
+[13:16:35] 
+[30/41] c2neC5hL4x0.json
+[13:16:35]   Processing 11 chunks from: #1219 Ekantik Vartalaap & Darshan/29-03-2026/ Shri Hit 
+[13:16:36]     Chunk 1/11: +2 pairs
+[13:16:37]     Chunk 2/11: 0 pairs
+[13:16:39]     Chunk 3/11: 0 pairs
+[13:16:39]     Chunk 4/11: 0 pairs
+[13:16:40]     Chunk 5/11: 0 pairs
+[13:16:41]     Chunk 6/11: 0 pairs
+[13:16:42]     Chunk 7/11: 0 pairs
+[13:16:43]     Chunk 8/11: 0 pairs
+[13:16:44]     Chunk 9/11: 0 pairs
+[13:16:45]     Chunk 10/11: 0 pairs
+[13:16:46]     Chunk 11/11: 0 pairs
+[13:16:46]   => 2 new Q&A pairs. Total so far: 145. Elapsed: 4.0min
+[13:16:46] 
+[31/41] cPEs6EDVKrg.json
+[13:16:46]   Processing 15 chunks from: Ekantik Vartalaap Collection / 20-03-2026 / Shri Hit Pr
+[13:16:47]     Chunk 1/15: 0 pairs
+[13:16:48]     Chunk 2/15: 0 pairs
+[13:16:49]     Chunk 3/15: 0 pairs
+[13:16:50]     Chunk 4/15: 0 pairs
+[13:16:51]     Chunk 5/15: 0 pairs
+[13:16:52]     Chunk 6/15: 0 pairs
+[13:16:53]     Chunk 7/15: 0 pairs
+[13:16:54]     Chunk 8/15: 0 pairs
+[13:16:55]     Chunk 9/15: 0 pairs
+[13:16:56]     Chunk 10/15: 0 pairs
+[13:16:57]     Chunk 11/15: 0 pairs
+[13:16:58]     Chunk 12/15: 0 pairs
+[13:16:59]     Chunk 13/15: 0 pairs
+[13:17:01]     Chunk 14/15: +3 pairs
+[13:17:02]     Chunk 15/15: 0 pairs
+[13:17:02]   => 2 new Q&A pairs. Total so far: 147. Elapsed: 4.3min
+[13:17:02] 
+[32/41] cXfoOn5C-qU.json
+[13:17:02]   Processing 10 chunks from: #1213 Ekantik Vartalaap & Darshan/23-03-2026/ Shri Hit 
+[13:17:03]     Chunk 1/10: 0 pairs
+[13:17:04]     Chunk 2/10: 0 pairs
+[13:17:05]     Chunk 3/10: 0 pairs
+[13:17:06]     Chunk 4/10: 0 pairs
+[13:17:06]     Chunk 5/10: 0 pairs
+[13:17:07]     Chunk 6/10: 0 pairs
+[13:17:08]     Chunk 7/10: 0 pairs
+[13:17:09]     Chunk 8/10: 0 pairs
+[13:17:10]     Chunk 9/10: 0 pairs
+[13:17:11]     Chunk 10/10: +3 pairs
+[13:17:11]   => 3 new Q&A pairs. Total so far: 150. Elapsed: 4.4min
+[13:17:11] 
+[33/41] eRVW7Ixd9KI.json
+[13:17:11]   Processing 10 chunks from: #1212 Ekantik Vartalaap & Darshan/22-03-2026/ Shri Hit 
+[13:17:12]     Chunk 1/10: 0 pairs
+[13:17:13]     Chunk 2/10: 0 pairs
+[13:17:14]     Chunk 3/10: 0 pairs
+[13:17:15]     Chunk 4/10: 0 pairs
+[13:17:16]     Chunk 5/10: 0 pairs
+[13:17:17]     Chunk 6/10: 0 pairs
+[13:17:18]     Chunk 7/10: 0 pairs
+[13:17:18]     Chunk 8/10: 0 pairs
+[13:17:19]     Chunk 9/10: 0 pairs
+[13:17:21]     Chunk 10/10: 0 pairs
+[13:17:21]   => 0 new Q&A pairs. Total so far: 150. Elapsed: 4.6min
+[13:17:21] 
+[34/41] gHV3rttWaTE.json
+[13:17:21]   Processing 10 chunks from: #1228 Ekantik Vartalaap & Darshan/07-04-2026/ Shri Hit 
+[13:17:22]     Chunk 1/10: 0 pairs
+[13:17:23]     Chunk 2/10: 0 pairs
+[13:17:24]     Chunk 3/10: 0 pairs
+[13:17:25]     Chunk 4/10: 0 pairs
+[13:17:26]     Chunk 5/10: 0 pairs
+[13:17:27]     Chunk 6/10: 0 pairs
+[13:17:28]     Chunk 7/10: 0 pairs
+[13:17:29]     Chunk 8/10: 0 pairs
+[13:17:29]     Chunk 9/10: 0 pairs
+[13:17:30]     Chunk 10/10: 0 pairs
+[13:17:30]   => 0 new Q&A pairs. Total so far: 150. Elapsed: 4.7min
+[13:17:30] 
+[35/41] os9_mTHWOJU.json
+[13:17:30]   Processing 9 chunks from: #1223 Ekantik Vartalaap & Darshan/02-04-2026/ Shri Hit 
+[13:17:31]     Chunk 1/9: 0 pairs
+[13:17:32]     Chunk 2/9: 0 pairs
+[13:17:33]     Chunk 3/9: 0 pairs
+[13:17:34]     Chunk 4/9: 0 pairs
+[13:17:35]     Chunk 5/9: 0 pairs
+[13:17:35]     Chunk 6/9: 0 pairs
+[13:17:36]     Chunk 7/9: 0 pairs
+[13:17:37]     Chunk 8/9: 0 pairs
+[13:17:39]     Chunk 9/9: 0 pairs
+[13:17:39]   => 0 new Q&A pairs. Total so far: 150. Elapsed: 4.9min
+[13:17:39] 
+[36/41] p0hA52iPUj4.json
+[13:17:39]   Processing 10 chunks from: #1225 Ekantik Vartalaap & Darshan/04-04-2026/ Shri Hit 
+[13:17:40]     Chunk 1/10: 0 pairs
+[13:17:41]     Chunk 2/10: 0 pairs
+[13:17:41]     Chunk 3/10: 0 pairs
+[13:17:42]     Chunk 4/10: 0 pairs
+[13:17:43]     Chunk 5/10: 0 pairs
+[13:17:44]     Chunk 6/10: 0 pairs
+[13:17:45]     Chunk 7/10: 0 pairs
+[13:17:46]     Chunk 8/10: 0 pairs
+[13:17:47]     Chunk 9/10: 0 pairs
+[13:17:47]     Chunk 10/10: 0 pairs
+[13:17:47]   => 0 new Q&A pairs. Total so far: 150. Elapsed: 5.0min
+[13:17:47] 
+[37/41] qCv6fdqnwlM.json
+[13:17:47]   Processing 11 chunks from: #1216 Ekantik Vartalaap & Darshan/26-03-2026/ Shri Hit 
+[13:17:48]     Chunk 1/11: 0 pairs
+[13:17:49]     Chunk 2/11: 0 pairs
+[13:17:50]     Chunk 3/11: 0 pairs
+[13:17:51]     Chunk 4/11: 0 pairs
+[13:17:52]     Chunk 5/11: 0 pairs
+[13:17:52]     Chunk 6/11: 0 pairs
+[13:17:54]     Chunk 7/11: 0 pairs
+[13:17:57]     Chunk 8/11: +6 pairs
+[13:17:57]     Chunk 9/11: 0 pairs
+[13:17:58]     Chunk 10/11: 0 pairs
+[13:18:00]     Chunk 11/11: 0 pairs
+[13:18:00]   => 6 new Q&A pairs. Total so far: 156. Elapsed: 5.2min
+[13:18:00] 
+[38/41] u4atgnKjT9I.json
+[13:18:00]   Processing 10 chunks from: #1226 Ekantik Vartalaap & Darshan/05-04-2026/ Shri Hit 
+[13:18:01]     Chunk 1/10: 0 pairs
+[13:18:02]     Chunk 2/10: 0 pairs
+[13:18:06]     Chunk 3/10: 0 pairs
+[13:18:07]     Chunk 4/10: 0 pairs
+[13:18:08]     Chunk 5/10: 0 pairs
+[13:18:09]     Chunk 6/10: 0 pairs
+[13:18:10]     Chunk 7/10: 0 pairs
+[13:18:12]     Chunk 8/10: 0 pairs
+[13:18:13]     Chunk 9/10: 0 pairs
+[13:18:14]     Chunk 10/10: 0 pairs
+[13:18:14]   => 0 new Q&A pairs. Total so far: 156. Elapsed: 5.5min
+[13:18:14] 
+[39/41] uBuxRVgcjzo.json
+[13:18:14]   Processing 15 chunks from: Ekantik Vartalaap Collection / 17-03-2026 / Shri Hit Pr
+[13:18:15]     Chunk 1/15: 0 pairs
+[13:18:16]     Chunk 2/15: 0 pairs
+[13:18:17]     Chunk 3/15: +3 pairs
+[13:18:18]     Chunk 4/15: 0 pairs
+[13:18:19]     Chunk 5/15: 0 pairs
+[13:18:20]     Chunk 6/15: 0 pairs
+[13:18:21]     Chunk 7/15: 0 pairs
+[13:18:22]     Chunk 8/15: 0 pairs
+[13:18:23]     Chunk 9/15: 0 pairs
+[13:18:25]     Chunk 10/15: 0 pairs
+[13:18:25]     Chunk 11/15: 0 pairs
+[13:18:26]     Chunk 12/15: 0 pairs
+[13:18:27]     Chunk 13/15: 0 pairs
+[13:18:28]     Chunk 14/15: 0 pairs
+[13:18:29]     Chunk 15/15: 0 pairs
+[13:18:29]   => 3 new Q&A pairs. Total so far: 159. Elapsed: 5.7min
+[13:18:29] 
+[40/41] usoR0XWjl9w.json
+[13:18:29]   Processing 9 chunks from: #1239 Ekantik Vartalaap & Darshan/18-04-2026/ Shri Hit 
+[13:18:31]     Chunk 1/9: +3 pairs
+[13:18:32]     Chunk 2/9: 0 pairs
+[13:18:32]     Chunk 3/9: 0 pairs
+[13:18:33]     Chunk 4/9: 0 pairs
+[13:18:34]     Chunk 5/9: 0 pairs
+[13:18:35]     Chunk 6/9: 0 pairs
+[13:18:36]     Chunk 7/9: 0 pairs
+[13:18:37]     Chunk 8/9: 0 pairs
+[13:18:38]     Chunk 9/9: 0 pairs
+[13:18:38]   => 3 new Q&A pairs. Total so far: 162. Elapsed: 5.9min
+[13:18:38] 
+[41/41] xPvzzOtX5nM.json
+[13:18:38]   Processing 10 chunks from: #1233 Ekantik Vartalaap & Darshan/12-04-2026/ Shri Hit 
+[13:18:39]     Chunk 1/10: 0 pairs
+[13:18:40]     Chunk 2/10: 0 pairs
+[13:18:41]     Chunk 3/10: 0 pairs
+[13:18:42]     Chunk 4/10: 0 pairs
+[13:18:43]     Chunk 5/10: 0 pairs
+[13:18:44]     Chunk 6/10: 0 pairs
+[13:18:45]     Chunk 7/10: 0 pairs
+[13:18:46]     Chunk 8/10: 0 pairs
+[13:18:48]     Chunk 9/10: +3 pairs
+[13:18:49]     Chunk 10/10: 0 pairs
+[13:18:49]   => 3 new Q&A pairs. Total so far: 165. Elapsed: 6.0min
+[13:18:49] 
+=======================================================
+[13:18:49] INGESTION COMPLETE
+[13:18:49] Total Q&A pairs added: 165
+[13:18:49] Total time: 6.0 minutes
+[13:18:49] =======================================================
+[13:18:49] 
+The app is now ready! Start it with: uvicorn app.main:app --reload
+[19:30:29] Found 85 transcript files to ingest.
+[19:30:35] 
+[1/85] -86b4oaiw7Q.json
+[19:30:35]   SKIP (already in DB, 24 pairs): Ekantik Vartalaap Collection / 18-03-2026 / Shri H
+[19:30:35]   => 24 new Q&A pairs. Total so far: 24. Elapsed: 0.0min
+[19:30:35] 
+[2/85] -aDTTy-o7vE.json
+[19:30:35]   SKIP (already in DB, 5 pairs): #1231 Ekantik Vartalaap & Darshan/10-04-2026/ Shri
+[19:30:35]   => 5 new Q&A pairs. Total so far: 29. Elapsed: 0.0min
+[19:30:35] 
+[3/85] -g6LTKH7BT8.json
+[19:30:35]   SKIP (already in DB, 6 pairs): Ekantik Vartalaap Collection / 14-03-2026 / Shri H
+[19:30:35]   => 6 new Q&A pairs. Total so far: 35. Elapsed: 0.0min
+[19:30:35] 
+[4/85] -lS_YGR9ESo.json
+[19:30:35]   SKIP (already in DB, 1 pairs): #1229 Ekantik Vartalaap & Darshan/08-04-2026/ Shri
+[19:30:35]   => 1 new Q&A pairs. Total so far: 36. Elapsed: 0.0min
+[19:30:35] 
+[5/85] 1LtxpS-8OPg.json
+[19:30:35]   Processing 13 chunks from: #1205 Ekantik Vartalaap & Darshan/06-03-2026/ Shri Hit 
+[19:30:37]     Chunk 1/13: +3 pairs
+[19:30:38]     Chunk 2/13: 0 pairs
+[19:30:41]     Chunk 3/13: +6 pairs
+[19:30:42]     Chunk 4/13: 0 pairs
+[19:30:43]     Chunk 5/13: 0 pairs
+[19:30:43]     Chunk 6/13: 0 pairs
+[19:30:44]     Chunk 7/13: 0 pairs
+[19:30:45]     Chunk 8/13: 0 pairs
+[19:30:45]     Chunk 9/13: 0 pairs
+[19:30:46]     Chunk 10/13: 0 pairs
+[19:30:47]     Chunk 11/13: 0 pairs
+[19:30:48]     Chunk 12/13: 0 pairs
+[19:30:49]     Chunk 13/13: +2 pairs
+[19:30:49]   => 11 new Q&A pairs. Total so far: 47. Elapsed: 0.2min
+[19:30:49] 
+[6/85] 3Y3COxRnhHY.json
+[19:30:49]   SKIP (already in DB, 5 pairs): #1215 Ekantik Vartalaap & Darshan/25-03-2026/ Shri
+[19:30:49]   => 5 new Q&A pairs. Total so far: 52. Elapsed: 0.2min
+[19:30:49] 
+[7/85] 3gPA3YUxLts.json
+[19:30:49]   Processing 12 chunks from: #1200 Ekantik Vartalaap & Darshan/01-03-2026/ Shri Hit 
+[19:30:50]     Chunk 1/12: 0 pairs
+[19:30:51]     Chunk 2/12: 0 pairs
+[19:30:51]     Chunk 3/12: 0 pairs
+[19:30:52]     Chunk 4/12: 0 pairs
+[19:30:53]     Chunk 5/12: 0 pairs
+[19:30:54]     Chunk 6/12: 0 pairs
+[19:30:55]     Chunk 7/12: 0 pairs
+[19:30:55]     Chunk 8/12: 0 pairs
+[19:30:56]     Chunk 9/12: 0 pairs
+[19:30:57]     Chunk 10/12: 0 pairs
+[19:30:58]     Chunk 11/12: 0 pairs
+[19:30:59]     Chunk 12/12: +3 pairs
+[19:30:59]   => 3 new Q&A pairs. Total so far: 55. Elapsed: 0.4min
+[19:30:59] 
+[8/85] 4Of240PBnug.json
+[19:30:59]   SKIP (already in DB, 5 pairs): #1217 Ekantik Vartalaap & Darshan/27-03-2026/ Shri
+[19:30:59]   => 5 new Q&A pairs. Total so far: 60. Elapsed: 0.4min
+[19:30:59] 
+[9/85] 4uWOa7JNRYI.json
+[19:30:59]   SKIP (already in DB, 2 pairs): #1214 Ekantik Vartalaap & Darshan/24-03-2026/ Shri
+[19:30:59]   => 2 new Q&A pairs. Total so far: 62. Elapsed: 0.4min
+[19:30:59] 
+[10/85] 6JjOPJy1Pm0.json
+[19:30:59]   SKIP (already in DB, 2 pairs): #1222 Ekantik Vartalaap & Darshan/01-04-2026/ Shri
+[19:30:59]   => 2 new Q&A pairs. Total so far: 64. Elapsed: 0.4min
+[19:30:59] 
+[11/85] 6eElJzekITU.json
+[19:30:59]   Processing 15 chunks from: #1166 Ekantik Vartalaap & Darshan/ 26-01-2026/ Shri Hit
+[19:31:00]     Chunk 1/15: 0 pairs
+[19:31:01]     Chunk 2/15: 0 pairs
+[19:31:02]     Chunk 3/15: 0 pairs
+[19:31:03]     Chunk 4/15: 0 pairs
+[19:31:03]     Chunk 5/15: 0 pairs
+[19:31:04]     Chunk 6/15: 0 pairs
+[19:31:05]     Chunk 7/15: 0 pairs
+[19:31:06]     Chunk 8/15: 0 pairs
+[19:31:07]     Chunk 9/15: 0 pairs
+[19:31:08]     Chunk 10/15: 0 pairs
+[19:31:08]     Chunk 11/15: 0 pairs
+[19:31:09]     Chunk 12/15: 0 pairs
+[19:31:10]     Chunk 13/15: 0 pairs
+[19:31:11]     Chunk 14/15: +2 pairs
+[19:31:12]     Chunk 15/15: 0 pairs
+[19:31:12]   => 2 new Q&A pairs. Total so far: 66. Elapsed: 0.6min
+[19:31:12] 
+[12/85] 6jRUlcwj-fY.json
+[19:31:12]   SKIP (already in DB, 9 pairs): एक संत माताजी ने पूछा: आंतरिक साधना में रुकावट बनी
+[19:31:12]   => 9 new Q&A pairs. Total so far: 75. Elapsed: 0.6min
+[19:31:12] 
+[13/85] 77mVQ_TpJZA.json
+[19:31:12]   Processing 11 chunks from: #1199 Ekantik Vartalaap & Darshan/ 28-02-2026/ Shri Hit
+[19:31:13]     Chunk 1/11: 0 pairs
+[19:31:14]     Chunk 2/11: 0 pairs
+[19:31:14]     Chunk 3/11: 0 pairs
+[19:31:15]     Chunk 4/11: 0 pairs
+[19:31:16]     Chunk 5/11: 0 pairs
+[19:31:17]     Chunk 6/11: 0 pairs
+[19:31:17]     Chunk 7/11: 0 pairs
+[19:31:18]     Chunk 8/11: 0 pairs
+[19:31:19]     Chunk 9/11: 0 pairs
+[19:31:20]     Chunk 10/11: 0 pairs
+[19:31:20]     Chunk 11/11: 0 pairs
+[19:31:20]   => 0 new Q&A pairs. Total so far: 75. Elapsed: 0.8min
+[19:31:20] 
+[14/85] 9N0mzLHY8TI.json
+[19:31:20]   Processing 9 chunks from: #1181 Ekantik Vartalaap & Darshan/ 10-02-2026/ Shri Hit
+[19:31:22]     Chunk 1/9: +3 pairs
+[19:31:22]     Chunk 2/9: 0 pairs
+[19:31:23]     Chunk 3/9: 0 pairs
+[19:31:24]     Chunk 4/9: 0 pairs
+[19:31:25]     Chunk 5/9: 0 pairs
+[19:31:26]     Chunk 6/9: 0 pairs
+[19:31:26]     Chunk 7/9: 0 pairs
+[19:31:27]     Chunk 8/9: 0 pairs
+[19:31:28]     Chunk 9/9: 0 pairs
+[19:31:28]   => 3 new Q&A pairs. Total so far: 78. Elapsed: 0.9min
+[19:31:28] 
+[15/85] 9UL262sbA_I.json
+[19:31:28]   Processing 16 chunks from: #1203 Ekantik Vartalaap & Darshan/04-03-2026/ Shri Hit 
+[19:31:30]     Chunk 1/16: 0 pairs
+[19:31:30]     Chunk 2/16: 0 pairs
+[19:31:31]     Chunk 3/16: 0 pairs
+[19:31:32]     Chunk 4/16: 0 pairs
+[19:31:33]     Chunk 5/16: 0 pairs
+[19:31:34]     Chunk 6/16: 0 pairs
+[19:31:34]     Chunk 7/16: 0 pairs
+[19:31:35]     Chunk 8/16: 0 pairs
+[19:31:36]     Chunk 9/16: 0 pairs
+[19:31:37]     Chunk 10/16: 0 pairs
+[19:31:37]     Chunk 11/16: 0 pairs
+[19:31:38]     Chunk 12/16: 0 pairs
+[19:31:39]     Chunk 13/16: 0 pairs
+[19:31:39]     Chunk 14/16: 0 pairs
+[19:31:40]     Chunk 15/16: 0 pairs
+[19:31:41]     Chunk 16/16: 0 pairs
+[19:31:41]   => 0 new Q&A pairs. Total so far: 78. Elapsed: 1.1min
+[19:31:41] 
+[16/85] 9c4VLtAPeGg.json
+[19:31:41]   SKIP (already in DB, 18 pairs): #1209 Ekantik Vartalaap & Darshan/10-03-2026/ Shri
+[19:31:41]   => 18 new Q&A pairs. Total so far: 96. Elapsed: 1.1min
+[19:31:41] 
+[17/85] C-avB01mLdU.json
+[19:31:41]   SKIP (already in DB, 12 pairs): Ekantik Vartalaap Collection / 13-03-2026 / Shri H
+[19:31:41]   => 12 new Q&A pairs. Total so far: 108. Elapsed: 1.1min
+[19:31:41] 
+[18/85] CCuK2l1Xihs.json
+[19:31:41]   Processing 12 chunks from: #1202 Ekantik Vartalaap & Darshan/03-03-2026/ Shri Hit 
+[19:31:42]     Chunk 1/12: +2 pairs
+[19:31:43]     Chunk 2/12: 0 pairs
+[19:31:44]     Chunk 3/12: 0 pairs
+[19:31:44]     Chunk 4/12: 0 pairs
+[19:31:45]     Chunk 5/12: 0 pairs
+[19:31:46]     Chunk 6/12: 0 pairs
+[19:31:46]     Chunk 7/12: 0 pairs
+[19:31:47]     Chunk 8/12: 0 pairs
+[19:31:48]     Chunk 9/12: 0 pairs
+[19:31:49]     Chunk 10/12: 0 pairs
+[19:31:49]     Chunk 11/12: 0 pairs
+[19:31:50]     Chunk 12/12: 0 pairs
+[19:31:50]   => 2 new Q&A pairs. Total so far: 110. Elapsed: 1.3min
+[19:31:50] 
+[19/85] FKzMhjZi4vM.json
+[19:31:50]   Processing 11 chunks from: #1171 Ekantik Vartalaap & Darshan/ 31-01-2026/ Shri Hit
+[19:31:51]     Chunk 1/11: +1 pairs
+[19:31:52]     Chunk 2/11: 0 pairs
+[19:31:52]     Chunk 3/11: 0 pairs
+[19:31:53]     Chunk 4/11: 0 pairs
+[19:31:54]     Chunk 5/11: 0 pairs
+[19:31:55]     Chunk 6/11: 0 pairs
+[19:31:55]     Chunk 7/11: 0 pairs
+[19:31:56]     Chunk 8/11: 0 pairs
+[19:31:57]     Chunk 9/11: 0 pairs
+[19:31:57]     Chunk 10/11: 0 pairs
+[19:31:58]     Chunk 11/11: 0 pairs
+[19:31:58]   => 1 new Q&A pairs. Total so far: 111. Elapsed: 1.4min
+[19:31:58] 
+[20/85] FaOOPMnjb6s.json
+[19:31:58]   SKIP (already in DB, 7 pairs): Ekantik Vartalaap Collection / 16-03-2026 / Shri H
+[19:31:58]   => 7 new Q&A pairs. Total so far: 118. Elapsed: 1.4min
+[19:31:58] 
+[21/85] FoMP32N036A.json
+[19:31:58]   SKIP (already in DB, 2 pairs): #1206 Ekantik Vartalaap & Darshan/07-03-2026/ Shri
+[19:31:58]   => 2 new Q&A pairs. Total so far: 120. Elapsed: 1.4min
+[19:31:58] 
+[22/85] FpXbDM_xonQ.json
+[19:31:58]   Processing 12 chunks from: #1189 Ekantik Vartalaap & Darshan/ 18-02-2026/ Shri Hit
+[19:31:59]     Chunk 1/12: 0 pairs
+[19:32:00]     Chunk 2/12: 0 pairs
+[19:32:00]     Chunk 3/12: 0 pairs
+[19:32:01]     Chunk 4/12: 0 pairs
+[19:32:02]     Chunk 5/12: 0 pairs
+[19:32:03]     Chunk 6/12: 0 pairs
+[19:32:03]     Chunk 7/12: 0 pairs
+[19:32:04]     Chunk 8/12: 0 pairs
+[19:32:05]     Chunk 9/12: 0 pairs
+[19:32:06]     Chunk 10/12: 0 pairs
+[19:32:06]     Chunk 11/12: 0 pairs
+[19:32:08]     Chunk 12/12: +4 pairs
+[19:32:08]   => 4 new Q&A pairs. Total so far: 124. Elapsed: 1.6min
+[19:32:08] 
+[23/85] GEUd_p5zrco.json
+[19:32:08]   Processing 11 chunks from: #1207 Ekantik Vartalaap & Darshan/08-03-2026/ Shri Hit 
+[19:32:09]     Chunk 1/11: 0 pairs
+[19:32:10]     Chunk 2/11: 0 pairs
+[19:32:11]     Chunk 3/11: 0 pairs
+[19:32:12]     Chunk 4/11: 0 pairs
+[19:32:12]     Chunk 5/11: 0 pairs
+[19:32:13]     Chunk 6/11: 0 pairs
+[19:32:13]     Chunk 7/11: 0 pairs
+[19:32:14]     Chunk 8/11: 0 pairs
+[19:32:15]     Chunk 9/11: 0 pairs
+[19:32:15]     Chunk 10/11: 0 pairs
+[19:32:16]     Chunk 11/11: 0 pairs
+[19:32:16]   => 0 new Q&A pairs. Total so far: 124. Elapsed: 1.7min
+[19:32:16] 
+[24/85] H8Z3qUMXsCs.json
+[19:32:16]   Processing 8 chunks from: #1224 Ekantik Vartalaap & Darshan/03-04-2026/ Shri Hit 
+[19:32:17]     Chunk 1/8: 0 pairs
+[19:32:17]     Chunk 2/8: 0 pairs
+[19:32:18]     Chunk 3/8: 0 pairs
+[19:32:19]     Chunk 4/8: 0 pairs
+[19:32:20]     Chunk 5/8: 0 pairs
+[19:32:20]     Chunk 6/8: 0 pairs
+[19:32:21]     Chunk 7/8: 0 pairs
+[19:32:22]     Chunk 8/8: 0 pairs
+[19:32:22]   => 0 new Q&A pairs. Total so far: 124. Elapsed: 1.8min
+[19:32:22] 
+[25/85] HzyxJqYrGTw.json
+[19:32:22]   Processing 12 chunks from: #1183 Ekantik Vartalaap & Darshan/ 12-02-2026/ Shri Hit
+[19:32:23]     Chunk 1/12: 0 pairs
+[19:32:23]     Chunk 2/12: 0 pairs
+[19:32:24]     Chunk 3/12: 0 pairs
+[19:32:25]     Chunk 4/12: 0 pairs
+[19:32:26]     Chunk 5/12: 0 pairs
+[19:32:26]     Chunk 6/12: 0 pairs
+[19:32:27]     Chunk 7/12: 0 pairs
+[19:32:28]     Chunk 8/12: 0 pairs
+[19:32:28]     Chunk 9/12: 0 pairs
+[19:32:29]     Chunk 10/12: 0 pairs
+[19:32:30]     Chunk 11/12: 0 pairs
+[19:32:31]     Chunk 12/12: 0 pairs
+[19:32:31]   => 0 new Q&A pairs. Total so far: 124. Elapsed: 1.9min
+[19:32:31] 
+[26/85] ImZmtmq1Dv8.json
+[19:32:31]   SKIP (already in DB, 5 pairs): #1235 Ekantik Vartalaap & Darshan/14-04-2026/ Shri
+[19:32:31]   => 5 new Q&A pairs. Total so far: 129. Elapsed: 1.9min
+[19:32:31] 
+[27/85] K3iY9owwAXk.json
+[19:32:31]   Processing 12 chunks from: #1192 Ekantik Vartalaap & Darshan/ 21-02-2026/ Shri Hit
+[19:32:34]     Chunk 1/12: 0 pairs
+[19:32:35]     Chunk 2/12: 0 pairs
+[19:32:35]     Chunk 3/12: 0 pairs
+[19:32:36]     Chunk 4/12: 0 pairs
+[19:32:37]     Chunk 5/12: 0 pairs
+[19:32:38]     Chunk 6/12: 0 pairs
+[19:32:38]     Chunk 7/12: 0 pairs
+[19:32:39]     Chunk 8/12: 0 pairs
+[19:32:40]     Chunk 9/12: 0 pairs
+[19:32:41]     Chunk 10/12: 0 pairs
+[19:32:41]     Chunk 11/12: 0 pairs
+[19:32:42]     Chunk 12/12: 0 pairs
+[19:32:42]   => 0 new Q&A pairs. Total so far: 129. Elapsed: 2.1min
+[19:32:42] 
+[28/85] KyGcmmB8hhY.json
+[19:32:42]   Processing 9 chunks from: #1236 Ekantik Vartalaap & Darshan/15-04-2026/ Shri Hit 
+[19:32:43]     Chunk 1/9: 0 pairs
+[19:32:43]     Chunk 2/9: 0 pairs
+[19:32:44]     Chunk 3/9: 0 pairs
+[19:32:45]     Chunk 4/9: 0 pairs
+[19:32:46]     Chunk 5/9: 0 pairs
+[19:32:46]     Chunk 6/9: 0 pairs
+[19:32:47]     Chunk 7/9: 0 pairs
+[19:32:48]     Chunk 8/9: 0 pairs
+[19:32:49]     Chunk 9/9: 0 pairs
+[19:32:49]   => 0 new Q&A pairs. Total so far: 129. Elapsed: 2.2min
+[19:32:49] 
+[29/85] M0IH15wC8Ok.json
+[19:32:49]   SKIP (already in DB, 7 pairs): #1218 Ekantik Vartalaap & Darshan/28-03-2026/ Shri
+[19:32:49]   => 7 new Q&A pairs. Total so far: 136. Elapsed: 2.2min
+[19:32:49] 
+[30/85] MQwn6rZU2xo.json
+[19:32:49]   SKIP (already in DB, 6 pairs): Ekantik Vartalaap Collection / 12-03-2026 / Shri H
+[19:32:49]   => 6 new Q&A pairs. Total so far: 142. Elapsed: 2.2min
+[19:32:49] 
+[31/85] N9S0-mYD8Gg.json
+[19:32:49]   Processing 9 chunks from: #1187 Ekantik Vartalaap & Darshan/ 16-02-2026/ Shri Hit
+[19:32:50]     Chunk 1/9: +2 pairs
+[19:32:51]     Chunk 2/9: 0 pairs
+[19:32:51]     Chunk 3/9: 0 pairs
+[19:32:52]     Chunk 4/9: 0 pairs
+[19:32:53]     Chunk 5/9: 0 pairs
+[19:32:53]     Chunk 6/9: 0 pairs
+[19:32:54]     Chunk 7/9: 0 pairs
+[19:32:55]     Chunk 8/9: 0 pairs
+[19:32:55]     Chunk 9/9: 0 pairs
+[19:32:55]   => 2 new Q&A pairs. Total so far: 144. Elapsed: 2.3min
+[19:32:55] 
+[32/85] NABG9UTDAh0.json
+[19:32:55]   SKIP (already in DB, 11 pairs): #1220 Ekantik Vartalaap & Darshan/30-03-2026/ Shri
+[19:32:55]   => 11 new Q&A pairs. Total so far: 155. Elapsed: 2.3min
+[19:32:55] 
+[33/85] NgzVYyD8bL8.json
+[19:32:55]   Processing 8 chunks from: #1232 Ekantik Vartalaap & Darshan/11-04-2026/ Shri Hit 
+[19:32:56]     Chunk 1/8: 0 pairs
+[19:32:57]     Chunk 2/8: 0 pairs
+[19:32:58]     Chunk 3/8: 0 pairs
+[19:32:58]     Chunk 4/8: 0 pairs
+[19:32:59]     Chunk 5/8: 0 pairs
+[19:33:00]     Chunk 6/8: 0 pairs
+[19:33:00]     Chunk 7/8: 0 pairs
+[19:33:01]     Chunk 8/8: 0 pairs
+[19:33:01]   => 0 new Q&A pairs. Total so far: 155. Elapsed: 2.4min
+[19:33:01] 
+[34/85] O8lvw7fdxto.json
+[19:33:01]   Processing 14 chunks from: #1175 Ekantik Vartalaap & Darshan/ 04-02-2026/ Shri Hit
+[19:33:03]     Chunk 1/14: +4 pairs
+[19:33:03]     Chunk 2/14: 0 pairs
+[19:33:04]     Chunk 3/14: 0 pairs
+[19:33:05]     Chunk 4/14: 0 pairs
+[19:33:06]     Chunk 5/14: 0 pairs
+[19:33:06]     Chunk 6/14: 0 pairs
+[19:33:07]     Chunk 7/14: 0 pairs
+[19:33:08]     Chunk 8/14: 0 pairs
+[19:33:08]     Chunk 9/14: 0 pairs
+[19:33:09]     Chunk 10/14: 0 pairs
+[19:33:10]     Chunk 11/14: 0 pairs
+[19:33:11]     Chunk 12/14: 0 pairs
+[19:33:12]     Chunk 13/14: 0 pairs
+[19:33:12]     Chunk 14/14: 0 pairs
+[19:33:12]   => 4 new Q&A pairs. Total so far: 159. Elapsed: 2.6min
+[19:33:12] 
+[35/85] OA3iTRGx1Sw.json
+[19:33:12]   SKIP (already in DB, 3 pairs): #1211 Ekantik Vartalaap & Darshan/21-03-2026/ Shri
+[19:33:12]   => 3 new Q&A pairs. Total so far: 162. Elapsed: 2.6min
+[19:33:12] 
+[36/85] Ohf8_V5TAaM.json
+[19:33:12]   Processing 12 chunks from: #1173 Ekantik Vartalaap & Darshan/ 02-02-2026/ Shri Hit
+[19:33:13]     Chunk 1/12: 0 pairs
+[19:33:14]     Chunk 2/12: 0 pairs
+[19:33:15]     Chunk 3/12: 0 pairs
+[19:33:15]     Chunk 4/12: 0 pairs
+[19:33:16]     Chunk 5/12: 0 pairs
+[19:33:17]     Chunk 6/12: 0 pairs
+[19:33:18]     Chunk 7/12: 0 pairs
+[19:33:18]     Chunk 8/12: 0 pairs
+[21:10:47] Found 98 transcript files to ingest.
+[21:10:52] 
+[1/98] -86b4oaiw7Q.json
+[21:10:52]   SKIP (already in DB, 24 pairs): Ekantik Vartalaap Collection / 18-03-2026 / Shri H
+[21:10:52]   => 24 new Q&A pairs. Total so far: 24. Elapsed: 0.0min
+[21:10:52] 
+[2/98] -aDTTy-o7vE.json
+[21:10:52]   SKIP (already in DB, 5 pairs): #1231 Ekantik Vartalaap & Darshan/10-04-2026/ Shri
+[21:10:52]   => 5 new Q&A pairs. Total so far: 29. Elapsed: 0.0min
+[21:10:52] 
+[3/98] -g6LTKH7BT8.json
+[21:10:52]   SKIP (already in DB, 6 pairs): Ekantik Vartalaap Collection / 14-03-2026 / Shri H
+[21:10:52]   => 6 new Q&A pairs. Total so far: 35. Elapsed: 0.0min
+[21:10:52] 
+[4/98] -lS_YGR9ESo.json
+[21:10:52]   SKIP (already in DB, 1 pairs): #1229 Ekantik Vartalaap & Darshan/08-04-2026/ Shri
+[21:10:52]   => 1 new Q&A pairs. Total so far: 36. Elapsed: 0.0min
+[21:10:52] 
+[5/98] 1LtxpS-8OPg.json
+[21:10:52]   SKIP (already in DB, 11 pairs): #1205 Ekantik Vartalaap & Darshan/06-03-2026/ Shri
+[21:10:52]   => 11 new Q&A pairs. Total so far: 47. Elapsed: 0.0min
+[21:10:52] 
+[6/98] 3Y3COxRnhHY.json
+[21:10:52]   SKIP (already in DB, 5 pairs): #1215 Ekantik Vartalaap & Darshan/25-03-2026/ Shri
+[21:10:52]   => 5 new Q&A pairs. Total so far: 52. Elapsed: 0.0min
+[21:10:52] 
+[7/98] 3gPA3YUxLts.json
+[21:10:52]   SKIP (already in DB, 3 pairs): #1200 Ekantik Vartalaap & Darshan/01-03-2026/ Shri
+[21:10:52]   => 3 new Q&A pairs. Total so far: 55. Elapsed: 0.0min
+[21:10:52] 
+[8/98] 4Of240PBnug.json
+[21:10:52]   SKIP (already in DB, 5 pairs): #1217 Ekantik Vartalaap & Darshan/27-03-2026/ Shri
+[21:10:52]   => 5 new Q&A pairs. Total so far: 60. Elapsed: 0.0min
+[21:10:52] 
+[9/98] 4uWOa7JNRYI.json
+[21:10:52]   SKIP (already in DB, 2 pairs): #1214 Ekantik Vartalaap & Darshan/24-03-2026/ Shri
+[21:10:52]   => 2 new Q&A pairs. Total so far: 62. Elapsed: 0.0min
+[21:10:52] 
+[10/98] 6JjOPJy1Pm0.json
+[21:10:52]   SKIP (already in DB, 2 pairs): #1222 Ekantik Vartalaap & Darshan/01-04-2026/ Shri
+[21:10:52]   => 2 new Q&A pairs. Total so far: 64. Elapsed: 0.0min
+[21:10:52] 
+[11/98] 6eElJzekITU.json
+[21:10:52]   SKIP (already in DB, 2 pairs): #1166 Ekantik Vartalaap & Darshan/ 26-01-2026/ Shr
+[21:10:52]   => 2 new Q&A pairs. Total so far: 66. Elapsed: 0.0min
+[21:10:52] 
+[12/98] 6jRUlcwj-fY.json
+[21:10:52]   SKIP (already in DB, 9 pairs): एक संत माताजी ने पूछा: आंतरिक साधना में रुकावट बनी
+[21:10:52]   => 9 new Q&A pairs. Total so far: 75. Elapsed: 0.0min
+[21:10:52] 
+[13/98] 77mVQ_TpJZA.json
+[21:10:52]   Processing 11 chunks from: #1199 Ekantik Vartalaap & Darshan/ 28-02-2026/ Shri Hit
+[21:10:53]     Chunk 1/11: +2 pairs
+[21:10:55]     Chunk 2/11: +3 pairs
+[21:10:57]     Chunk 3/11: 0 pairs
+[21:11:00]     Chunk 4/11: 0 pairs
+[21:11:01]     Chunk 5/11: 0 pairs
+[21:11:01]     Chunk 6/11: 0 pairs
+[21:11:02]     Chunk 7/11: 0 pairs
+[21:11:03]     Chunk 8/11: 0 pairs
+[21:11:03]     Chunk 9/11: 0 pairs
+[21:11:04]     Chunk 10/11: 0 pairs
+[21:11:04]     Chunk 11/11: 0 pairs
+[21:11:04]   => 5 new Q&A pairs. Total so far: 80. Elapsed: 0.2min
+[21:11:04] 
+[14/98] 8o-oCYQwoBE.json
+[21:11:04]   Processing 20 chunks from: #1160 Ekantik Vartalaap & Darshan/ 20-01-2026/ Shri Hit
+[21:11:05]     Chunk 1/20: 0 pairs
+[21:11:05]     Chunk 2/20: 0 pairs
+[21:11:06]     Chunk 3/20: 0 pairs
+[21:11:07]     Chunk 4/20: 0 pairs
+[21:11:07]     Chunk 5/20: 0 pairs
+[21:11:08]     Chunk 6/20: 0 pairs
+[21:11:08]     Chunk 7/20: 0 pairs
+[21:11:09]     Chunk 8/20: 0 pairs
+[21:11:10]     Chunk 9/20: 0 pairs
+[21:11:10]     Chunk 10/20: 0 pairs
+[21:11:11]     Chunk 11/20: 0 pairs
+[21:11:11]     Chunk 12/20: 0 pairs
+[21:11:12]     Chunk 13/20: 0 pairs
+[21:11:12]     Chunk 14/20: 0 pairs
+[21:11:13]     Chunk 15/20: 0 pairs
+[21:11:14]     Chunk 16/20: 0 pairs
+[21:11:14]     Chunk 17/20: 0 pairs
+[21:11:15]     Chunk 18/20: 0 pairs
+[21:11:16]     Chunk 19/20: 0 pairs
+[21:11:16]     Chunk 20/20: 0 pairs
+[21:11:16]   => 0 new Q&A pairs. Total so far: 80. Elapsed: 0.4min
+[21:11:16] 
+[15/98] 9N0mzLHY8TI.json
+[21:11:16]   SKIP (already in DB, 3 pairs): #1181 Ekantik Vartalaap & Darshan/ 10-02-2026/ Shr
+[21:11:16]   => 3 new Q&A pairs. Total so far: 83. Elapsed: 0.4min
+[21:11:16] 
+[16/98] 9UL262sbA_I.json
+[21:11:16]   Processing 16 chunks from: #1203 Ekantik Vartalaap & Darshan/04-03-2026/ Shri Hit 
+[21:11:17]     Chunk 1/16: 0 pairs
+[21:11:18]     Chunk 2/16: 0 pairs
+[21:11:18]     Chunk 3/16: 0 pairs
+[21:11:19]     Chunk 4/16: 0 pairs
+[21:11:19]     Chunk 5/16: 0 pairs
+[21:11:20]     Chunk 6/16: 0 pairs
+[21:11:21]     Chunk 7/16: 0 pairs
+[21:11:21]     Chunk 8/16: 0 pairs
+[21:11:22]     Chunk 9/16: 0 pairs
+[21:11:22]     Chunk 10/16: 0 pairs
+[21:11:23]     Chunk 11/16: 0 pairs
+[21:11:23]     Chunk 12/16: 0 pairs
+[21:11:24]     Chunk 13/16: 0 pairs
+[21:11:25]     Chunk 14/16: 0 pairs
+[21:11:25]     Chunk 15/16: 0 pairs
+[21:11:26]     Chunk 16/16: 0 pairs
+[21:11:26]   => 0 new Q&A pairs. Total so far: 83. Elapsed: 0.6min
+[21:11:26] 
+[17/98] 9c4VLtAPeGg.json
+[21:11:26]   SKIP (already in DB, 18 pairs): #1209 Ekantik Vartalaap & Darshan/10-03-2026/ Shri
+[21:11:26]   => 18 new Q&A pairs. Total so far: 101. Elapsed: 0.6min
+[21:11:26] 
+[18/98] BPmr6HrG7ro.json
+[21:11:26]   Processing 17 chunks from: #1156 Ekantik Vartalaap & Darshan/ 16-01-2026/ Shri Hit
+[21:11:26]     Chunk 1/17: 0 pairs
+[21:11:27]     Chunk 2/17: 0 pairs
+[21:11:28]     Chunk 3/17: 0 pairs
+[21:11:28]     Chunk 4/17: 0 pairs
+[21:11:29]     Chunk 5/17: 0 pairs
+[21:11:29]     Chunk 6/17: 0 pairs
+[21:11:30]     Chunk 7/17: 0 pairs
+[21:11:30]     Chunk 8/17: 0 pairs
+[21:11:31]     Chunk 9/17: 0 pairs
+[21:11:32]     Chunk 10/17: 0 pairs
+[21:11:32]     Chunk 11/17: 0 pairs
+[21:11:35]     Chunk 12/17: +5 pairs
+[21:11:35]     Chunk 13/17: 0 pairs
+[21:11:36]     Chunk 14/17: 0 pairs
+[21:11:37]     Chunk 15/17: 0 pairs
+[21:11:37]     Chunk 16/17: 0 pairs
+[21:11:38]     Chunk 17/17: 0 pairs
+[21:11:38]   => 5 new Q&A pairs. Total so far: 106. Elapsed: 0.8min
+[21:11:38] 
+[19/98] C-avB01mLdU.json
+[21:11:38]   SKIP (already in DB, 12 pairs): Ekantik Vartalaap Collection / 13-03-2026 / Shri H
+[21:11:38]   => 12 new Q&A pairs. Total so far: 118. Elapsed: 0.8min
+[21:11:38] 
+[20/98] CCuK2l1Xihs.json
+[21:11:38]   SKIP (already in DB, 2 pairs): #1202 Ekantik Vartalaap & Darshan/03-03-2026/ Shri
+[21:11:38]   => 2 new Q&A pairs. Total so far: 120. Elapsed: 0.8min
+[21:11:38] 
+[21/98] FKzMhjZi4vM.json
+[21:11:38]   SKIP (already in DB, 1 pairs): #1171 Ekantik Vartalaap & Darshan/ 31-01-2026/ Shr
+[21:11:38]   => 1 new Q&A pairs. Total so far: 121. Elapsed: 0.8min
+[21:11:38] 
+[22/98] FaOOPMnjb6s.json
+[21:11:38]   SKIP (already in DB, 7 pairs): Ekantik Vartalaap Collection / 16-03-2026 / Shri H
+[21:11:38]   => 7 new Q&A pairs. Total so far: 128. Elapsed: 0.8min
+[21:11:38] 
+[23/98] FoMP32N036A.json
+[21:11:38]   SKIP (already in DB, 2 pairs): #1206 Ekantik Vartalaap & Darshan/07-03-2026/ Shri
+[21:11:38]   => 2 new Q&A pairs. Total so far: 130. Elapsed: 0.8min
+[21:11:38] 
+[24/98] FpXbDM_xonQ.json
+[21:11:38]   SKIP (already in DB, 4 pairs): #1189 Ekantik Vartalaap & Darshan/ 18-02-2026/ Shr
+[21:11:38]   => 4 new Q&A pairs. Total so far: 134. Elapsed: 0.8min
+[21:11:38] 
+[25/98] GEUd_p5zrco.json
+[21:11:38]   Processing 11 chunks from: #1207 Ekantik Vartalaap & Darshan/08-03-2026/ Shri Hit 
+[21:11:39]     Chunk 1/11: 0 pairs
+[21:11:39]     Chunk 2/11: 0 pairs
+[21:11:40]     Chunk 3/11: 0 pairs
+[21:11:41]     Chunk 4/11: 0 pairs
+[21:11:41]     Chunk 5/11: 0 pairs
+[21:11:42]     Chunk 6/11: 0 pairs
+[21:11:43]     Chunk 7/11: 0 pairs
+[21:11:43]     Chunk 8/11: 0 pairs
+[21:11:44]     Chunk 9/11: 0 pairs
+[21:11:45]     Chunk 10/11: 0 pairs
+[21:11:46]     Chunk 11/11: 0 pairs
+[21:11:46]   => 0 new Q&A pairs. Total so far: 134. Elapsed: 0.9min
+[21:11:46] 
+[26/98] H5xN6763hUc.json
+[21:11:46]   Processing 16 chunks from: #1151 Ekantik Vartalaap & Darshan/ 11-01-2026/ Shri Hit
+[21:11:46]     Chunk 1/16: 0 pairs
+[21:11:47]     Chunk 2/16: 0 pairs
+[21:11:47]     Chunk 3/16: 0 pairs
+[21:11:48]     Chunk 4/16: 0 pairs
+[21:11:49]     Chunk 5/16: 0 pairs
+[21:11:49]     Chunk 6/16: 0 pairs
+[21:11:50]     Chunk 7/16: 0 pairs
+[21:11:51]     Chunk 8/16: 0 pairs
+[21:11:51]     Chunk 9/16: 0 pairs
+[21:11:52]     Chunk 10/16: 0 pairs
+[21:11:53]     Chunk 11/16: 0 pairs
+[21:11:53]     Chunk 12/16: 0 pairs
+[21:11:54]     Chunk 13/16: 0 pairs
+[21:11:56]     Chunk 14/16: 0 pairs
+[21:11:57]     Chunk 15/16: 0 pairs
+[21:11:58]     Chunk 16/16: 0 pairs
+[21:11:58]   => 0 new Q&A pairs. Total so far: 134. Elapsed: 1.1min
+[21:11:58] 
+[27/98] H8Z3qUMXsCs.json
+[21:11:58]   Processing 8 chunks from: #1224 Ekantik Vartalaap & Darshan/03-04-2026/ Shri Hit 
+[21:11:58]     Chunk 1/8: 0 pairs
+[21:11:59]     Chunk 2/8: 0 pairs
+[21:11:59]     Chunk 3/8: 0 pairs
+[21:12:00]     Chunk 4/8: 0 pairs
+[21:12:01]     Chunk 5/8: 0 pairs
+[21:12:01]     Chunk 6/8: 0 pairs
+[21:12:02]     Chunk 7/8: 0 pairs
+[21:12:03]     Chunk 8/8: 0 pairs
+[21:12:03]   => 0 new Q&A pairs. Total so far: 134. Elapsed: 1.2min
+[21:12:03] 
+[28/98] HH_jfT--yms.json
+[21:12:03]   Processing 18 chunks from: #1161 Ekantik Vartalaap & Darshan/ 21-01-2026/ Shri Hit
+[21:12:03]     Chunk 1/18: 0 pairs
+[21:12:04]     Chunk 2/18: 0 pairs
+[21:12:05]     Chunk 3/18: 0 pairs
+[22:03:07] Found 98 transcript files to ingest.
+[22:03:12] 
+[1/98] -86b4oaiw7Q.json
+[22:03:12]   SKIP (already in DB, 24 pairs): Ekantik Vartalaap Collection / 18-03-2026 / Shri H
+[22:03:12]   => 24 new Q&A pairs. Total so far: 24. Elapsed: 0.0min
+[22:03:12] 
+[2/98] -aDTTy-o7vE.json
+[22:03:12]   SKIP (already in DB, 5 pairs): #1231 Ekantik Vartalaap & Darshan/10-04-2026/ Shri
+[22:03:12]   => 5 new Q&A pairs. Total so far: 29. Elapsed: 0.0min
+[22:03:12] 
+[3/98] -g6LTKH7BT8.json
+[22:03:12]   SKIP (already in DB, 6 pairs): Ekantik Vartalaap Collection / 14-03-2026 / Shri H
+[22:03:12]   => 6 new Q&A pairs. Total so far: 35. Elapsed: 0.0min
+[22:03:12] 
+[4/98] -lS_YGR9ESo.json
+[22:03:12]   SKIP (already in DB, 1 pairs): #1229 Ekantik Vartalaap & Darshan/08-04-2026/ Shri
+[22:03:12]   => 1 new Q&A pairs. Total so far: 36. Elapsed: 0.0min
+[22:03:12] 
+[5/98] 1LtxpS-8OPg.json
+[22:03:12]   SKIP (already in DB, 11 pairs): #1205 Ekantik Vartalaap & Darshan/06-03-2026/ Shri
+[22:03:12]   => 11 new Q&A pairs. Total so far: 47. Elapsed: 0.0min
+[22:03:12] 
+[6/98] 3Y3COxRnhHY.json
+[22:03:12]   SKIP (already in DB, 5 pairs): #1215 Ekantik Vartalaap & Darshan/25-03-2026/ Shri
+[22:03:12]   => 5 new Q&A pairs. Total so far: 52. Elapsed: 0.0min
+[22:03:12] 
+[7/98] 3gPA3YUxLts.json
+[22:03:12]   SKIP (already in DB, 3 pairs): #1200 Ekantik Vartalaap & Darshan/01-03-2026/ Shri
+[22:03:12]   => 3 new Q&A pairs. Total so far: 55. Elapsed: 0.0min
+[22:03:12] 
+[8/98] 4Of240PBnug.json
+[22:03:12]   SKIP (already in DB, 5 pairs): #1217 Ekantik Vartalaap & Darshan/27-03-2026/ Shri
+[22:03:12]   => 5 new Q&A pairs. Total so far: 60. Elapsed: 0.0min
+[22:03:12] 
+[9/98] 4uWOa7JNRYI.json
+[22:03:12]   SKIP (already in DB, 2 pairs): #1214 Ekantik Vartalaap & Darshan/24-03-2026/ Shri
+[22:03:12]   => 2 new Q&A pairs. Total so far: 62. Elapsed: 0.0min
+[22:03:12] 
+[10/98] 6JjOPJy1Pm0.json
+[22:03:12]   SKIP (already in DB, 2 pairs): #1222 Ekantik Vartalaap & Darshan/01-04-2026/ Shri
+[22:03:12]   => 2 new Q&A pairs. Total so far: 64. Elapsed: 0.0min
+[22:03:12] 
+[11/98] 6eElJzekITU.json
+[22:03:12]   SKIP (already in DB, 2 pairs): #1166 Ekantik Vartalaap & Darshan/ 26-01-2026/ Shr
+[22:03:12]   => 2 new Q&A pairs. Total so far: 66. Elapsed: 0.0min
+[22:03:12] 
+[12/98] 6jRUlcwj-fY.json
+[22:03:12]   SKIP (already in DB, 9 pairs): एक संत माताजी ने पूछा: आंतरिक साधना में रुकावट बनी
+[22:03:12]   => 9 new Q&A pairs. Total so far: 75. Elapsed: 0.0min
+[22:03:12] 
+[13/98] 77mVQ_TpJZA.json
+[22:03:12]   SKIP (already in DB, 5 pairs): #1199 Ekantik Vartalaap & Darshan/ 28-02-2026/ Shr
+[22:03:12]   => 5 new Q&A pairs. Total so far: 80. Elapsed: 0.0min
+[22:03:12] 
+[14/98] 8o-oCYQwoBE.json
+[22:03:12]   Processing 20 chunks from: #1160 Ekantik Vartalaap & Darshan/ 20-01-2026/ Shri Hit
+[22:03:13]     Chunk 1/20: +2 pairs
+[22:03:14]     Chunk 2/20: +3 pairs
+[22:03:17]     Chunk 3/20: +2 pairs
+[22:03:18]     Chunk 4/20: 0 pairs
+[22:03:18]     Chunk 5/20: 0 pairs
+[22:03:19]     Chunk 6/20: 0 pairs
+[22:03:19]     Chunk 7/20: 0 pairs
+[22:03:20]     Chunk 8/20: 0 pairs
+[22:03:21]     Chunk 9/20: 0 pairs
+[22:03:21]     Chunk 10/20: 0 pairs
+[22:03:22]     Chunk 11/20: 0 pairs
+[22:03:23]     Chunk 12/20: 0 pairs
+[22:03:25]     Chunk 13/20: 0 pairs
+[22:03:25]     Chunk 14/20: 0 pairs
+[22:03:26]     Chunk 15/20: 0 pairs
+[22:03:27]     Chunk 16/20: 0 pairs
+[22:03:27]     Chunk 17/20: 0 pairs
+[22:03:28]     Chunk 18/20: 0 pairs
+[22:03:29]     Chunk 19/20: 0 pairs
+[22:03:29]     Chunk 20/20: 0 pairs
+[22:03:29]   => 7 new Q&A pairs. Total so far: 87. Elapsed: 0.3min
+[22:03:29] 
+[15/98] 9N0mzLHY8TI.json
+[22:03:29]   SKIP (already in DB, 3 pairs): #1181 Ekantik Vartalaap & Darshan/ 10-02-2026/ Shr
+[22:03:29]   => 3 new Q&A pairs. Total so far: 90. Elapsed: 0.3min
+[22:03:29] 
+[16/98] 9UL262sbA_I.json
+[22:03:29]   Processing 16 chunks from: #1203 Ekantik Vartalaap & Darshan/04-03-2026/ Shri Hit 
+[22:03:30]     Chunk 1/16: 0 pairs
+[22:03:31]     Chunk 2/16: 0 pairs
+[22:03:31]     Chunk 3/16: 0 pairs
+[22:03:32]     Chunk 4/16: 0 pairs
+[22:03:33]     Chunk 5/16: 0 pairs
+[22:03:33]     Chunk 6/16: 0 pairs
+[22:03:34]     Chunk 7/16: 0 pairs
+[22:03:35]     Chunk 8/16: 0 pairs
+[22:03:35]     Chunk 9/16: 0 pairs
+[22:03:36]     Chunk 10/16: 0 pairs
+[22:03:37]     Chunk 11/16: 0 pairs
+[22:03:37]     Chunk 12/16: 0 pairs
+[22:03:38]     Chunk 13/16: 0 pairs
+[22:03:39]     Chunk 14/16: 0 pairs
+[22:03:39]     Chunk 15/16: 0 pairs
+[22:03:40]     Chunk 16/16: 0 pairs
+[22:03:40]   => 0 new Q&A pairs. Total so far: 90. Elapsed: 0.5min
+[22:03:40] 
+[17/98] 9c4VLtAPeGg.json
+[22:03:40]   SKIP (already in DB, 18 pairs): #1209 Ekantik Vartalaap & Darshan/10-03-2026/ Shri
+[22:03:40]   => 18 new Q&A pairs. Total so far: 108. Elapsed: 0.5min
+[22:03:40] 
+[18/98] BPmr6HrG7ro.json
+[22:03:40]   SKIP (already in DB, 5 pairs): #1156 Ekantik Vartalaap & Darshan/ 16-01-2026/ Shr
+[22:03:40]   => 5 new Q&A pairs. Total so far: 113. Elapsed: 0.5min
+[22:03:40] 
+[19/98] C-avB01mLdU.json
+[22:03:40]   SKIP (already in DB, 12 pairs): Ekantik Vartalaap Collection / 13-03-2026 / Shri H
+[22:03:40]   => 12 new Q&A pairs. Total so far: 125. Elapsed: 0.5min
+[22:03:40] 
+[20/98] CCuK2l1Xihs.json
+[22:03:40]   SKIP (already in DB, 2 pairs): #1202 Ekantik Vartalaap & Darshan/03-03-2026/ Shri
+[22:03:40]   => 2 new Q&A pairs. Total so far: 127. Elapsed: 0.5min
+[22:03:40] 
+[21/98] FKzMhjZi4vM.json
+[22:03:40]   SKIP (already in DB, 1 pairs): #1171 Ekantik Vartalaap & Darshan/ 31-01-2026/ Shr
+[22:03:40]   => 1 new Q&A pairs. Total so far: 128. Elapsed: 0.5min
+[22:03:40] 
+[22/98] FaOOPMnjb6s.json
+[22:03:40]   SKIP (already in DB, 7 pairs): Ekantik Vartalaap Collection / 16-03-2026 / Shri H
+[22:03:40]   => 7 new Q&A pairs. Total so far: 135. Elapsed: 0.5min
+[22:03:40] 
+[23/98] FoMP32N036A.json
+[22:03:40]   SKIP (already in DB, 2 pairs): #1206 Ekantik Vartalaap & Darshan/07-03-2026/ Shri
+[22:03:40]   => 2 new Q&A pairs. Total so far: 137. Elapsed: 0.5min
+[22:03:40] 
+[24/98] FpXbDM_xonQ.json
+[22:03:40]   SKIP (already in DB, 4 pairs): #1189 Ekantik Vartalaap & Darshan/ 18-02-2026/ Shr
+[22:03:40]   => 4 new Q&A pairs. Total so far: 141. Elapsed: 0.5min
+[22:03:40] 
+[25/98] GEUd_p5zrco.json
+[22:03:40]   Processing 11 chunks from: #1207 Ekantik Vartalaap & Darshan/08-03-2026/ Shri Hit 
+[22:03:41]     Chunk 1/11: 0 pairs
+[22:03:41]     Chunk 2/11: 0 pairs
+[22:03:42]     Chunk 3/11: 0 pairs
+[22:03:42]     Chunk 4/11: 0 pairs
+[22:03:43]     Chunk 5/11: 0 pairs
+[22:03:44]     Chunk 6/11: 0 pairs
+[22:03:45]     Chunk 7/11: 0 pairs
+[22:03:45]     Chunk 8/11: 0 pairs
+[22:03:46]     Chunk 9/11: 0 pairs
+[22:03:46]     Chunk 10/11: 0 pairs
+[22:03:48]     Chunk 11/11: +2 pairs
+[22:03:48]   => 2 new Q&A pairs. Total so far: 143. Elapsed: 0.6min
+[22:03:48] 
+[26/98] H5xN6763hUc.json
+[22:03:48]   Processing 16 chunks from: #1151 Ekantik Vartalaap & Darshan/ 11-01-2026/ Shri Hit
+[22:03:48]     Chunk 1/16: 0 pairs
+[22:03:49]     Chunk 2/16: 0 pairs
+[22:03:50]     Chunk 3/16: 0 pairs
+[22:03:50]     Chunk 4/16: 0 pairs
+[22:03:51]     Chunk 5/16: 0 pairs
+[22:03:52]     Chunk 6/16: 0 pairs
+[22:03:52]     Chunk 7/16: 0 pairs
+[22:03:53]     Chunk 8/16: 0 pairs
+[22:03:54]     Chunk 9/16: 0 pairs
+[22:03:54]     Chunk 10/16: 0 pairs
+[22:03:55]     Chunk 11/16: 0 pairs
+[22:03:56]     Chunk 12/16: 0 pairs
+[22:03:56]     Chunk 13/16: 0 pairs
+[22:03:57]     Chunk 14/16: 0 pairs
+[22:03:58]     Chunk 15/16: 0 pairs
+[22:03:59]     Chunk 16/16: 0 pairs
+[22:03:59]   => 0 new Q&A pairs. Total so far: 143. Elapsed: 0.8min
+[22:03:59] 
+[27/98] H8Z3qUMXsCs.json
+[22:03:59]   Processing 8 chunks from: #1224 Ekantik Vartalaap & Darshan/03-04-2026/ Shri Hit 
+[22:04:00]     Chunk 1/8: 0 pairs
+[22:04:01]     Chunk 2/8: 0 pairs
+[22:04:01]     Chunk 3/8: 0 pairs
+[22:04:02]     Chunk 4/8: 0 pairs
+[22:04:03]     Chunk 5/8: 0 pairs
+[22:04:03]     Chunk 6/8: 0 pairs
+[22:04:04]     Chunk 7/8: 0 pairs
+[22:04:05]     Chunk 8/8: 0 pairs
+[22:04:05]   => 0 new Q&A pairs. Total so far: 143. Elapsed: 0.9min
+[22:04:05] 
+[28/98] HH_jfT--yms.json
+[22:04:05]   Processing 18 chunks from: #1161 Ekantik Vartalaap & Darshan/ 21-01-2026/ Shri Hit
+[22:04:05]     Chunk 1/18: 0 pairs
+[22:04:06]     Chunk 2/18: 0 pairs
+[22:04:07]     Chunk 3/18: 0 pairs
+[22:04:07]     Chunk 4/18: 0 pairs
+[22:04:08]     Chunk 5/18: 0 pairs
+[22:04:08]     Chunk 6/18: 0 pairs
+[22:04:09]     Chunk 7/18: 0 pairs
+[22:04:10]     Chunk 8/18: 0 pairs
+[22:04:10]     Chunk 9/18: 0 pairs
+[22:04:11]     Chunk 10/18: 0 pairs
+[22:04:12]     Chunk 11/18: 0 pairs
+[22:04:12]     Chunk 12/18: 0 pairs
+[22:04:13]     Chunk 13/18: 0 pairs
+[22:04:13]     Chunk 14/18: 0 pairs
+[22:04:14]     Chunk 15/18: 0 pairs
+[22:04:15]     Chunk 16/18: +2 pairs
+[22:04:16]     Chunk 17/18: 0 pairs
+[22:04:16]     Chunk 18/18: 0 pairs
+[22:04:16]   => 1 new Q&A pairs. Total so far: 144. Elapsed: 1.1min
+[22:04:16] 
+[29/98] HzyxJqYrGTw.json
+[22:04:16]   Processing 12 chunks from: #1183 Ekantik Vartalaap & Darshan/ 12-02-2026/ Shri Hit
+[22:04:17]     Chunk 1/12: 0 pairs
+[22:04:17]     Chunk 2/12: 0 pairs
+[22:04:18]     Chunk 3/12: 0 pairs
+[22:04:18]     Chunk 4/12: 0 pairs
+[22:04:19]     Chunk 5/12: 0 pairs
+[22:04:20]     Chunk 6/12: 0 pairs
+[22:04:20]     Chunk 7/12: 0 pairs
+[22:04:21]     Chunk 8/12: 0 pairs
+[22:04:21]     Chunk 9/12: 0 pairs
+[22:04:22]     Chunk 10/12: 0 pairs
+[22:04:22]     Chunk 11/12: 0 pairs
+[22:04:23]     Chunk 12/12: 0 pairs
+[22:04:23]   => 0 new Q&A pairs. Total so far: 144. Elapsed: 1.2min
+[22:04:23] 
+[30/98] IBcRlE8JxFk.json
+[22:04:23]   Processing 20 chunks from: #1159 Ekantik Vartalaap & Darshan/ 19-01-2026/ Shri Hit
+[22:04:24]     Chunk 1/20: 0 pairs
+[22:04:24]     Chunk 2/20: 0 pairs
+[22:04:25]     Chunk 3/20: 0 pairs
+[22:04:25]     Chunk 4/20: 0 pairs
+[22:04:26]     Chunk 5/20: 0 pairs
+[22:04:26]     Chunk 6/20: 0 pairs
+[22:04:27]     Chunk 7/20: 0 pairs
+[22:04:28]     Chunk 8/20: 0 pairs
+[22:04:28]     Chunk 9/20: 0 pairs
+[22:04:29]     Chunk 10/20: 0 pairs
+[22:04:29]     Chunk 11/20: 0 pairs
+[22:04:30]     Chunk 12/20: 0 pairs
+[22:04:30]     Chunk 13/20: 0 pairs
+[22:04:32]     Chunk 14/20: +4 pairs
+[22:04:32]     Chunk 15/20: 0 pairs
+[22:04:33]     Chunk 16/20: 0 pairs
+[22:04:33]     Chunk 17/20: 0 pairs
+[22:04:34]     Chunk 18/20: 0 pairs
+[22:04:35]     Chunk 19/20: 0 pairs
+[22:04:35]     Chunk 20/20: 0 pairs
+[22:04:35]   => 4 new Q&A pairs. Total so far: 148. Elapsed: 1.4min
+[22:04:35] 
+[31/98] ImZmtmq1Dv8.json
+[22:04:35]   SKIP (already in DB, 5 pairs): #1235 Ekantik Vartalaap & Darshan/14-04-2026/ Shri
+[22:04:35]   => 5 new Q&A pairs. Total so far: 153. Elapsed: 1.4min
+[22:04:35] 
+[32/98] K3iY9owwAXk.json
+[22:04:35]   Processing 12 chunks from: #1192 Ekantik Vartalaap & Darshan/ 21-02-2026/ Shri Hit
+[22:04:36]     Chunk 1/12: 0 pairs
+[22:04:36]     Chunk 2/12: 0 pairs
+[22:04:37]     Chunk 3/12: 0 pairs
+[22:04:38]     Chunk 4/12: 0 pairs
+[22:04:38]     Chunk 5/12: 0 pairs
+[22:04:39]     Chunk 6/12: 0 pairs
+[22:04:39]     Chunk 7/12: 0 pairs
+[22:04:40]     Chunk 8/12: 0 pairs
+[22:04:40]     Chunk 9/12: 0 pairs
+[22:04:41]     Chunk 10/12: 0 pairs
+[22:04:41]     Chunk 11/12: 0 pairs
+[22:04:42]     Chunk 12/12: 0 pairs
+[22:04:42]   => 0 new Q&A pairs. Total so far: 153. Elapsed: 1.5min
+[22:04:42] 
+[33/98] KyGcmmB8hhY.json
+[22:04:42]   Processing 9 chunks from: #1236 Ekantik Vartalaap & Darshan/15-04-2026/ Shri Hit 
+[22:04:43]     Chunk 1/9: 0 pairs
+[22:04:43]     Chunk 2/9: 0 pairs
+[22:04:44]     Chunk 3/9: 0 pairs
+[22:04:44]     Chunk 4/9: 0 pairs
+[22:04:45]     Chunk 5/9: 0 pairs
+[22:04:46]     Chunk 6/9: 0 pairs
+[22:04:46]     Chunk 7/9: 0 pairs
+[22:04:47]     Chunk 8/9: 0 pairs
+[22:04:49]     Chunk 9/9: 0 pairs
+[22:04:49]   => 0 new Q&A pairs. Total so far: 153. Elapsed: 1.6min
+[22:04:49] 
+[34/98] Lve4I-VPeaQ.json
+[22:04:49]   Processing 19 chunks from: #1154 Ekantik Vartalaap & Darshan/ 14-01-2026/ Shri Hit
+[22:04:49]     Chunk 1/19: 0 pairs
+[22:04:50]     Chunk 2/19: 0 pairs
+[22:04:50]     Chunk 3/19: 0 pairs
+[22:04:51]     Chunk 4/19: 0 pairs
+[22:04:51]     Chunk 5/19: 0 pairs
+[22:04:52]     Chunk 6/19: 0 pairs
+[22:04:53]     Chunk 7/19: 0 pairs
+[22:04:53]     Chunk 8/19: 0 pairs
+[22:04:54]     Chunk 9/19: 0 pairs
+[22:04:54]     Chunk 10/19: 0 pairs
+[22:04:55]     Chunk 11/19: 0 pairs
+[22:04:55]     Chunk 12/19: 0 pairs
+[22:04:56]     Chunk 13/19: 0 pairs
+[22:04:57]     Chunk 14/19: 0 pairs
+[22:04:57]     Chunk 15/19: 0 pairs

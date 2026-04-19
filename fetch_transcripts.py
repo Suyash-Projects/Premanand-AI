@@ -1,177 +1,172 @@
 """
-Parallel transcript fetcher for BhajanMarg Ekantik playlists.
-Uses ThreadPoolExecutor for ~10x speedup on I/O-bound fetching.
+Automated batch transcript fetcher.
+Fetches in small batches with concurrent threading to speed up extraction!
+Re-run safe: skips already downloaded files.
 """
 import yt_dlp
-from youtube_transcript_api import YouTubeTranscriptApi
 import json
 import os
 import re
-import threading
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import sys
+import time
+import concurrent.futures
+
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 CHANNEL_URL = "https://www.youtube.com/@BhajanMarg"
 OUTPUT_DIR = "transcripts_raw"
-MAX_WORKERS = 10  # parallel threads
+VIDEO_LIST_CACHE = "video_list_cache.json"
+BATCH_SIZE = 1         # fetch 1 by 1 sequentially to avoid setting off alarms
+COOLDOWN_BETWEEN_VIDEOS = (3, 7) # random seconds between videos
+COOLDOWN_ON_BAN = 300  # 5 min sleep if 429 triggered
 
-# Thread-safe counters
-lock = threading.Lock()
-stats = {"saved": 0, "failed": 0, "skipped": 0, "total_bytes": 0}
-
-def get_ekantik_playlists():
-    print("Scanning channel for Ekantik playlists...")
-    url = CHANNEL_URL + "/playlists"
-    opts = {'extract_flat': True, 'quiet': True, 'ignoreerrors': True}
-    with yt_dlp.YoutubeDL(opts) as ydl:
-        result = ydl.extract_info(url, download=False)
-        playlists = []
-        if result and 'entries' in result:
-            for entry in result['entries']:
-                if entry and re.search(r'ekantik', entry.get('title',''), re.IGNORECASE):
-                    playlists.append({
-                        'id': entry.get('id', ''),
-                        'title': entry.get('title', ''),
-                        'url': entry.get('url', ''),
-                    })
-        return playlists
-
-def get_videos_from_playlist(playlist):
-    opts = {'extract_flat': True, 'quiet': True, 'ignoreerrors': True}
-    playlist_url = playlist.get('url', f"https://www.youtube.com/playlist?list={playlist['id']}")
-    with yt_dlp.YoutubeDL(opts) as ydl:
-        result = ydl.extract_info(playlist_url, download=False)
-        videos = []
-        if result and 'entries' in result:
-            for entry in result['entries']:
-                if entry and entry.get('id'):
-                    videos.append({
-                        'id': entry['id'],
-                        'title': entry.get('title', 'Unknown'),
-                        'playlist': playlist['title'],
-                    })
+def load_video_list():
+    """Load cached video list or fetch fresh from YouTube."""
+    if os.path.exists(VIDEO_LIST_CACHE):
+        with open(VIDEO_LIST_CACHE, 'r', encoding='utf-8') as f:
+            videos = json.load(f)
         return videos
+    return []
 
-def fetch_single_video(video):
-    """Worker function: fetch transcript for one video."""
-    vid_id = video['id']
-    title = video['title']
-    playlist_name = video['playlist']
-    filepath = os.path.join(OUTPUT_DIR, f"{vid_id}.json")
-    
-    # Skip if cached
-    if os.path.exists(filepath):
-        size = os.path.getsize(filepath)
-        with lock:
-            stats["skipped"] += 1
-            stats["total_bytes"] += size
-        return f"SKIP  {title[:50]}"
-    
+def fetch_transcript_worker(v):
+    """Fetch auto-generated Hindi subtitles for one video."""
+    vid_id = v['id']
+    opts = {
+        'quiet': True,
+        'ignoreerrors': True,
+        'allow_unplayable_formats': True,
+        'dynamic_mpd': False,
+        'remote_components': ['ejs:github'],
+        'lazy_playlist': True,
+    }
+    if os.path.exists('cookies.txt'):
+        opts['cookiefile'] = 'cookies.txt'
     try:
-        transcript_list = YouTubeTranscriptApi.list_transcripts(vid_id)
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(f"https://www.youtube.com/watch?v={vid_id}", download=False)
         
-        transcript = None
-        lang = None
-        is_auto = False
+        if not info:
+            return v, None, None
         
-        # Try Hindi
-        try:
-            t = transcript_list.find_transcript(['hi'])
-            transcript = t.fetch()
-            lang = t.language_code
-            is_auto = t.is_generated
-        except Exception:
-            # Try translating any auto-generated to Hindi
-            try:
-                for t in transcript_list:
-                    if t.is_generated:
-                        translated = t.translate('hi')
-                        transcript = translated.fetch()
-                        lang = 'hi-translated'
-                        is_auto = True
+        auto_subs = info.get('automatic_captions', {})
+        manual_subs = info.get('subtitles', {})
+        
+        sub_data = None
+        lang_used = None
+        for lang in ['hi', 'en']:
+            if lang in manual_subs:
+                for fmt in manual_subs[lang]:
+                    if fmt.get('ext') == 'json3':
+                        sub_data = fmt
+                        lang_used = f"{lang}-manual"
                         break
-            except Exception:
-                # Take whatever is available
-                try:
-                    for t in transcript_list:
-                        transcript = t.fetch()
-                        lang = t.language_code
-                        is_auto = t.is_generated
+            if sub_data: break
+            if lang in auto_subs:
+                for fmt in auto_subs[lang]:
+                    if fmt.get('ext') == 'json3':
+                        sub_data = fmt
+                        lang_used = f"{lang}-auto"
                         break
-                except Exception:
-                    pass
+            if sub_data: break
         
-        if transcript:
-            with open(filepath, "w", encoding="utf-8") as f:
-                json.dump({
-                    "video_id": vid_id,
-                    "title": title,
-                    "playlist": playlist_name,
-                    "language": lang,
-                    "auto_generated": is_auto,
-                    "transcript": transcript
-                }, f, ensure_ascii=False)
+        if sub_data and sub_data.get('url'):
+            import urllib.request
+            req = urllib.request.Request(sub_data['url'])
+            with urllib.request.urlopen(req, timeout=15) as response:
+                raw = json.loads(response.read().decode('utf-8'))
             
-            size = os.path.getsize(filepath)
-            with lock:
-                stats["saved"] += 1
-                stats["total_bytes"] += size
-            return f"OK    {title[:50]} ({lang}, {len(transcript)} segs, {size/1024:.0f}KB)"
-        else:
-            with lock:
-                stats["failed"] += 1
-            return f"FAIL  {title[:50]}"
-            
-    except Exception:
-        with lock:
-            stats["failed"] += 1
-        return f"FAIL  {title[:50]}"
+            transcript = []
+            if 'events' in raw:
+                for event in raw['events']:
+                    if 'segs' in event:
+                        text = ''.join(seg.get('utf8', '') for seg in event['segs']).strip()
+                        if text and text != '\n':
+                            transcript.append({
+                                'start': event.get('tStartMs', 0) / 1000,
+                                'duration': event.get('dDurationMs', 0) / 1000,
+                                'text': text
+                            })
+            return v, transcript, lang_used
+    except Exception as e:
+        if '429' in str(e) or 'bot' in str(e).lower() or 'challenge' in str(e).lower():
+            return v, "RATE_LIMITED", None
+    return v, "NO_TRANSCRIPT", None
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
-    # Step 1: Get all Ekantik playlists
-    playlists = get_ekantik_playlists()
-    print(f"Found {len(playlists)} Ekantik playlists.\n")
-    
-    # Step 2: Collect ALL videos across all playlists
-    print("Collecting video list from all playlists...")
-    all_videos = []
-    seen_ids = set()
-    
-    for p in playlists:
-        videos = get_videos_from_playlist(p)
-        for v in videos:
-            if v['id'] not in seen_ids:
-                seen_ids.add(v['id'])
-                all_videos.append(v)
-        print(f"  {p['title']}: {len(videos)} videos")
-    
-    print(f"\nTotal unique videos to process: {len(all_videos)}")
-    print(f"Starting parallel fetch with {MAX_WORKERS} threads...\n")
-    
-    # Step 3: Parallel fetch
-    completed = 0
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {executor.submit(fetch_single_video, v): v for v in all_videos}
+    all_videos = load_video_list()
+    if not all_videos:
+        print("Need to run old fetcher first to build video list cache!")
+        return
         
-        for future in as_completed(futures):
-            completed += 1
-            result = future.result()
-            print(f"  [{completed}/{len(all_videos)}] {result}")
+    # Filter out already downloaded
+    remaining = [v for v in all_videos if not os.path.exists(os.path.join(OUTPUT_DIR, f"{v['id']}.json"))]
+    already = len(all_videos) - len(remaining)
+    
+    print(f"Total videos: {len(all_videos)}")
+    print(f"Already downloaded: {already}")
+    print(f"Remaining: {len(remaining)}")
+    print(f"Fetch Mode: Sequential | Cooldown Range: {COOLDOWN_BETWEEN_VIDEOS}s")
+    print("="*60 + "\n")
+    
+    import random
+    
+    saved_this_run = 0
+    failed_this_run = 0
+    
+    print(f"Resuming autonomous scraping loop for {len(remaining)} remaining videos...")
+    
+    while remaining:
+        v = remaining.pop(0)
+        title = v['title'][:50]
+        vid_id = v['id']
+        
+        # Add random human-like delay
+        delay = random.uniform(*COOLDOWN_BETWEEN_VIDEOS)
+        print(f"Sleeping {delay:.1f}s before fetching...")
+        time.sleep(delay)
+        
+        _, transcript, lang = fetch_transcript_worker(v)
+        
+        if transcript == "RATE_LIMITED":
+            print(f"  [RATE LIMITED] {title}")
+            print(f"  ** IP soft-banned. Sleeping for {COOLDOWN_ON_BAN // 60} minutes and resuming completely automatically! **")
+            time.sleep(COOLDOWN_ON_BAN)
+            remaining.insert(0, v) # Put it back in queue to try again
+            continue
+            
+        elif transcript == "NO_TRANSCRIPT":
+            print(f"  [NO TRANSCRIPT] {title}")
+            failed_this_run += 1
+            
+        elif isinstance(transcript, list) and len(transcript) > 0:
+            filepath = os.path.join(OUTPUT_DIR, f"{vid_id}.json")
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump({
+                    "video_id": vid_id,
+                    "title": v['title'],
+                    "playlist": v['playlist'],
+                    "language": lang,
+                    "segments": len(transcript),
+                    "transcript": transcript
+                }, f, ensure_ascii=False)
+            size = os.path.getsize(filepath)
+            saved_this_run += 1
+            print(f"  [OK] {title} ({lang}, {len(transcript)} segs, {size/1024:.0f}KB)")
+        else:
+            print(f"  [FAILED] {title}")
+            failed_this_run += 1
     
     # Final report
-    total_mb = stats["total_bytes"] / (1024 * 1024)
     print(f"\n{'='*60}")
-    print(f"  FINAL REPORT")
+    print(f"  RUN COMPLETE")
     print(f"{'='*60}")
-    print(f"  Playlists:                 {len(playlists)}")
-    print(f"  Total Unique Videos:       {len(all_videos)}")
-    print(f"  Saved (with transcript):   {stats['saved']}")
-    print(f"  Skipped (already cached):  {stats['skipped']}")
-    print(f"  Failed (no transcript):    {stats['failed']}")
-    print(f"  Total Size on Disk:        {total_mb:.2f} MB ({stats['total_bytes']:,} bytes)")
-    print(f"  Saved to:                  ./{OUTPUT_DIR}/")
-    print(f"{'='*60}")
+    print(f"  New downloads this run:  {saved_this_run}")
+    print(f"  Failed this run:         {failed_this_run}")
+    
+    total_files = len(os.listdir(OUTPUT_DIR))
+    print(f"  Total files on disk:     {total_files} / {len(all_videos)}")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

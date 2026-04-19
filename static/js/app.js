@@ -57,32 +57,47 @@ document.addEventListener('DOMContentLoaded', () => {
             let formattedResponse = `
                 <div class="whitespace-pre-wrap">${data.answer}</div>
             `;
-            
-            if(data.reference && data.reference.video_url) {
-                const vidUrl = new URL(data.reference.video_url);
-                const vidId = vidUrl.searchParams.get('v') || data.reference.video_url.split('/').pop();
-                const timeStr = formatTime(data.reference.timestamp);
-                const thumbUrl = `https://img.youtube.com/vi/${vidId}/mqdefault.jpg`;
-                const fullLink = `${data.reference.video_url}&t=${data.reference.timestamp}s`;
 
-                formattedResponse += `
-                <div class="mt-4 border-t border-saffron-500/30 pt-4 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                    <a href="${fullLink}" target="_blank" class="relative group block overflow-hidden rounded-lg shadow-lg border border-slate-700 hover:border-saffron-500 transition-colors w-40 shrink-0">
-                        <img src="${thumbUrl}" alt="Video Thumbnail" class="w-full h-auto group-hover:scale-105 transition-transform duration-300">
-                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors flex items-center justify-center">
-                            <div class="bg-red-600 rounded-full w-8 h-8 flex items-center justify-center shadow-lg">
-                                <svg class="w-4 h-4 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            // Build references from new `references` array (with fallback to old `reference`)
+            const refs = data.references && data.references.length > 0
+                ? data.references
+                : (data.reference && data.reference.video_id ? [data.reference] : []);
+
+            if (refs.length > 0) {
+                formattedResponse += `<div class="mt-4 border-t border-saffron-500/30 pt-4">
+                    <div class="text-xs text-saffron-400 mb-3 font-semibold tracking-wider uppercase">📖 Source References</div>
+                    <div class="flex flex-col gap-3">`;
+
+                refs.forEach(ref => {
+                    const vidId = ref.video_id || (ref.video_url ? new URL(ref.video_url).searchParams.get('v') : '');
+                    const ts = ref.timestamp || 0;
+                    const tsStr = ref.timestamp_str || formatTime(ts);
+                    const link = ref.url || `https://www.youtube.com/watch?v=${vidId}&t=${ts}s`;
+                    const thumbUrl = `https://img.youtube.com/vi/${vidId}/mqdefault.jpg`;
+                    const title = ref.video_title || 'Ekantik Vartalaap';
+
+                    formattedResponse += `
+                        <a href="${link}" target="_blank" class="flex items-center gap-3 p-2 rounded-xl bg-slate-900/60 border border-slate-700 hover:border-saffron-500/50 transition-all group">
+                            <div class="relative shrink-0 w-24 overflow-hidden rounded-lg">
+                                <img src="${thumbUrl}" alt="thumbnail" class="w-full h-auto group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/10 transition-colors">
+                                    <div class="bg-red-600 rounded-full w-6 h-6 flex items-center justify-center shadow">
+                                        <svg class="w-3 h-3 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <div class="text-sm">
-                        <div class="text-gray-400 mb-1">Source Video</div>
-                        <a href="${fullLink}" target="_blank" class="text-saffron-400 hover:text-saffron-300 transition-colors inline-flex items-center gap-1 font-semibold">
-                            Watch from ${timeStr}
-                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                        </a>
-                    </div>
-                </div>`;
+                            <div class="flex-1 min-w-0">
+                                <div class="text-gray-300 text-sm font-medium truncate group-hover:text-white transition-colors">${title}</div>
+                                <div class="text-saffron-400 text-xs mt-1 flex items-center gap-1">
+                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                                    Watch from ${tsStr}
+                                </div>
+                            </div>
+                            <svg class="w-4 h-4 text-gray-500 group-hover:text-saffron-400 shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>`;
+                });
+
+                formattedResponse += `</div></div>`;
             }
 
             appendMessage(formattedResponse, 'ai', true);
