@@ -1,0 +1,19 @@
+﻿=== BhajanMarg Channel Transcript Report ===
+Total videos found: 3
+
+  [1] Bhajan Marg - Videos | UCEk1jBxAl6fe-_G37G7huQA | NO TRANSCRIPT
+  [2] Bhajan Marg - Live | UCEk1jBxAl6fe-_G37G7huQA | NO TRANSCRIPT
+  [3] Bhajan Marg - Shorts | UCEk1jBxAl6fe-_G37G7huQA | NO TRANSCRIPT
+
+========================================
+        FINAL TRANSCRIPT REPORT
+========================================
+Total Videos Found:         3
+Videos WITH Transcript:     0
+Videos WITHOUT Transcript:  3
+Total Transcript Segments:  0
+Total Duration:             0.0 hours
+Total Raw Size (JSON):      0.00 MB (0 bytes)
+Saved to:                   ./transcripts_raw/
+========================================
+
