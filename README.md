@@ -1,105 +1,138 @@
-# ॐ Bhakti Marg AI
+# Bhakti Marg AI 🕉
 
-A production-ready, spiritual Q&A system that leverages Retrieval-Augmented Generation (RAG) to provide profound answers based strictly on the teachings and transcripts of **Premanand Maharaj**.
-
-![Bhakti Marg AI UI](https://img.shields.io/badge/Tech-FastAPI%20+%20FAISS%20+%20LLM-orange)
-
-## 🚀 Features
-- **Hindi-Only Responses**: The AI strictly responds in Hindi, maintaining the spiritual essence of the original teachings.
-- **Transcript Deep-Linking**: Every answer comes with a direct reference to the specific YouTube video and timestamp.
-- **Automated Extraction Pipeline**: Built-in scraper using `yt-dlp` and `youtube-transcript-api` to pull data from the `@BhajanMarg` channel.
-- **Multi-LLM Resilience**: intelligent fallback logic across **Groq (Primary)**, **OpenRouter**, and **APIFreeLLM**.
-- **Vector Search**: High-performance semantic retrieval using `faiss-cpu` and a multilingual embedding model.
+AI-powered spiritual Q&A assistant trained on the teachings of **Shri Hit Premanand Govind Sharan Ji Maharaj**. Ask questions in Hindi or English and receive answers grounded in available video transcripts, with timestamped YouTube references.
 
 ---
 
-## 🛠️ Prerequisites
-- **Python 3.11+**
-- **Virtual Environment** (recommended)
-- **API Keys**: You will need keys for at least one of the following:
-  - [Groq AI](https://console.groq.com/) (Highly Recommended for speed)
-  - [OpenRouter](https://openrouter.ai/)
-  - [RapidAPI](https://rapidapi.com/)
+## Quick Start
 
----
+### Prerequisites
+- Python 3.11+ on PATH
+- API key for at least one LLM provider (Groq recommended — free, fast)
 
-## ⚙️ Setup Instructions
+### Setup
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Suyash-Projects/Premanand-AI.git
-cd Premanand-AI
-```
-
-### 2. Create and Activate Virtual Environment
-**Windows:**
 ```powershell
+# 1. Clone the repo
+git clone <your-repo-url>
+cd "Premanand AI"
+
+# 2. Create & activate a virtual environment
 python -m venv venv
-.\venv\Scripts\activate
-```
+venv\Scripts\activate          # Windows
+# source venv/bin/activate     # Linux / macOS
 
-**Mac/Linux:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
-```
 
-### 4. Configure Environment Variables
-Create a file named `.env` in the root directory and paste your keys:
-```env
-# AI API Keys
-GROQ_API_KEY=your_groq_key
-OPENROUTER_API_KEY=your_openrouter_key
+# 4. Configure environment
+copy .env.example .env
+# Edit .env and fill in your API keys (GROQ_API_KEY is the minimum needed)
 
-# Database
-DATABASE_URL=sqlite:///./bhaktimarg_qa.db
-SECRET_KEY=generate_a_random_string_here
-```
-
----
-
-## 🏃 Running the Application
-
-Launch the server using the dynamic port wrapper:
-```bash
+# 5. Start the server
 python run.py
 ```
-- The application will automatically find an available port starting from `8000`.
-- Open your browser to `http://localhost:8000` (or the port displayed in terminal).
+
+The server auto-detects a free port starting at 8000. Open `http://localhost:8000` in your browser.
 
 ---
 
-## 📊 Data Extraction (Scraping)
+## Running Tests
 
-To populate your database with real teachings from the Bhajan Marg channel:
+```powershell
+pip install pytest httpx pytest-asyncio   # one-time, already in requirements.lock
+pytest tests/ -v
+```
 
-1. **Trigger Background Scraper**:
-   Send a POST request to the `/api/process-channel` endpoint. You can do this via terminal:
-   ```powershell
-   Invoke-RestMethod -Method Post -Uri "http://localhost:8000/api/process-channel?max_videos=10"
-   ```
-2. **Watch Progress**:
-   Open the file `extraction_progress.txt` in your editor to see real-time updates as the AI extracts Q&A pairs.
+All tests run offline — no live LLM or network calls required.
 
 ---
 
-## 🏗️ Tech Stack
-- **Backend**: FastAPI (Python)
-- **Database**: SQLAlchemy + SQLite
-- **Vector Engine**: FAISS (Facebook AI Similarity Search)
-- **Embeddings**: `sentence-transformers` (paraphrase-multilingual-MiniLM-L12-v2)
-- **Frontend**: Vanilla JS + Tailwind CSS + Lucide Icons
+## Environment Variables
+
+Copy `.env.example` to `.env` and fill in:
+
+| Variable | Description | Required |
+|---|---|---|
+| `GROQ_API_KEY` | Groq API key (fastest, recommended) | ✅ At least one LLM |
+| `OPENROUTER_API_KEY` | OpenRouter API key (free models available) | Optional |
+| `APIFREE_API_KEY` | APIFreeLLM key | Optional |
+| `DATABASE_URL` | SQLite path (default: `sqlite:///./bhaktimarg_qa.db`) | Auto |
+| `RAG_THRESHOLD` | Similarity threshold 0–1 (default: `0.40`) | Optional |
+| `APP_PORT` | Override server port (default: auto-detect from 8000) | Optional |
+| `PYTHONUTF8` | Force UTF-8 on Windows (set to `1`) | Recommended on Windows |
 
 ---
 
-## 🙏 Credits
-- **Teachings**: Shri Hit Premanand Govind Sharan Ji Maharaj.
-- **Channel**: [Bhajan Marg](https://www.youtube.com/@BhajanMarg).
+## Architecture
+
+```
+User Query
+    │
+    ▼
+FAISS Vector Search (cosine similarity)
+    │  paraphrase-multilingual-MiniLM-L12-v2 embeddings
+    │  IndexFlatIP + L2-normalised vectors
+    │  Similarity threshold: 0.40 (configurable)
+    ▼
+RAG Pipeline
+    │  Deduplicates by (video_id, timestamp)
+    │  Caps context at 4,000 chars
+    │  Ranks references by similarity score
+    ▼
+LLM (Groq → OpenRouter → APIFreeLLM)
+    │  Hindi-enforced system prompt
+    ▼
+Answer + Timestamped YouTube References
+```
+
+**Data**: 64 Satsang videos · 224 Q&A pairs extracted by Groq LLaMA 3.1
 
 ---
-*Radhe Radhe!*
+
+## API Endpoints
+
+| Method | Path | Description |
+|---|---|---|
+| `POST` | `/api/ask` | Answer a spiritual question |
+| `GET` | `/api/videos` | List all indexed videos |
+| `GET` | `/api/qa` | List all Q&A pairs |
+| `POST` | `/api/demo` | Load demo status (for UI button) |
+| `POST` | `/api/process-channel` | Trigger channel re-ingestion |
+| `GET` | `/api/admin/stats` | DB + index stats |
+| `GET` | `/api/admin/health` | LLM provider availability |
+
+---
+
+## Deployment
+
+### Railway / Render / Heroku
+The `Procfile` handles the start command automatically:
+```
+web: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+```
+Set your environment variables in the platform dashboard.
+
+---
+
+## Windows UTF-8 Note
+
+If you see garbled Hindi text (like `à¤...`) in your console, add this to your `.env`:
+```
+PYTHONUTF8=1
+```
+Or run PowerShell with `$env:PYTHONUTF8=1` before starting the server.
+
+---
+
+## Security
+
+- **Never commit `cookies.txt`** — it is listed in `.gitignore`
+- **Never commit `.env`** — use `.env.example` as the template
+- The database (`.db` files) and FAISS index are also gitignored
+
+---
+
+## License
+
+For educational and spiritual use. All teachings belong to Shri Hit Premanand Govind Sharan Ji Maharaj.

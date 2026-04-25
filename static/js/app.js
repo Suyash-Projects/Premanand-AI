@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         seedDataBtn.innerText = "Loading...";
         seedDataBtn.disabled = true;
         try {
-            const res = await fetch('/api/process-video/demo', { method: 'POST' });
+            const res = await fetch('/api/demo', { method: 'POST' });
             const data = await res.json();
             seedDataBtn.innerText = "Demo Loaded ✔";
             setTimeout(() => seedDataBtn.style.display = 'none', 2000);

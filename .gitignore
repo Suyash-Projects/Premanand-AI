@@ -7,6 +7,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# YouTube cookies – NEVER commit real session tokens
+cookies.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -23,6 +26,18 @@ __pycache__/
 *.sqlite3
 faiss_index/
 *.index
+qa_mapping.json
+
+# Runtime / ingestion artefacts
+ingest_progress.txt
+transcript_summary.txt
+summary_out.txt
+video_list_cache.json
+all_transcripts.json
+free.json
+
+# Dependency lock
+requirements.lock
 
 # OS generated files
 .DS_Store

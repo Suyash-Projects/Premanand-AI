@@ -102,5 +102,28 @@
     </div>
 
     <script src="/static/js/app.js"></script>
+
+    <!-- Floating stats badge (bottom-right) -->
+    <div id="stats-badge"
+         class="fixed bottom-6 right-4 z-30 group cursor-default select-none"
+         title="Database stats">
+        <div class="flex items-center gap-2 bg-slate-900/90 backdrop-blur border border-saffron-500/30
+                    rounded-full px-3 py-1.5 shadow-lg text-xs text-saffron-400
+                    transition-all duration-300 hover:px-4 hover:bg-slate-800/95">
+            <span class="text-base">🕉</span>
+            <span id="stats-text" class="whitespace-nowrap font-medium">…</span>
+        </div>
+    </div>
+    <script>
+        (async () => {
+            try {
+                const r = await fetch('/api/admin/stats');
+                if (!r.ok) return;
+                const d = await r.json();
+                document.getElementById('stats-text').textContent =
+                    `${d.videos} videos · ${d.qa_pairs} Q&As`;
+            } catch (_) { /* silently ignore */ }
+        })();
+    </script>
 </body>
 </html>
