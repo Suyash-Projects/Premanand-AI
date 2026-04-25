@@ -1,0 +1,1954 @@
+[11:15:03] Initialising FAISS index…
+[11:16:22] Total in cache  : 1264
+[11:16:22] Already on disk : 98
+[11:16:22] Remaining       : 1166
+[11:16:22] 
+Starting parallel fetch with 2 worker(s)…
+
+[11:16:24]   [FETCH] #1149 Ekantik Vartalaap & Darshan/ 09-01-2026/ Shri Hit
+[11:16:28]   [FETCH] #1150 Ekantik Vartalaap & Darshan/ 10-01-2026/ Shri Hit
+[11:16:29]   [NO TRANSCRIPT] #1149 Ekantik Vartalaap & Darshan/ 09-01-2026/ Shri Hit
+[11:16:29]   Progress: 1/1166 | OK=0 NoSub=1 Banned=0 | Q&A pairs: 0 | 0.1min
+[11:16:33]   [NO TRANSCRIPT] #1150 Ekantik Vartalaap & Darshan/ 10-01-2026/ Shri Hit
+[11:16:33]   Progress: 2/1166 | OK=0 NoSub=2 Banned=0 | Q&A pairs: 0 | 0.2min
+[11:16:34]   [FETCH] #1148 Ekantik Vartalaap & Darshan/ 08-01-2026/ Shri Hit
+[11:18:30] Total in cache  : 1264
+[11:18:30] Already on disk : 98
+[11:18:30] Remaining       : 1166
+[11:18:30] 
+Starting parallel fetch with 2 worker(s)…
+
+[11:18:32]   [FETCH] #1149 Ekantik Vartalaap & Darshan/ 09-01-2026/ Shri Hit
+[11:18:34]   [FETCH] #1150 Ekantik Vartalaap & Darshan/ 10-01-2026/ Shri Hit
+[11:18:44]   [OK] #1149 Ekantik Vartalaap & Darshan/ 09-01-2026/ Shri Hit (hi-auto, 1242 segs, 163KB)
+[11:18:45]   [OK] #1150 Ekantik Vartalaap & Darshan/ 10-01-2026/ Shri Hit (hi-auto, 1385 segs, 184KB)
+[11:19:04]   Ingesting 19 chunks: #1149 Ekantik Vartalaap & Darshan/ 09-01-2026/ Shri Hit
+[11:19:04]   Ingesting 21 chunks: #1150 Ekantik Vartalaap & Darshan/ 10-01-2026/ Shri Hit
+[11:19:13]     Chunk 1/19: +4 pairs
+[11:19:13]     Chunk 1/21: +3 pairs
+[11:19:17]     Chunk 2/19: +6 pairs
+[11:19:18]     Chunk 2/21: +7 pairs
+[11:19:52]     Chunk 3/19: +8 pairs
+[11:20:13]     Chunk 3/21: +2 pairs
+[11:20:25]     Chunk 4/19: +4 pairs
+[11:20:58]     Chunk 4/21: +4 pairs
+[11:21:25]     Chunk 5/19: +33 pairs
+[11:21:58]     Chunk 6/19: +3 pairs
+[11:22:24]     Chunk 7/19: +4 pairs
+[11:22:38]     Chunk 8/19: +8 pairs
+[11:22:43]     Chunk 5/21: 0 pairs
+[11:23:01]     Chunk 9/19: +8 pairs
+[11:23:34]     Chunk 10/19: +6 pairs
+[11:23:57]     Chunk 6/21: +7 pairs
+[11:24:20]     Chunk 11/19: +5 pairs
+[11:24:51]     Chunk 7/21: +2 pairs
+[11:25:13]     Chunk 12/19: +5 pairs
+[11:25:36]     Chunk 8/21: +4 pairs
+[11:26:09]     Chunk 13/19: +7 pairs
+[11:26:20]     Chunk 9/21: +3 pairs
+[11:26:50]     Chunk 14/19: 0 pairs
+[11:26:51]     Chunk 15/19: 0 pairs
+[11:26:51]     Chunk 10/21: 0 pairs
+[11:26:51]     Chunk 16/19: 0 pairs
+[11:26:51]     Chunk 11/21: 0 pairs
+[11:26:52]     Chunk 17/19: 0 pairs
+[11:26:52]     Chunk 12/21: 0 pairs
+[11:26:52]     Chunk 18/19: 0 pairs
+[11:26:52]     Chunk 13/21: 0 pairs
+[11:26:53]     Chunk 19/19: 0 pairs
+[11:26:53]   [INGESTED] #1149 Ekantik Vartalaap & Darshan/ 09-01-2026/ Shri Hit → 100 Q&A pairs
+[11:26:53]   Progress: 1/1166 | OK=1 NoSub=0 Banned=0 | Q&A pairs: 100 | 8.4min
+[11:26:53]     Chunk 14/21: 0 pairs
+[11:26:53]     Chunk 15/21: 0 pairs
+[11:26:54]     Chunk 16/21: 0 pairs
+[11:26:54]     Chunk 17/21: 0 pairs
+[11:26:54]     Chunk 18/21: 0 pairs
+[11:26:55]     Chunk 19/21: 0 pairs
+[11:26:55]     Chunk 20/21: 0 pairs
+[11:26:56]     Chunk 21/21: 0 pairs
+[11:26:56]   [INGESTED] #1150 Ekantik Vartalaap & Darshan/ 10-01-2026/ Shri Hit → 32 Q&A pairs
+[11:26:56]   Progress: 2/1166 | OK=2 NoSub=0 Banned=0 | Q&A pairs: 132 | 8.4min
+[11:26:58]   [FETCH] #1148 Ekantik Vartalaap & Darshan/ 08-01-2026/ Shri Hit
+[11:26:59]   [NO TRANSCRIPT] #1148 Ekantik Vartalaap & Darshan/ 08-01-2026/ Shri Hit
+[11:26:59]   Progress: 3/1166 | OK=2 NoSub=1 Banned=0 | Q&A pairs: 132 | 8.5min
+[11:27:00]   [FETCH] #1147 Ekantik Vartalaap & Darshan/ 07-01-2026/ Shri Hit
+[11:27:00]   [NO TRANSCRIPT] #1147 Ekantik Vartalaap & Darshan/ 07-01-2026/ Shri Hit
+[11:27:00]   Progress: 4/1166 | OK=2 NoSub=2 Banned=0 | Q&A pairs: 132 | 8.5min
+[11:27:01]   [FETCH] #1146 Ekantik Vartalaap & Darshan/ 06-01-2026/ Shri Hit
+[11:27:02]   [NO TRANSCRIPT] #1146 Ekantik Vartalaap & Darshan/ 06-01-2026/ Shri Hit
+[11:27:02]   Progress: 5/1166 | OK=2 NoSub=3 Banned=0 | Q&A pairs: 132 | 8.5min
+[11:27:03]   [FETCH] #1145 Ekantik Vartalaap & Darshan/ 05-01-2026/ Shri Hit
+[11:27:03]   [NO TRANSCRIPT] #1145 Ekantik Vartalaap & Darshan/ 05-01-2026/ Shri Hit
+[11:27:03]   Progress: 6/1166 | OK=2 NoSub=4 Banned=0 | Q&A pairs: 132 | 8.6min
+[11:27:06]   [FETCH] #1143 Ekantik Vartalaap & Darshan/ 03-01-2026/ Shri Hit
+[11:27:07]   [NO TRANSCRIPT] #1143 Ekantik Vartalaap & Darshan/ 03-01-2026/ Shri Hit
+[11:27:07]   Progress: 7/1166 | OK=2 NoSub=5 Banned=0 | Q&A pairs: 132 | 8.6min
+[11:27:07]   [FETCH] #1144 Ekantik Vartalaap & Darshan/ 04-01-2026/ Shri Hit
+[11:27:08]   [NO TRANSCRIPT] #1144 Ekantik Vartalaap & Darshan/ 04-01-2026/ Shri Hit
+[11:27:08]   Progress: 8/1166 | OK=2 NoSub=6 Banned=0 | Q&A pairs: 132 | 8.6min
+[11:27:11]   [FETCH] #1142 Ekantik Vartalaap & Darshan/ 02-01-2026/ Shri Hit
+[11:27:11]   [NO TRANSCRIPT] #1142 Ekantik Vartalaap & Darshan/ 02-01-2026/ Shri Hit
+[11:27:11]   Progress: 9/1166 | OK=2 NoSub=7 Banned=0 | Q&A pairs: 132 | 8.7min
+[11:27:13]   [FETCH] #1141 Ekantik Vartalaap & Darshan/ 01-01-2026/ Shri Hit
+[11:27:13]   [NO TRANSCRIPT] #1141 Ekantik Vartalaap & Darshan/ 01-01-2026/ Shri Hit
+[11:27:13]   Progress: 10/1166 | OK=2 NoSub=8 Banned=0 | Q&A pairs: 132 | 8.7min
+[11:27:14]   [FETCH] #1140 Ekantik Vartalaap & Darshan/ 31-12-2025/ Shri Hit
+[11:27:15]   [NO TRANSCRIPT] #1140 Ekantik Vartalaap & Darshan/ 31-12-2025/ Shri Hit
+[11:27:15]   Progress: 11/1166 | OK=2 NoSub=9 Banned=0 | Q&A pairs: 132 | 8.8min
+[11:27:16]   [FETCH] #1139 Ekantik Vartalaap & Darshan/ 30-12-2025/ Shri Hit
+[11:27:16]   [NO TRANSCRIPT] #1139 Ekantik Vartalaap & Darshan/ 30-12-2025/ Shri Hit
+[11:27:16]   Progress: 12/1166 | OK=2 NoSub=10 Banned=0 | Q&A pairs: 132 | 8.8min
+[11:27:18]   [FETCH] #1137 Ekantik Vartalaap & Darshan/ 28-12-2025/ Shri Hit
+[11:27:19]   [NO TRANSCRIPT] #1137 Ekantik Vartalaap & Darshan/ 28-12-2025/ Shri Hit
+[11:27:19]   Progress: 13/1166 | OK=2 NoSub=11 Banned=0 | Q&A pairs: 132 | 8.8min
+[11:27:19]   [FETCH] #1138 Ekantik Vartalaap & Darshan/ 29-12-2025/ Shri Hit
+[11:27:20]   [NO TRANSCRIPT] #1138 Ekantik Vartalaap & Darshan/ 29-12-2025/ Shri Hit
+[11:27:20]   Progress: 14/1166 | OK=2 NoSub=12 Banned=0 | Q&A pairs: 132 | 8.8min
+[11:27:22]   [FETCH] #1135 Ekantik Vartalaap & Darshan/ 26-12-2025/ Shri Hit
+[11:27:22]   [NO TRANSCRIPT] #1135 Ekantik Vartalaap & Darshan/ 26-12-2025/ Shri Hit
+[11:27:22]   Progress: 15/1166 | OK=2 NoSub=13 Banned=0 | Q&A pairs: 132 | 8.9min
+[11:27:23]   [FETCH] #1136 Ekantik Vartalaap & Darshan/ 27-12-2025/ Shri Hit
+[11:27:23]   [NO TRANSCRIPT] #1136 Ekantik Vartalaap & Darshan/ 27-12-2025/ Shri Hit
+[11:27:23]   Progress: 16/1166 | OK=2 NoSub=14 Banned=0 | Q&A pairs: 132 | 8.9min
+[11:27:28]   [FETCH] #1134 Ekantik Vartalaap & Darshan/ 25-12-2025/ Shri Hit
+[11:27:28]   [NO TRANSCRIPT] #1134 Ekantik Vartalaap & Darshan/ 25-12-2025/ Shri Hit
+[11:27:28]   Progress: 17/1166 | OK=2 NoSub=15 Banned=0 | Q&A pairs: 132 | 9.0min
+[11:27:28]   [FETCH] #1133 Ekantik Vartalaap & Darshan/ 24-12-2025/ Shri Hit
+[11:27:29]   [NO TRANSCRIPT] #1133 Ekantik Vartalaap & Darshan/ 24-12-2025/ Shri Hit
+[11:27:29]   Progress: 18/1166 | OK=2 NoSub=16 Banned=0 | Q&A pairs: 132 | 9.0min
+[11:27:32]   [FETCH] #1131 Ekantik Vartalaap & Darshan/ 22-12-2025/ Shri Hit
+[11:27:32]   [NO TRANSCRIPT] #1131 Ekantik Vartalaap & Darshan/ 22-12-2025/ Shri Hit
+[11:27:32]   Progress: 19/1166 | OK=2 NoSub=17 Banned=0 | Q&A pairs: 132 | 9.0min
+[11:27:33]   [FETCH] #1132 Ekantik Vartalaap & Darshan/ 23-12-2025/ Shri Hit
+[11:27:33]   [NO TRANSCRIPT] #1132 Ekantik Vartalaap & Darshan/ 23-12-2025/ Shri Hit
+[11:27:33]   Progress: 20/1166 | OK=2 NoSub=18 Banned=0 | Q&A pairs: 132 | 9.1min
+[11:27:38]   [FETCH] #1130 Ekantik Vartalaap & Darshan/ 21-12-2025/ Shri Hit
+[11:27:38]   [NO TRANSCRIPT] #1130 Ekantik Vartalaap & Darshan/ 21-12-2025/ Shri Hit
+[11:27:38]   Progress: 21/1166 | OK=2 NoSub=19 Banned=0 | Q&A pairs: 132 | 9.1min
+[11:27:38]   [FETCH] #1129 Ekantik Vartalaap & Darshan/ 20-12-2025/ Shri Hit
+[11:27:39]   [NO TRANSCRIPT] #1129 Ekantik Vartalaap & Darshan/ 20-12-2025/ Shri Hit
+[11:27:39]   Progress: 22/1166 | OK=2 NoSub=20 Banned=0 | Q&A pairs: 132 | 9.1min
+[11:27:41]   [FETCH] #1128 Ekantik Vartalaap & Darshan/ 19-12-2025/ Shri Hit
+[11:27:41]   [NO TRANSCRIPT] #1128 Ekantik Vartalaap & Darshan/ 19-12-2025/ Shri Hit
+[11:27:41]   Progress: 23/1166 | OK=2 NoSub=21 Banned=0 | Q&A pairs: 132 | 9.2min
+[11:27:44]   [FETCH] #1127 Ekantik Vartalaap & Darshan/ 18-12-2025/ Shri Hit
+[11:27:44]   [NO TRANSCRIPT] #1127 Ekantik Vartalaap & Darshan/ 18-12-2025/ Shri Hit
+[11:27:44]   Progress: 24/1166 | OK=2 NoSub=22 Banned=0 | Q&A pairs: 132 | 9.2min
+[11:27:44]   [FETCH] #1126 Ekantik Vartalaap & Darshan/ 17-12-2025/ Shri Hit
+[11:27:45]   [NO TRANSCRIPT] #1126 Ekantik Vartalaap & Darshan/ 17-12-2025/ Shri Hit
+[11:27:45]   Progress: 25/1166 | OK=2 NoSub=23 Banned=0 | Q&A pairs: 132 | 9.2min
+[11:27:49]   [FETCH] #1124 Ekantik Vartalaap & Darshan/ 15-12-2025/ Shri Hit
+[11:27:50]   [NO TRANSCRIPT] #1124 Ekantik Vartalaap & Darshan/ 15-12-2025/ Shri Hit
+[11:27:50]   Progress: 26/1166 | OK=2 NoSub=24 Banned=0 | Q&A pairs: 132 | 9.3min
+[11:27:50]   [FETCH] #1125 Ekantik Vartalaap & Darshan/ 16-12-2025/ Shri Hit
+[11:27:50]   [NO TRANSCRIPT] #1125 Ekantik Vartalaap & Darshan/ 16-12-2025/ Shri Hit
+[11:27:50]   Progress: 27/1166 | OK=2 NoSub=25 Banned=0 | Q&A pairs: 132 | 9.3min
+[11:27:54]   [FETCH] #1123 Ekantik Vartalaap & Darshan/ 14-12-2025/ Shri Hit
+[11:27:54]   [NO TRANSCRIPT] #1123 Ekantik Vartalaap & Darshan/ 14-12-2025/ Shri Hit
+[11:27:54]   Progress: 28/1166 | OK=2 NoSub=26 Banned=0 | Q&A pairs: 132 | 9.4min
+[11:27:55]   [FETCH] #1122 Ekantik Vartalaap & Darshan/ 13-12-2025/ Shri Hit
+[11:27:55]   [NO TRANSCRIPT] #1122 Ekantik Vartalaap & Darshan/ 13-12-2025/ Shri Hit
+[11:27:55]   Progress: 29/1166 | OK=2 NoSub=27 Banned=0 | Q&A pairs: 132 | 9.4min
+[11:27:59]   [FETCH] #1121 Ekantik Vartalaap & Darshan/ 12-12-2025/ Shri Hit
+[11:28:00]   [NO TRANSCRIPT] #1121 Ekantik Vartalaap & Darshan/ 12-12-2025/ Shri Hit
+[11:28:00]   Progress: 30/1166 | OK=2 NoSub=28 Banned=0 | Q&A pairs: 132 | 9.5min
+[11:28:01]   [FETCH] #1120 Ekantik Vartalaap & Darshan/ 11-12-2025/ Shri Hit
+[11:28:02]   [NO TRANSCRIPT] #1120 Ekantik Vartalaap & Darshan/ 11-12-2025/ Shri Hit
+[11:28:02]   Progress: 31/1166 | OK=2 NoSub=29 Banned=0 | Q&A pairs: 132 | 9.5min
+[11:28:03]   [FETCH] #1119 Ekantik Vartalaap & Darshan/ 10-12-2025/ Shri Hit
+[11:28:03]   [NO TRANSCRIPT] #1119 Ekantik Vartalaap & Darshan/ 10-12-2025/ Shri Hit
+[11:28:03]   Progress: 32/1166 | OK=2 NoSub=30 Banned=0 | Q&A pairs: 132 | 9.6min
+[11:28:07]   [FETCH] #1118 Ekantik Vartalaap & Darshan/ 09-12-2025/ Shri Hit
+[11:28:07]   [NO TRANSCRIPT] #1118 Ekantik Vartalaap & Darshan/ 09-12-2025/ Shri Hit
+[11:28:07]   Progress: 33/1166 | OK=2 NoSub=31 Banned=0 | Q&A pairs: 132 | 9.6min
+[11:28:08]   [FETCH] #1117 Ekantik Vartalaap & Darshan/ 08-12-2025/ Shri Hit
+[11:28:09]   [NO TRANSCRIPT] #1117 Ekantik Vartalaap & Darshan/ 08-12-2025/ Shri Hit
+[11:28:09]   Progress: 34/1166 | OK=2 NoSub=32 Banned=0 | Q&A pairs: 132 | 9.6min
+[11:28:10]   [FETCH] #1116 Ekantik Vartalaap & Darshan/ 07-12-2025/ Shri Hit
+[11:28:10]   [NO TRANSCRIPT] #1116 Ekantik Vartalaap & Darshan/ 07-12-2025/ Shri Hit
+[11:28:10]   Progress: 35/1166 | OK=2 NoSub=33 Banned=0 | Q&A pairs: 132 | 9.7min
+[11:28:11]   [FETCH] #1115 Ekantik Vartalaap & Darshan/ 06-12-2025/ Shri Hit
+[11:28:12]   [NO TRANSCRIPT] #1115 Ekantik Vartalaap & Darshan/ 06-12-2025/ Shri Hit
+[11:28:12]   Progress: 36/1166 | OK=2 NoSub=34 Banned=0 | Q&A pairs: 132 | 9.7min
+[11:28:14]   [FETCH] #1114 Ekantik Vartalaap & Darshan/ 05-12-2025/ Shri Hit
+[11:28:14]   [NO TRANSCRIPT] #1114 Ekantik Vartalaap & Darshan/ 05-12-2025/ Shri Hit
+[11:28:14]   Progress: 37/1166 | OK=2 NoSub=35 Banned=0 | Q&A pairs: 132 | 9.7min
+[11:28:14]   [FETCH] #1113 Ekantik Vartalaap & Darshan/ 04-12-2025/ Shri Hit
+[11:28:15]   [NO TRANSCRIPT] #1113 Ekantik Vartalaap & Darshan/ 04-12-2025/ Shri Hit
+[11:28:15]   Progress: 38/1166 | OK=2 NoSub=36 Banned=0 | Q&A pairs: 132 | 9.8min
+[11:28:18]   [FETCH] #1111 Ekantik Vartalaap & Darshan/ 02-12-2025/ Shri Hit
+[11:28:18]   [NO TRANSCRIPT] #1111 Ekantik Vartalaap & Darshan/ 02-12-2025/ Shri Hit
+[11:28:18]   Progress: 39/1166 | OK=2 NoSub=37 Banned=0 | Q&A pairs: 132 | 9.8min
+[11:28:19]   [FETCH] #1112 Ekantik Vartalaap & Darshan/ 03-12-2025/ Shri Hit
+[11:28:20]   [NO TRANSCRIPT] #1112 Ekantik Vartalaap & Darshan/ 03-12-2025/ Shri Hit
+[11:28:20]   Progress: 40/1166 | OK=2 NoSub=38 Banned=0 | Q&A pairs: 132 | 9.8min
+[11:28:22]   [FETCH] #1109 Ekantik Vartalaap & Darshan/ 30-11-2025/ Shri Hit
+[11:28:22]   [FETCH] #1110 Ekantik Vartalaap & Darshan/ 01-12-2025/ Shri Hit
+[11:28:23]   [NO TRANSCRIPT] #1109 Ekantik Vartalaap & Darshan/ 30-11-2025/ Shri Hit
+[11:28:23]   Progress: 41/1166 | OK=2 NoSub=39 Banned=0 | Q&A pairs: 132 | 9.9min
+[11:28:23]   [NO TRANSCRIPT] #1110 Ekantik Vartalaap & Darshan/ 01-12-2025/ Shri Hit
+[11:28:23]   Progress: 42/1166 | OK=2 NoSub=40 Banned=0 | Q&A pairs: 132 | 9.9min
+[11:28:26]   [FETCH] #1108 Ekantik Vartalaap & Darshan/ 29-11-2025/ Shri Hit
+[11:28:26]   [NO TRANSCRIPT] #1108 Ekantik Vartalaap & Darshan/ 29-11-2025/ Shri Hit
+[11:28:26]   Progress: 43/1166 | OK=2 NoSub=41 Banned=0 | Q&A pairs: 132 | 9.9min
+[11:28:26]   [FETCH] #1107 Ekantik Vartalaap & Darshan/ 28-11-2025/ Shri Hit
+[11:28:27]   [NO TRANSCRIPT] #1107 Ekantik Vartalaap & Darshan/ 28-11-2025/ Shri Hit
+[11:28:27]   Progress: 44/1166 | OK=2 NoSub=42 Banned=0 | Q&A pairs: 132 | 9.9min
+[11:28:30]   [FETCH] #1105 Ekantik Vartalaap & Darshan/ 26-11-2025/ Shri Hit
+[11:28:30]   [NO TRANSCRIPT] #1105 Ekantik Vartalaap & Darshan/ 26-11-2025/ Shri Hit
+[11:28:30]   Progress: 45/1166 | OK=2 NoSub=43 Banned=0 | Q&A pairs: 132 | 10.0min
+[11:28:31]   [FETCH] #1106 Ekantik Vartalaap & Darshan/ 27-11-2025/ Shri Hit
+[11:28:31]   [NO TRANSCRIPT] #1106 Ekantik Vartalaap & Darshan/ 27-11-2025/ Shri Hit
+[11:28:31]   Progress: 46/1166 | OK=2 NoSub=44 Banned=0 | Q&A pairs: 132 | 10.0min
+[11:28:34]   [FETCH] #1103 Ekantik Vartalaap & Darshan/ 24-11-2025/ Shri Hit
+[11:28:34]   [NO TRANSCRIPT] #1103 Ekantik Vartalaap & Darshan/ 24-11-2025/ Shri Hit
+[11:28:34]   Progress: 47/1166 | OK=2 NoSub=45 Banned=0 | Q&A pairs: 132 | 10.1min
+[11:28:36]   [FETCH] #1104 Ekantik Vartalaap & Darshan/ 25-11-2025/ Shri Hit
+[11:28:36]   [NO TRANSCRIPT] #1104 Ekantik Vartalaap & Darshan/ 25-11-2025/ Shri Hit
+[11:28:36]   Progress: 48/1166 | OK=2 NoSub=46 Banned=0 | Q&A pairs: 132 | 10.1min
+[11:28:38]   [FETCH] #1102 Ekantik Vartalaap & Darshan/ 23-11-2025/ Shri Hit
+[11:28:38]   [NO TRANSCRIPT] #1102 Ekantik Vartalaap & Darshan/ 23-11-2025/ Shri Hit
+[11:28:38]   Progress: 49/1166 | OK=2 NoSub=47 Banned=0 | Q&A pairs: 132 | 10.1min
+[11:28:40]   [FETCH] #1101 Ekantik Vartalaap & Darshan/ 22-11-2025/ Shri Hit
+[11:28:40]   [NO TRANSCRIPT] #1101 Ekantik Vartalaap & Darshan/ 22-11-2025/ Shri Hit
+[11:28:40]   Progress: 50/1166 | OK=2 NoSub=48 Banned=0 | Q&A pairs: 132 | 10.2min
+[11:28:43]   [FETCH] #1100 Ekantik Vartalaap & Darshan/ 21-11-2025/ Shri Hit
+[11:28:43]   [NO TRANSCRIPT] #1100 Ekantik Vartalaap & Darshan/ 21-11-2025/ Shri Hit
+[11:28:43]   Progress: 51/1166 | OK=2 NoSub=49 Banned=0 | Q&A pairs: 132 | 10.2min
+[11:28:45]   [FETCH] #1099 Ekantik Vartalaap & Darshan/ 20-11-2025/ Shri Hit
+[11:28:45]   [NO TRANSCRIPT] #1099 Ekantik Vartalaap & Darshan/ 20-11-2025/ Shri Hit
+[11:28:45]   Progress: 52/1166 | OK=2 NoSub=50 Banned=0 | Q&A pairs: 132 | 10.3min
+[11:28:49]   [FETCH] #1098 Ekantik Vartalaap & Darshan/ 19-11-2025/ Shri Hit
+[11:28:49]   [NO TRANSCRIPT] #1098 Ekantik Vartalaap & Darshan/ 19-11-2025/ Shri Hit
+[11:28:49]   Progress: 53/1166 | OK=2 NoSub=51 Banned=0 | Q&A pairs: 132 | 10.3min
+[11:28:51]   [FETCH] #1097 Ekantik Vartalaap & Darshan/ 18-11-2025/ Shri Hit
+[11:28:51]   [NO TRANSCRIPT] #1097 Ekantik Vartalaap & Darshan/ 18-11-2025/ Shri Hit
+[11:28:51]   Progress: 54/1166 | OK=2 NoSub=52 Banned=0 | Q&A pairs: 132 | 10.4min
+[11:28:52]   [FETCH] #1096 Ekantik Vartalaap & Darshan/ 17-11-2025/ Shri Hit
+[11:28:52]   [NO TRANSCRIPT] #1096 Ekantik Vartalaap & Darshan/ 17-11-2025/ Shri Hit
+[11:28:52]   Progress: 55/1166 | OK=2 NoSub=53 Banned=0 | Q&A pairs: 132 | 10.4min
+[11:28:56]   [FETCH] #1094 Ekantik Vartalaap & Darshan/ 15-11-2025/ Shri Hit
+[11:28:56]   [NO TRANSCRIPT] #1094 Ekantik Vartalaap & Darshan/ 15-11-2025/ Shri Hit
+[11:28:56]   Progress: 56/1166 | OK=2 NoSub=54 Banned=0 | Q&A pairs: 132 | 10.4min
+[11:28:57]   [FETCH] #1095 Ekantik Vartalaap & Darshan/ 16-11-2025/ Shri Hit
+[11:28:57]   [NO TRANSCRIPT] #1095 Ekantik Vartalaap & Darshan/ 16-11-2025/ Shri Hit
+[11:28:57]   Progress: 57/1166 | OK=2 NoSub=55 Banned=0 | Q&A pairs: 132 | 10.5min
+[11:29:01]   [FETCH] #1092 Ekantik Vartalaap & Darshan/ 13-11-2025/ Shri Hit
+[11:29:01]   [FETCH] #1093 Ekantik Vartalaap & Darshan/ 14-11-2025/ Shri Hit
+[11:29:02]   [NO TRANSCRIPT] #1092 Ekantik Vartalaap & Darshan/ 13-11-2025/ Shri Hit
+[11:29:02]   Progress: 58/1166 | OK=2 NoSub=56 Banned=0 | Q&A pairs: 132 | 10.5min
+[11:29:02]   [NO TRANSCRIPT] #1093 Ekantik Vartalaap & Darshan/ 14-11-2025/ Shri Hit
+[11:29:02]   Progress: 59/1166 | OK=2 NoSub=57 Banned=0 | Q&A pairs: 132 | 10.5min
+[11:29:05]   [FETCH] #1091 Ekantik Vartalaap & Darshan/ 12-11-2025/ Shri Hit
+[11:29:05]   [NO TRANSCRIPT] #1091 Ekantik Vartalaap & Darshan/ 12-11-2025/ Shri Hit
+[11:29:05]   Progress: 60/1166 | OK=2 NoSub=58 Banned=0 | Q&A pairs: 132 | 10.6min
+[11:29:06]   [FETCH] #1090 Ekantik Vartalaap & Darshan/ 11-11-2025/ Shri Hit
+[11:29:06]   [NO TRANSCRIPT] #1090 Ekantik Vartalaap & Darshan/ 11-11-2025/ Shri Hit
+[11:29:06]   Progress: 61/1166 | OK=2 NoSub=59 Banned=0 | Q&A pairs: 132 | 10.6min
+[11:29:08]   [FETCH] #1089 Ekantik Vartalaap & Darshan/ 10-11-2025/ Shri Hit
+[11:29:08]   [NO TRANSCRIPT] #1089 Ekantik Vartalaap & Darshan/ 10-11-2025/ Shri Hit
+[11:29:08]   Progress: 62/1166 | OK=2 NoSub=60 Banned=0 | Q&A pairs: 132 | 10.6min
+[11:29:09]   [FETCH] #1088 Ekantik Vartalaap & Darshan/ 09-11-2025/ Shri Hit
+[11:29:09]   [NO TRANSCRIPT] #1088 Ekantik Vartalaap & Darshan/ 09-11-2025/ Shri Hit
+[11:29:09]   Progress: 63/1166 | OK=2 NoSub=61 Banned=0 | Q&A pairs: 132 | 10.7min
+[11:29:11]   [FETCH] #1087 Ekantik Vartalaap & Darshan/ 08-11-2025/ Shri Hit
+[11:29:11]   [NO TRANSCRIPT] #1087 Ekantik Vartalaap & Darshan/ 08-11-2025/ Shri Hit
+[11:29:11]   Progress: 64/1166 | OK=2 NoSub=62 Banned=0 | Q&A pairs: 132 | 10.7min
+[11:29:14]   [FETCH] #1086 Ekantik Vartalaap & Darshan/ 07-11-2025/ Shri Hit
+[11:29:14]   [NO TRANSCRIPT] #1086 Ekantik Vartalaap & Darshan/ 07-11-2025/ Shri Hit
+[11:29:14]   Progress: 65/1166 | OK=2 NoSub=63 Banned=0 | Q&A pairs: 132 | 10.7min
+[11:29:17]   [FETCH] #1084 Ekantik Vartalaap & Darshan/ 05-11-2025/ Shri Hit
+[11:29:17]   [NO TRANSCRIPT] #1084 Ekantik Vartalaap & Darshan/ 05-11-2025/ Shri Hit
+[11:29:17]   Progress: 66/1166 | OK=2 NoSub=64 Banned=0 | Q&A pairs: 132 | 10.8min
+[11:29:17]   [FETCH] #1085 Ekantik Vartalaap & Darshan/ 06-11-2025/ Shri Hit
+[11:29:18]   [NO TRANSCRIPT] #1085 Ekantik Vartalaap & Darshan/ 06-11-2025/ Shri Hit
+[11:29:18]   Progress: 67/1166 | OK=2 NoSub=65 Banned=0 | Q&A pairs: 132 | 10.8min
+[11:29:21]   [FETCH] #1083 Ekantik Vartalaap & Darshan/ 04-11-2025/ Shri Hit
+[11:29:21]   [NO TRANSCRIPT] #1083 Ekantik Vartalaap & Darshan/ 04-11-2025/ Shri Hit
+[11:29:21]   Progress: 68/1166 | OK=2 NoSub=66 Banned=0 | Q&A pairs: 132 | 10.9min
+[11:29:22]   [FETCH] #1082 Ekantik Vartalaap & Darshan/ 03-11-2025/ Shri Hit
+[11:29:22]   [NO TRANSCRIPT] #1082 Ekantik Vartalaap & Darshan/ 03-11-2025/ Shri Hit
+[11:29:22]   Progress: 69/1166 | OK=2 NoSub=67 Banned=0 | Q&A pairs: 132 | 10.9min
+[11:29:25]   [FETCH] #1081 Ekantik Vartalaap & Darshan/ 02-11-2025/ Shri Hit
+[11:29:25]   [NO TRANSCRIPT] #1081 Ekantik Vartalaap & Darshan/ 02-11-2025/ Shri Hit
+[11:29:25]   Progress: 70/1166 | OK=2 NoSub=68 Banned=0 | Q&A pairs: 132 | 10.9min
+[11:29:27]   [FETCH] #1080 Ekantik Vartalaap & Darshan/ 01-11-2025/ Shri Hit
+[11:29:27]   [NO TRANSCRIPT] #1080 Ekantik Vartalaap & Darshan/ 01-11-2025/ Shri Hit
+[11:29:27]   Progress: 71/1166 | OK=2 NoSub=69 Banned=0 | Q&A pairs: 132 | 11.0min
+[11:29:30]   [FETCH] #1079 Ekantik Vartalaap & Darshan/ 31-10-2025/ Shri Hit
+[11:29:30]   [FETCH] #1078 Ekantik Vartalaap & Darshan/ 30-10-2025/ Shri Hit
+[11:29:30]   [NO TRANSCRIPT] #1079 Ekantik Vartalaap & Darshan/ 31-10-2025/ Shri Hit
+[11:29:30]   Progress: 72/1166 | OK=2 NoSub=70 Banned=0 | Q&A pairs: 132 | 11.0min
+[11:29:30]   [NO TRANSCRIPT] #1078 Ekantik Vartalaap & Darshan/ 30-10-2025/ Shri Hit
+[11:29:30]   Progress: 73/1166 | OK=2 NoSub=71 Banned=0 | Q&A pairs: 132 | 11.0min
+[11:29:34]   [FETCH] #1076 Ekantik Vartalaap & Darshan/ 28-10-2025/ Shri Hit
+[11:29:34]   [NO TRANSCRIPT] #1076 Ekantik Vartalaap & Darshan/ 28-10-2025/ Shri Hit
+[11:29:34]   Progress: 74/1166 | OK=2 NoSub=72 Banned=0 | Q&A pairs: 132 | 11.1min
+[11:29:35]   [FETCH] #1077 Ekantik Vartalaap & Darshan/ 29-10-2025/ Shri Hit
+[11:29:35]   [NO TRANSCRIPT] #1077 Ekantik Vartalaap & Darshan/ 29-10-2025/ Shri Hit
+[11:29:35]   Progress: 75/1166 | OK=2 NoSub=73 Banned=0 | Q&A pairs: 132 | 11.1min
+[11:29:38]   [FETCH] #1074 Ekantik Vartalaap & Darshan/ 26-10-2025/ Shri Hit
+[11:29:39]   [NO TRANSCRIPT] #1074 Ekantik Vartalaap & Darshan/ 26-10-2025/ Shri Hit
+[11:29:39]   Progress: 76/1166 | OK=2 NoSub=74 Banned=0 | Q&A pairs: 132 | 11.1min
+[11:29:40]   [FETCH] #1075 Ekantik Vartalaap & Darshan/ 27-10-2025/ Shri Hit
+[11:29:40]   [NO TRANSCRIPT] #1075 Ekantik Vartalaap & Darshan/ 27-10-2025/ Shri Hit
+[11:29:40]   Progress: 77/1166 | OK=2 NoSub=75 Banned=0 | Q&A pairs: 132 | 11.2min
+[11:29:42]   [FETCH] #1073 Ekantik Vartalaap & Darshan/ 25-10-2025/ Shri Hit
+[11:29:43]   [NO TRANSCRIPT] #1073 Ekantik Vartalaap & Darshan/ 25-10-2025/ Shri Hit
+[11:29:43]   Progress: 78/1166 | OK=2 NoSub=76 Banned=0 | Q&A pairs: 132 | 11.2min
+[11:29:43]   [FETCH] #1072 Ekantik Vartalaap & Darshan/ 24-10-2025/ Shri Hit
+[11:29:43]   [NO TRANSCRIPT] #1072 Ekantik Vartalaap & Darshan/ 24-10-2025/ Shri Hit
+[11:29:43]   Progress: 79/1166 | OK=2 NoSub=77 Banned=0 | Q&A pairs: 132 | 11.2min
+[11:29:46]   [FETCH] #1070 Ekantik Vartalaap & Darshan/ 22-10-2025/ Shri Hit
+[11:29:46]   [NO TRANSCRIPT] #1070 Ekantik Vartalaap & Darshan/ 22-10-2025/ Shri Hit
+[11:29:46]   Progress: 80/1166 | OK=2 NoSub=78 Banned=0 | Q&A pairs: 132 | 11.3min
+[11:29:48]   [FETCH] #1071 Ekantik Vartalaap & Darshan/ 23-10-2025/ Shri Hit
+[11:29:48]   [NO TRANSCRIPT] #1071 Ekantik Vartalaap & Darshan/ 23-10-2025/ Shri Hit
+[11:29:48]   Progress: 81/1166 | OK=2 NoSub=79 Banned=0 | Q&A pairs: 132 | 11.3min
+[11:29:51]   [FETCH] #1068 Ekantik Vartalaap & Darshan/ 20-10-2025/ Shri Hit
+[11:29:52]   [NO TRANSCRIPT] #1068 Ekantik Vartalaap & Darshan/ 20-10-2025/ Shri Hit
+[11:29:52]   Progress: 82/1166 | OK=2 NoSub=80 Banned=0 | Q&A pairs: 132 | 11.4min
+[11:29:52]   [FETCH] #1069 Ekantik Vartalaap & Darshan/ 21-10-2025/ Shri Hit
+[11:29:52]   [NO TRANSCRIPT] #1069 Ekantik Vartalaap & Darshan/ 21-10-2025/ Shri Hit
+[11:29:52]   Progress: 83/1166 | OK=2 NoSub=81 Banned=0 | Q&A pairs: 132 | 11.4min
+[11:29:55]   [FETCH] #1066 Ekantik Vartalaap & Darshan/ 18-10-2025/ Shri Hit
+[11:29:55]   [NO TRANSCRIPT] #1066 Ekantik Vartalaap & Darshan/ 18-10-2025/ Shri Hit
+[11:29:55]   Progress: 84/1166 | OK=2 NoSub=82 Banned=0 | Q&A pairs: 132 | 11.4min
+[11:29:57]   [FETCH] #1067 Ekantik Vartalaap & Darshan/ 19-10-2025/ Shri Hit
+[11:29:58]   [NO TRANSCRIPT] #1067 Ekantik Vartalaap & Darshan/ 19-10-2025/ Shri Hit
+[11:29:58]   Progress: 85/1166 | OK=2 NoSub=83 Banned=0 | Q&A pairs: 132 | 11.5min
+[11:29:58]   [FETCH] #1065 Ekantik Vartalaap & Darshan/ 17-10-2025/ Shri Hit
+[11:29:59]   [NO TRANSCRIPT] #1065 Ekantik Vartalaap & Darshan/ 17-10-2025/ Shri Hit
+[11:29:59]   Progress: 86/1166 | OK=2 NoSub=84 Banned=0 | Q&A pairs: 132 | 11.5min
+[11:30:01]   [FETCH] #1064 Ekantik Vartalaap & Darshan/ 16-10-2025/ Shri Hit
+[11:30:02]   [NO TRANSCRIPT] #1064 Ekantik Vartalaap & Darshan/ 16-10-2025/ Shri Hit
+[11:30:02]   Progress: 87/1166 | OK=2 NoSub=85 Banned=0 | Q&A pairs: 132 | 11.5min
+[11:30:04]   [FETCH] #1063 Ekantik Vartalaap & Darshan/ 15-10-2025/ Shri Hit
+[11:30:05]   [NO TRANSCRIPT] #1063 Ekantik Vartalaap & Darshan/ 15-10-2025/ Shri Hit
+[11:30:05]   Progress: 88/1166 | OK=2 NoSub=86 Banned=0 | Q&A pairs: 132 | 11.6min
+[11:30:06]   [FETCH] #1062 Ekantik Vartalaap & Darshan/ 14-10-2025/ Shri Hit
+[11:30:06]   [NO TRANSCRIPT] #1062 Ekantik Vartalaap & Darshan/ 14-10-2025/ Shri Hit
+[11:30:06]   Progress: 89/1166 | OK=2 NoSub=87 Banned=0 | Q&A pairs: 132 | 11.6min
+[11:30:09]   [FETCH] #1061 Ekantik Vartalaap & Darshan/ 13-10-2025/ Shri Hit
+[11:30:10]   [NO TRANSCRIPT] #1061 Ekantik Vartalaap & Darshan/ 13-10-2025/ Shri Hit
+[11:30:10]   Progress: 90/1166 | OK=2 NoSub=88 Banned=0 | Q&A pairs: 132 | 11.7min
+[11:30:10]   [FETCH] #1060 Ekantik Vartalaap & Darshan/ 12-10-2025/ Shri Hit
+[11:30:11]   [NO TRANSCRIPT] #1060 Ekantik Vartalaap & Darshan/ 12-10-2025/ Shri Hit
+[11:30:11]   Progress: 91/1166 | OK=2 NoSub=89 Banned=0 | Q&A pairs: 132 | 11.7min
+[11:30:14]   [FETCH] #1059 Ekantik Vartalaap & Darshan/ 11-10-2025/ Shri Hit
+[11:30:14]   [NO TRANSCRIPT] #1059 Ekantik Vartalaap & Darshan/ 11-10-2025/ Shri Hit
+[11:30:14]   Progress: 92/1166 | OK=2 NoSub=90 Banned=0 | Q&A pairs: 132 | 11.7min
+[11:30:17]   [FETCH] #1058 Ekantik Vartalaap & Darshan/ 10-10-2025/ Shri Hit
+[11:30:17]   [NO TRANSCRIPT] #1058 Ekantik Vartalaap & Darshan/ 10-10-2025/ Shri Hit
+[11:30:17]   Progress: 93/1166 | OK=2 NoSub=91 Banned=0 | Q&A pairs: 132 | 11.8min
+[11:30:18]   [FETCH] #1057 Ekantik Vartalaap & Darshan/ 09-10-2025/ Shri Hit
+[11:30:18]   [NO TRANSCRIPT] #1057 Ekantik Vartalaap & Darshan/ 09-10-2025/ Shri Hit
+[11:30:18]   Progress: 94/1166 | OK=2 NoSub=92 Banned=0 | Q&A pairs: 132 | 11.8min
+[11:30:21]   [FETCH] #1055 Ekantik Vartalaap & Darshan/ 07-10-2025/ Shri Hit
+[11:30:22]   [NO TRANSCRIPT] #1055 Ekantik Vartalaap & Darshan/ 07-10-2025/ Shri Hit
+[11:30:22]   Progress: 95/1166 | OK=2 NoSub=93 Banned=0 | Q&A pairs: 132 | 11.9min
+[11:30:22]   [FETCH] #1056 Ekantik Vartalaap & Darshan/ 08-10-2025/ Shri Hit
+[11:30:23]   [NO TRANSCRIPT] #1056 Ekantik Vartalaap & Darshan/ 08-10-2025/ Shri Hit
+[11:30:23]   Progress: 96/1166 | OK=2 NoSub=94 Banned=0 | Q&A pairs: 132 | 11.9min
+[11:30:25]   [FETCH] #1054 Ekantik Vartalaap & Darshan/ 06-10-2025/ Shri Hit
+[11:30:26]   [NO TRANSCRIPT] #1054 Ekantik Vartalaap & Darshan/ 06-10-2025/ Shri Hit
+[11:30:26]   Progress: 97/1166 | OK=2 NoSub=95 Banned=0 | Q&A pairs: 132 | 11.9min
+[11:30:28]   [FETCH] #1053 Ekantik Vartalaap & Darshan/ 05-10-2025/ Shri Hit
+[11:30:28]   [NO TRANSCRIPT] #1053 Ekantik Vartalaap & Darshan/ 05-10-2025/ Shri Hit
+[11:30:28]   Progress: 98/1166 | OK=2 NoSub=96 Banned=0 | Q&A pairs: 132 | 12.0min
+[11:30:29]   [FETCH] #1052 Ekantik Vartalaap & Darshan/ 04-10-2025/ Shri Hit
+[11:30:29]   [NO TRANSCRIPT] #1052 Ekantik Vartalaap & Darshan/ 04-10-2025/ Shri Hit
+[11:30:29]   Progress: 99/1166 | OK=2 NoSub=97 Banned=0 | Q&A pairs: 132 | 12.0min
+[11:30:32]   [FETCH] #1051 Ekantik Vartalaap & Darshan/ 03-10-2025/ Shri Hit
+[11:30:32]   [NO TRANSCRIPT] #1051 Ekantik Vartalaap & Darshan/ 03-10-2025/ Shri Hit
+[11:30:32]   Progress: 100/1166 | OK=2 NoSub=98 Banned=0 | Q&A pairs: 132 | 12.0min
+[11:30:35]   [FETCH] #1050 Ekantik Vartalaap & Darshan/ 02-10-2025/ Shri Hit
+[11:30:35]   [NO TRANSCRIPT] #1050 Ekantik Vartalaap & Darshan/ 02-10-2025/ Shri Hit
+[11:30:35]   Progress: 101/1166 | OK=2 NoSub=99 Banned=0 | Q&A pairs: 132 | 12.1min
+[11:30:36]   [FETCH] #1049 Ekantik Vartalaap & Darshan/ 01-10-2025/ Shri Hit
+[11:30:37]   [NO TRANSCRIPT] #1049 Ekantik Vartalaap & Darshan/ 01-10-2025/ Shri Hit
+[11:30:37]   Progress: 102/1166 | OK=2 NoSub=100 Banned=0 | Q&A pairs: 132 | 12.1min
+[11:30:40]   [FETCH] #1048 Ekantik Vartalaap & Darshan/ 30-09-2025/ Shri Hit
+[11:30:40]   [NO TRANSCRIPT] #1048 Ekantik Vartalaap & Darshan/ 30-09-2025/ Shri Hit
+[11:30:40]   Progress: 103/1166 | OK=2 NoSub=101 Banned=0 | Q&A pairs: 132 | 12.2min
+[11:30:42]   [FETCH] #1047 Ekantik Vartalaap & Darshan/ 29-09-2025/ Shri Hit
+[11:30:42]   [NO TRANSCRIPT] #1047 Ekantik Vartalaap & Darshan/ 29-09-2025/ Shri Hit
+[11:30:42]   Progress: 104/1166 | OK=2 NoSub=102 Banned=0 | Q&A pairs: 132 | 12.2min
+[11:30:46]   [FETCH] #1046 Ekantik Vartalaap & Darshan/ 28-09-2025/ Shri Hit
+[11:30:46]   [NO TRANSCRIPT] #1046 Ekantik Vartalaap & Darshan/ 28-09-2025/ Shri Hit
+[11:30:46]   Progress: 105/1166 | OK=2 NoSub=103 Banned=0 | Q&A pairs: 132 | 12.3min
+[11:30:47]   [FETCH] #1045 Ekantik Vartalaap & Darshan/ 27-09-2025/ Shri Hit
+[11:30:47]   [NO TRANSCRIPT] #1045 Ekantik Vartalaap & Darshan/ 27-09-2025/ Shri Hit
+[11:30:47]   Progress: 106/1166 | OK=2 NoSub=104 Banned=0 | Q&A pairs: 132 | 12.3min
+[11:30:50]   [FETCH] #1044 Ekantik Vartalaap & Darshan/ 26-09-2025/ Shri Hit
+[11:30:50]   [FETCH] #1043 Ekantik Vartalaap & Darshan/ 25-09-2025/ Shri Hit
+[11:30:51]   [NO TRANSCRIPT] #1044 Ekantik Vartalaap & Darshan/ 26-09-2025/ Shri Hit
+[11:30:51]   Progress: 107/1166 | OK=2 NoSub=105 Banned=0 | Q&A pairs: 132 | 12.3min
+[11:30:51]   [NO TRANSCRIPT] #1043 Ekantik Vartalaap & Darshan/ 25-09-2025/ Shri Hit
+[11:30:51]   Progress: 108/1166 | OK=2 NoSub=106 Banned=0 | Q&A pairs: 132 | 12.3min
+[11:30:53]   [FETCH] #1042 Ekantik Vartalaap & Darshan/ 24-09-2025/ Shri Hit
+[11:30:53]   [NO TRANSCRIPT] #1042 Ekantik Vartalaap & Darshan/ 24-09-2025/ Shri Hit
+[11:30:53]   Progress: 109/1166 | OK=2 NoSub=107 Banned=0 | Q&A pairs: 132 | 12.4min
+[11:30:56]   [FETCH] #1041 Ekantik Vartalaap & Darshan/ 23-09-2025/ Shri Hit
+[11:30:56]   [NO TRANSCRIPT] #1041 Ekantik Vartalaap & Darshan/ 23-09-2025/ Shri Hit
+[11:30:56]   Progress: 110/1166 | OK=2 NoSub=108 Banned=0 | Q&A pairs: 132 | 12.4min
+[11:30:59]   [FETCH] #1040 Ekantik Vartalaap & Darshan/ 22-09-2025/ Shri Hit
+[11:30:59]   [FETCH] #1039 Ekantik Vartalaap & Darshan/ 21-09-2025/ Shri Hit
+[11:30:59]   [NO TRANSCRIPT] #1040 Ekantik Vartalaap & Darshan/ 22-09-2025/ Shri Hit
+[11:30:59]   Progress: 111/1166 | OK=2 NoSub=109 Banned=0 | Q&A pairs: 132 | 12.5min
+[11:30:59]   [NO TRANSCRIPT] #1039 Ekantik Vartalaap & Darshan/ 21-09-2025/ Shri Hit
+[11:30:59]   Progress: 112/1166 | OK=2 NoSub=110 Banned=0 | Q&A pairs: 132 | 12.5min
+[11:31:05]   [FETCH] #1037 Ekantik Vartalaap & Darshan/ 19-09-2025/ Shri Hit
+[11:31:05]   [FETCH] #1038 Ekantik Vartalaap & Darshan/ 20-09-2025/ Shri Hit
+[11:31:05]   [NO TRANSCRIPT] #1037 Ekantik Vartalaap & Darshan/ 19-09-2025/ Shri Hit
+[11:31:05]   Progress: 113/1166 | OK=2 NoSub=111 Banned=0 | Q&A pairs: 132 | 12.6min
+[11:31:06]   [NO TRANSCRIPT] #1038 Ekantik Vartalaap & Darshan/ 20-09-2025/ Shri Hit
+[11:31:06]   Progress: 114/1166 | OK=2 NoSub=112 Banned=0 | Q&A pairs: 132 | 12.6min
+[11:31:11]   [FETCH] #1036 Ekantik Vartalaap & Darshan/ 18-09-2025/ Shri Hit
+[11:31:11]   [FETCH] #1035 Ekantik Vartalaap & Darshan/ 17-09-2025/ Shri Hit
+[11:31:11]   [NO TRANSCRIPT] #1036 Ekantik Vartalaap & Darshan/ 18-09-2025/ Shri Hit
+[11:31:11]   Progress: 115/1166 | OK=2 NoSub=113 Banned=0 | Q&A pairs: 132 | 12.7min
+[11:31:11]   [NO TRANSCRIPT] #1035 Ekantik Vartalaap & Darshan/ 17-09-2025/ Shri Hit
+[11:31:11]   Progress: 116/1166 | OK=2 NoSub=114 Banned=0 | Q&A pairs: 132 | 12.7min
+[11:31:15]   [FETCH] #1034 Ekantik Vartalaap & Darshan/ 16-09-2025/ Shri Hit
+[11:31:16]   [NO TRANSCRIPT] #1034 Ekantik Vartalaap & Darshan/ 16-09-2025/ Shri Hit
+[11:31:16]   Progress: 117/1166 | OK=2 NoSub=115 Banned=0 | Q&A pairs: 132 | 12.8min
+[11:31:16]   [FETCH] #1033 Ekantik Vartalaap & Darshan/ 15-09-2025/ Shri Hit
+[11:31:17]   [NO TRANSCRIPT] #1033 Ekantik Vartalaap & Darshan/ 15-09-2025/ Shri Hit
+[11:31:17]   Progress: 118/1166 | OK=2 NoSub=116 Banned=0 | Q&A pairs: 132 | 12.8min
+[11:31:19]   [FETCH] #1032 Ekantik Vartalaap & Darshan/ 14-09-2025/ Shri Hit
+[11:31:20]   [NO TRANSCRIPT] #1032 Ekantik Vartalaap & Darshan/ 14-09-2025/ Shri Hit
+[11:31:20]   Progress: 119/1166 | OK=2 NoSub=117 Banned=0 | Q&A pairs: 132 | 12.8min
+[11:31:22]   [FETCH] #1031 Ekantik Vartalaap & Darshan/ 13-09-2025/ Shri Hit
+[11:31:23]   [NO TRANSCRIPT] #1031 Ekantik Vartalaap & Darshan/ 13-09-2025/ Shri Hit
+[11:31:23]   Progress: 120/1166 | OK=2 NoSub=118 Banned=0 | Q&A pairs: 132 | 12.9min
+[11:31:24]   [FETCH] #1030 Ekantik Vartalaap & Darshan/ 12-09-2025/ Shri Hit
+[11:31:25]   [NO TRANSCRIPT] #1030 Ekantik Vartalaap & Darshan/ 12-09-2025/ Shri Hit
+[11:31:25]   Progress: 121/1166 | OK=2 NoSub=119 Banned=0 | Q&A pairs: 132 | 12.9min
+[11:31:28]   [FETCH] #1029 Ekantik Vartalaap & Darshan/ 11-09-2025/ Shri Hit
+[11:31:29]   [NO TRANSCRIPT] #1029 Ekantik Vartalaap & Darshan/ 11-09-2025/ Shri Hit
+[11:31:29]   Progress: 122/1166 | OK=2 NoSub=120 Banned=0 | Q&A pairs: 132 | 13.0min
+[11:31:30]   [FETCH] #1028 Ekantik Vartalaap & Darshan/ 10-09-2025/ Shri Hit
+[11:31:31]   [NO TRANSCRIPT] #1028 Ekantik Vartalaap & Darshan/ 10-09-2025/ Shri Hit
+[11:31:31]   Progress: 123/1166 | OK=2 NoSub=121 Banned=0 | Q&A pairs: 132 | 13.0min
+[11:31:32]   [FETCH] #1027 Ekantik Vartalaap & Darshan/ 09-09-2025/ Shri Hit
+[11:31:33]   [NO TRANSCRIPT] #1027 Ekantik Vartalaap & Darshan/ 09-09-2025/ Shri Hit
+[11:31:33]   Progress: 124/1166 | OK=2 NoSub=122 Banned=0 | Q&A pairs: 132 | 13.1min
+[11:31:33]   [FETCH] #1026 Ekantik Vartalaap & Darshan/ 08-09-2025/ Shri Hit
+[11:31:34]   [NO TRANSCRIPT] #1026 Ekantik Vartalaap & Darshan/ 08-09-2025/ Shri Hit
+[11:31:34]   Progress: 125/1166 | OK=2 NoSub=123 Banned=0 | Q&A pairs: 132 | 13.1min
+[11:31:37]   [FETCH] #1024 Ekantik Vartalaap & Darshan/ 06-09-2025/ Shri Hit
+[11:31:38]   [FETCH] #1025 Ekantik Vartalaap & Darshan/ 07-09-2025/ Shri Hit
+[11:31:38]   [NO TRANSCRIPT] #1024 Ekantik Vartalaap & Darshan/ 06-09-2025/ Shri Hit
+[11:31:38]   Progress: 126/1166 | OK=2 NoSub=124 Banned=0 | Q&A pairs: 132 | 13.1min
+[11:31:38]   [NO TRANSCRIPT] #1025 Ekantik Vartalaap & Darshan/ 07-09-2025/ Shri Hit
+[11:31:38]   Progress: 127/1166 | OK=2 NoSub=125 Banned=0 | Q&A pairs: 132 | 13.1min
+[11:31:41]   [FETCH] #1023 Ekantik Vartalaap & Darshan/ 05-09-2025/ Shri Hit
+[11:31:41]   [NO TRANSCRIPT] #1023 Ekantik Vartalaap & Darshan/ 05-09-2025/ Shri Hit
+[11:31:41]   Progress: 128/1166 | OK=2 NoSub=126 Banned=0 | Q&A pairs: 132 | 13.2min
+[11:31:44]   [FETCH] #1021 Ekantik Vartalaap & Darshan/ 03-09-2025/ Shri Hit
+[11:31:44]   [NO TRANSCRIPT] #1021 Ekantik Vartalaap & Darshan/ 03-09-2025/ Shri Hit
+[11:31:44]   Progress: 129/1166 | OK=2 NoSub=127 Banned=0 | Q&A pairs: 132 | 13.2min
+[11:31:44]   [FETCH] #1022 Ekantik Vartalaap & Darshan/ 04-09-2025/ Shri Hit
+[11:31:45]   [NO TRANSCRIPT] #1022 Ekantik Vartalaap & Darshan/ 04-09-2025/ Shri Hit
+[11:31:45]   Progress: 130/1166 | OK=2 NoSub=128 Banned=0 | Q&A pairs: 132 | 13.2min
+[11:31:47]   [FETCH] #1020 Ekantik Vartalaap & Darshan/ 02-09-2025/ Shri Hit
+[11:31:47]   [NO TRANSCRIPT] #1020 Ekantik Vartalaap & Darshan/ 02-09-2025/ Shri Hit
+[11:31:47]   Progress: 131/1166 | OK=2 NoSub=129 Banned=0 | Q&A pairs: 132 | 13.3min
+[11:31:48]   [FETCH] #1019 Ekantik Vartalaap & Darshan/ 01-09-2025/ Shri Hit
+[11:31:49]   [NO TRANSCRIPT] #1019 Ekantik Vartalaap & Darshan/ 01-09-2025/ Shri Hit
+[11:31:49]   Progress: 132/1166 | OK=2 NoSub=130 Banned=0 | Q&A pairs: 132 | 13.3min
+[11:31:50]   [FETCH] #1018 Ekantik Vartalaap & Darshan/ 31-08-2025/ Shri Hit
+[11:31:51]   [NO TRANSCRIPT] #1018 Ekantik Vartalaap & Darshan/ 31-08-2025/ Shri Hit
+[11:31:51]   Progress: 133/1166 | OK=2 NoSub=131 Banned=0 | Q&A pairs: 132 | 13.3min
+[11:31:51]   [FETCH] #1017 Ekantik Vartalaap & Darshan/ 30-08-2025/ Shri Hit
+[11:31:52]   [NO TRANSCRIPT] #1017 Ekantik Vartalaap & Darshan/ 30-08-2025/ Shri Hit
+[11:31:52]   Progress: 134/1166 | OK=2 NoSub=132 Banned=0 | Q&A pairs: 132 | 13.4min
+[11:31:54]   [FETCH] #1016 Ekantik Vartalaap & Darshan/ 29-08-2025/ Shri Hit
+[11:31:54]   [FETCH] #1015 Ekantik Vartalaap & Darshan/ 28-08-2025/ Shri Hit
+[11:31:55]   [NO TRANSCRIPT] #1016 Ekantik Vartalaap & Darshan/ 29-08-2025/ Shri Hit
+[11:31:55]   Progress: 135/1166 | OK=2 NoSub=133 Banned=0 | Q&A pairs: 132 | 13.4min
+[11:31:55]   [NO TRANSCRIPT] #1015 Ekantik Vartalaap & Darshan/ 28-08-2025/ Shri Hit
+[11:31:55]   Progress: 136/1166 | OK=2 NoSub=134 Banned=0 | Q&A pairs: 132 | 13.4min
+[11:31:58]   [FETCH] #1014 Ekantik Vartalaap & Darshan/ 27-08-2025/ Shri Hit
+[11:31:59]   [NO TRANSCRIPT] #1014 Ekantik Vartalaap & Darshan/ 27-08-2025/ Shri Hit
+[11:31:59]   Progress: 137/1166 | OK=2 NoSub=135 Banned=0 | Q&A pairs: 132 | 13.5min
+[11:32:00]   [FETCH] #1013 Ekantik Vartalaap & Darshan/ 26-08-2025/ Shri Hit
+[11:32:00]   [NO TRANSCRIPT] #1013 Ekantik Vartalaap & Darshan/ 26-08-2025/ Shri Hit
+[11:32:00]   Progress: 138/1166 | OK=2 NoSub=136 Banned=0 | Q&A pairs: 132 | 13.5min
+[11:32:01]   [FETCH] #1012 Ekantik Vartalaap & Darshan/ 25-08-2025/ Shri Hit
+[11:32:02]   [NO TRANSCRIPT] #1012 Ekantik Vartalaap & Darshan/ 25-08-2025/ Shri Hit
+[11:32:02]   Progress: 139/1166 | OK=2 NoSub=137 Banned=0 | Q&A pairs: 132 | 13.5min
+[11:32:04]   [FETCH] #1011 Ekantik Vartalaap & Darshan/ 24-08-2025/ Shri Hit
+[11:32:04]   [FETCH] #1010 Ekantik Vartalaap & Darshan/ 23-08-2025/ Shri Hit
+[11:32:04]   [NO TRANSCRIPT] #1011 Ekantik Vartalaap & Darshan/ 24-08-2025/ Shri Hit
+[11:32:04]   Progress: 140/1166 | OK=2 NoSub=138 Banned=0 | Q&A pairs: 132 | 13.6min
+[11:32:05]   [NO TRANSCRIPT] #1010 Ekantik Vartalaap & Darshan/ 23-08-2025/ Shri Hit
+[11:32:05]   Progress: 141/1166 | OK=2 NoSub=139 Banned=0 | Q&A pairs: 132 | 13.6min
+[11:32:06]   [FETCH] #1009 Ekantik Vartalaap & Darshan/ 22-08-2025/ Shri Hit
+[11:32:07]   [NO TRANSCRIPT] #1009 Ekantik Vartalaap & Darshan/ 22-08-2025/ Shri Hit
+[11:32:07]   Progress: 142/1166 | OK=2 NoSub=140 Banned=0 | Q&A pairs: 132 | 13.6min
+[11:32:11]   [FETCH] #1008 Ekantik Vartalaap & Darshan/ 21-08-2025/ Shri Hit
+[11:32:11]   [NO TRANSCRIPT] #1008 Ekantik Vartalaap & Darshan/ 21-08-2025/ Shri Hit
+[11:32:11]   Progress: 143/1166 | OK=2 NoSub=141 Banned=0 | Q&A pairs: 132 | 13.7min
+[11:32:13]   [FETCH] #1007 Ekantik Vartalaap & Darshan/ 20-08-2025/ Shri Hit
+[11:32:13]   [NO TRANSCRIPT] #1007 Ekantik Vartalaap & Darshan/ 20-08-2025/ Shri Hit
+[11:32:13]   Progress: 144/1166 | OK=2 NoSub=142 Banned=0 | Q&A pairs: 132 | 13.7min
+[11:32:15]   [FETCH] #1005 Ekantik Vartalaap & Darshan/ 18-08-2025/ Shri Hit
+[11:32:15]   [FETCH] #1006 Ekantik Vartalaap & Darshan/ 19-08-2025/ Shri Hit
+[11:32:16]   [NO TRANSCRIPT] #1005 Ekantik Vartalaap & Darshan/ 18-08-2025/ Shri Hit
+[11:32:16]   Progress: 145/1166 | OK=2 NoSub=143 Banned=0 | Q&A pairs: 132 | 13.8min
+[11:32:16]   [NO TRANSCRIPT] #1006 Ekantik Vartalaap & Darshan/ 19-08-2025/ Shri Hit
+[11:32:16]   Progress: 146/1166 | OK=2 NoSub=144 Banned=0 | Q&A pairs: 132 | 13.8min
+[11:32:19]   [FETCH] #1003 Ekantik Vartalaap & Darshan/ 16-08-2025/ Shri Hit
+[11:32:19]   [NO TRANSCRIPT] #1003 Ekantik Vartalaap & Darshan/ 16-08-2025/ Shri Hit
+[11:32:19]   Progress: 147/1166 | OK=2 NoSub=145 Banned=0 | Q&A pairs: 132 | 13.8min
+[11:32:21]   [FETCH] #1004 Ekantik Vartalaap & Darshan/ 17-08-2025/ Shri Hit
+[11:32:22]   [NO TRANSCRIPT] #1004 Ekantik Vartalaap & Darshan/ 17-08-2025/ Shri Hit
+[11:32:22]   Progress: 148/1166 | OK=2 NoSub=146 Banned=0 | Q&A pairs: 132 | 13.9min
+[11:32:23]   [FETCH] #1002 Ekantik Vartalaap & Darshan/ 15-08-2025/ Shri Hit
+[11:32:24]   [NO TRANSCRIPT] #1002 Ekantik Vartalaap & Darshan/ 15-08-2025/ Shri Hit
+[11:32:24]   Progress: 149/1166 | OK=2 NoSub=147 Banned=0 | Q&A pairs: 132 | 13.9min
+[11:32:24]   [FETCH] #1001 Ekantik Vartalaap & Darshan/ 14-08-2025/ Shri Hit
+[11:32:24]   [NO TRANSCRIPT] #1001 Ekantik Vartalaap & Darshan/ 14-08-2025/ Shri Hit
+[11:32:24]   Progress: 150/1166 | OK=2 NoSub=148 Banned=0 | Q&A pairs: 132 | 13.9min
+[11:32:28]   [FETCH] #1000 Ekantik Vartalaap & Darshan/ 13-08-2025/ Shri Hit
+[11:32:29]   [NO TRANSCRIPT] #1000 Ekantik Vartalaap & Darshan/ 13-08-2025/ Shri Hit
+[11:32:29]   Progress: 151/1166 | OK=2 NoSub=149 Banned=0 | Q&A pairs: 132 | 14.0min
+[11:32:29]   [FETCH] #998 Ekantik Vartalaap & Darshan/ 11-08-2025/ Shri Hit 
+[11:32:29]   [NO TRANSCRIPT] #998 Ekantik Vartalaap & Darshan/ 11-08-2025/ Shri Hit 
+[11:32:29]   Progress: 152/1166 | OK=2 NoSub=150 Banned=0 | Q&A pairs: 132 | 14.0min
+[11:32:32]   [FETCH] #996 Ekantik Vartalaap & Darshan/ 09-08-2025/ Shri Hit 
+[11:32:32]   [NO TRANSCRIPT] #996 Ekantik Vartalaap & Darshan/ 09-08-2025/ Shri Hit 
+[11:32:32]   Progress: 153/1166 | OK=2 NoSub=151 Banned=0 | Q&A pairs: 132 | 14.0min
+[11:32:34]   [FETCH] #997 Ekantik Vartalaap & Darshan/ 10-08-2025/ Shri Hit 
+[11:32:34]   [NO TRANSCRIPT] #997 Ekantik Vartalaap & Darshan/ 10-08-2025/ Shri Hit 
+[11:32:34]   Progress: 154/1166 | OK=2 NoSub=152 Banned=0 | Q&A pairs: 132 | 14.1min
+[11:32:37]   [FETCH] #995 Ekantik Vartalaap & Darshan/ 08-08-2025/ Shri Hit 
+[11:32:37]   [NO TRANSCRIPT] #995 Ekantik Vartalaap & Darshan/ 08-08-2025/ Shri Hit 
+[11:32:37]   Progress: 155/1166 | OK=2 NoSub=153 Banned=0 | Q&A pairs: 132 | 14.1min
+[11:32:39]   [FETCH] #994 Ekantik Vartalaap & Darshan/ 07-08-2025/ Shri Hit 
+[11:32:40]   [NO TRANSCRIPT] #994 Ekantik Vartalaap & Darshan/ 07-08-2025/ Shri Hit 
+[11:32:40]   Progress: 156/1166 | OK=2 NoSub=154 Banned=0 | Q&A pairs: 132 | 14.2min
+[11:32:41]   [FETCH] #993 Ekantik Vartalaap & Darshan/ 06-08-2025/ Shri Hit 
+[11:32:42]   [NO TRANSCRIPT] #993 Ekantik Vartalaap & Darshan/ 06-08-2025/ Shri Hit 
+[11:32:42]   Progress: 157/1166 | OK=2 NoSub=155 Banned=0 | Q&A pairs: 132 | 14.2min
+[11:32:42]   [FETCH] #992 Ekantik Vartalaap & Darshan/ 05-08-2025/ Shri Hit 
+[11:32:42]   [NO TRANSCRIPT] #992 Ekantik Vartalaap & Darshan/ 05-08-2025/ Shri Hit 
+[11:32:42]   Progress: 158/1166 | OK=2 NoSub=156 Banned=0 | Q&A pairs: 132 | 14.2min
+[11:32:47]   [FETCH] #991 Ekantik Vartalaap & Darshan/ 04-08-2025/ Shri Hit 
+[11:32:47]   [FETCH] #990 Ekantik Vartalaap & Darshan/ 03-08-2025/ Shri Hit 
+[11:32:48]   [NO TRANSCRIPT] #991 Ekantik Vartalaap & Darshan/ 04-08-2025/ Shri Hit 
+[11:32:48]   Progress: 159/1166 | OK=2 NoSub=157 Banned=0 | Q&A pairs: 132 | 14.3min
+[11:32:48]   [NO TRANSCRIPT] #990 Ekantik Vartalaap & Darshan/ 03-08-2025/ Shri Hit 
+[11:32:48]   Progress: 160/1166 | OK=2 NoSub=158 Banned=0 | Q&A pairs: 132 | 14.3min
+[11:32:52]   [FETCH] #989 Ekantik Vartalaap & Darshan/ 02-08-2025/ Shri Hit 
+[11:32:52]   [NO TRANSCRIPT] #989 Ekantik Vartalaap & Darshan/ 02-08-2025/ Shri Hit 
+[11:32:52]   Progress: 161/1166 | OK=2 NoSub=159 Banned=0 | Q&A pairs: 132 | 14.4min
+[11:32:53]   [FETCH] #988 Ekantik Vartalaap & Darshan/ 01-08-2025/ Shri Hit 
+[11:32:54]   [NO TRANSCRIPT] #988 Ekantik Vartalaap & Darshan/ 01-08-2025/ Shri Hit 
+[11:32:54]   Progress: 162/1166 | OK=2 NoSub=160 Banned=0 | Q&A pairs: 132 | 14.4min
+[11:32:56]   [FETCH] #987 Ekantik Vartalaap & Darshan/ 31-07-2025/ Shri Hit 
+[11:32:56]   [NO TRANSCRIPT] #987 Ekantik Vartalaap & Darshan/ 31-07-2025/ Shri Hit 
+[11:32:56]   Progress: 163/1166 | OK=2 NoSub=161 Banned=0 | Q&A pairs: 132 | 14.4min
+[11:32:58]   [FETCH] #986 Ekantik Vartalaap & Darshan/ 30-07-2025/ Shri Hit 
+[11:32:59]   [NO TRANSCRIPT] #986 Ekantik Vartalaap & Darshan/ 30-07-2025/ Shri Hit 
+[11:32:59]   Progress: 164/1166 | OK=2 NoSub=162 Banned=0 | Q&A pairs: 132 | 14.5min
+[11:33:01]   [FETCH] #985 Ekantik Vartalaap & Darshan/ 29-07-2025/ Shri Hit 
+[11:33:01]   [NO TRANSCRIPT] #985 Ekantik Vartalaap & Darshan/ 29-07-2025/ Shri Hit 
+[11:33:01]   Progress: 165/1166 | OK=2 NoSub=163 Banned=0 | Q&A pairs: 132 | 14.5min
+[11:33:02]   [FETCH] #984 Ekantik Vartalaap & Darshan/ 28-07-2025/ Shri Hit 
+[11:33:02]   [NO TRANSCRIPT] #984 Ekantik Vartalaap & Darshan/ 28-07-2025/ Shri Hit 
+[11:33:02]   Progress: 166/1166 | OK=2 NoSub=164 Banned=0 | Q&A pairs: 132 | 14.5min
+[11:33:04]   [FETCH] #982 Ekantik Vartalaap & Darshan/ 26-07-2025/ Shri Hit 
+[11:33:04]   [NO TRANSCRIPT] #982 Ekantik Vartalaap & Darshan/ 26-07-2025/ Shri Hit 
+[11:33:04]   Progress: 167/1166 | OK=2 NoSub=165 Banned=0 | Q&A pairs: 132 | 14.6min
+[11:33:06]   [FETCH] #983 Ekantik Vartalaap & Darshan/ 27-07-2025/ Shri Hit 
+[11:33:06]   [NO TRANSCRIPT] #983 Ekantik Vartalaap & Darshan/ 27-07-2025/ Shri Hit 
+[11:33:06]   Progress: 168/1166 | OK=2 NoSub=166 Banned=0 | Q&A pairs: 132 | 14.6min
+[11:33:10]   [FETCH] #981 Ekantik Vartalaap & Darshan/ 25-07-2025/ Shri Hit 
+[11:33:10]   [FETCH] #980 Ekantik Vartalaap & Darshan/ 24-07-2025/ Shri Hit 
+[11:33:10]   [NO TRANSCRIPT] #981 Ekantik Vartalaap & Darshan/ 25-07-2025/ Shri Hit 
+[11:33:10]   Progress: 169/1166 | OK=2 NoSub=167 Banned=0 | Q&A pairs: 132 | 14.7min
+[11:33:11]   [NO TRANSCRIPT] #980 Ekantik Vartalaap & Darshan/ 24-07-2025/ Shri Hit 
+[11:33:11]   Progress: 170/1166 | OK=2 NoSub=168 Banned=0 | Q&A pairs: 132 | 14.7min
+[11:33:13]   [FETCH] #978 Ekantik Vartalaap & Darshan/ 22-07-2025/ Shri Hit 
+[11:33:13]   [NO TRANSCRIPT] #978 Ekantik Vartalaap & Darshan/ 22-07-2025/ Shri Hit 
+[11:33:13]   Progress: 171/1166 | OK=2 NoSub=169 Banned=0 | Q&A pairs: 132 | 14.7min
+[11:33:16]   [FETCH] #979 Ekantik Vartalaap & Darshan/ 23-07-2025/ Shri Hit 
+[11:33:16]   [NO TRANSCRIPT] #979 Ekantik Vartalaap & Darshan/ 23-07-2025/ Shri Hit 
+[11:33:16]   Progress: 172/1166 | OK=2 NoSub=170 Banned=0 | Q&A pairs: 132 | 14.8min
+[11:33:18]   [FETCH] #977 Ekantik Vartalaap & Darshan/ 21-07-2025/ Shri Hit 
+[11:33:18]   [NO TRANSCRIPT] #977 Ekantik Vartalaap & Darshan/ 21-07-2025/ Shri Hit 
+[11:33:18]   Progress: 173/1166 | OK=2 NoSub=171 Banned=0 | Q&A pairs: 132 | 14.8min
+[11:33:20]   [FETCH] #976 Ekantik Vartalaap & Darshan/ 20-07-2025/ Shri Hit 
+[11:33:20]   [NO TRANSCRIPT] #976 Ekantik Vartalaap & Darshan/ 20-07-2025/ Shri Hit 
+[11:33:20]   Progress: 174/1166 | OK=2 NoSub=172 Banned=0 | Q&A pairs: 132 | 14.8min
+[11:33:22]   [FETCH] #975 Ekantik Vartalaap & Darshan/ 19-07-2025/ Shri Hit 
+[11:33:22]   [NO TRANSCRIPT] #975 Ekantik Vartalaap & Darshan/ 19-07-2025/ Shri Hit 
+[11:33:22]   Progress: 175/1166 | OK=2 NoSub=173 Banned=0 | Q&A pairs: 132 | 14.9min
+[11:33:23]   [FETCH] #974 Ekantik Vartalaap & Darshan/ 18-07-2025/ Shri Hit 
+[11:33:24]   [NO TRANSCRIPT] #974 Ekantik Vartalaap & Darshan/ 18-07-2025/ Shri Hit 
+[11:33:24]   Progress: 176/1166 | OK=2 NoSub=174 Banned=0 | Q&A pairs: 132 | 14.9min
+[11:33:27]   [FETCH] #973 Ekantik Vartalaap & Darshan/ 17-07-2025/ Shri Hit 
+[11:33:28]   [NO TRANSCRIPT] #973 Ekantik Vartalaap & Darshan/ 17-07-2025/ Shri Hit 
+[11:33:28]   Progress: 177/1166 | OK=2 NoSub=175 Banned=0 | Q&A pairs: 132 | 15.0min
+[11:33:29]   [FETCH] #972 Ekantik Vartalaap & Darshan/ 16-07-2025/ Shri Hit 
+[11:33:30]   [NO TRANSCRIPT] #972 Ekantik Vartalaap & Darshan/ 16-07-2025/ Shri Hit 
+[11:33:30]   Progress: 178/1166 | OK=2 NoSub=176 Banned=0 | Q&A pairs: 132 | 15.0min
+[11:33:31]   [FETCH] #971 Ekantik Vartalaap & Darshan/ 15-07-2025/ Shri Hit 
+[11:33:32]   [NO TRANSCRIPT] #971 Ekantik Vartalaap & Darshan/ 15-07-2025/ Shri Hit 
+[11:33:32]   Progress: 179/1166 | OK=2 NoSub=177 Banned=0 | Q&A pairs: 132 | 15.0min
+[11:33:34]   [FETCH] #970 Ekantik Vartalaap & Darshan/ 14-07-2025/ Shri Hit 
+[11:33:34]   [NO TRANSCRIPT] #970 Ekantik Vartalaap & Darshan/ 14-07-2025/ Shri Hit 
+[11:33:34]   Progress: 180/1166 | OK=2 NoSub=178 Banned=0 | Q&A pairs: 132 | 15.1min
+[11:33:35]   [FETCH] #969 Ekantik Vartalaap & Darshan/ 13-07-2025/ Shri Hit 
+[11:33:36]   [NO TRANSCRIPT] #969 Ekantik Vartalaap & Darshan/ 13-07-2025/ Shri Hit 
+[11:33:36]   Progress: 181/1166 | OK=2 NoSub=179 Banned=0 | Q&A pairs: 132 | 15.1min
+[11:33:39]   [FETCH] #967 Ekantik Vartalaap & Darshan/ 11-07-2025/ Shri Hit 
+[11:33:40]   [NO TRANSCRIPT] #967 Ekantik Vartalaap & Darshan/ 11-07-2025/ Shri Hit 
+[11:33:40]   Progress: 182/1166 | OK=2 NoSub=180 Banned=0 | Q&A pairs: 132 | 15.2min
+[11:33:40]   [FETCH] #968 Ekantik Vartalaap & Darshan/ 12-07-2025/ Shri Hit 
+[11:33:40]   [NO TRANSCRIPT] #968 Ekantik Vartalaap & Darshan/ 12-07-2025/ Shri Hit 
+[11:33:40]   Progress: 183/1166 | OK=2 NoSub=181 Banned=0 | Q&A pairs: 132 | 15.2min
+[11:33:43]   [FETCH] #966 Ekantik Vartalaap & Darshan/ 10-07-2025/ Shri Hit 
+[11:33:44]   [NO TRANSCRIPT] #966 Ekantik Vartalaap & Darshan/ 10-07-2025/ Shri Hit 
+[11:33:44]   Progress: 184/1166 | OK=2 NoSub=182 Banned=0 | Q&A pairs: 132 | 15.2min
+[11:33:44]   [FETCH] #965 Ekantik Vartalaap & Darshan/ 09-07-2025/ Shri Hit 
+[11:33:45]   [NO TRANSCRIPT] #965 Ekantik Vartalaap & Darshan/ 09-07-2025/ Shri Hit 
+[11:33:45]   Progress: 185/1166 | OK=2 NoSub=183 Banned=0 | Q&A pairs: 132 | 15.3min
+[11:33:47]   [FETCH] #963 Ekantik Vartalaap & Darshan/ 07-07-2025/ Shri Hit 
+[11:33:48]   [NO TRANSCRIPT] #963 Ekantik Vartalaap & Darshan/ 07-07-2025/ Shri Hit 
+[11:33:48]   Progress: 186/1166 | OK=2 NoSub=184 Banned=0 | Q&A pairs: 132 | 15.3min
+[11:33:49]   [FETCH] #964 Ekantik Vartalaap & Darshan/ 08-07-2025/ Shri Hit 
+[11:33:50]   [NO TRANSCRIPT] #964 Ekantik Vartalaap & Darshan/ 08-07-2025/ Shri Hit 
+[11:33:50]   Progress: 187/1166 | OK=2 NoSub=185 Banned=0 | Q&A pairs: 132 | 15.3min
+[11:33:52]   [FETCH] #962 Ekantik Vartalaap & Darshan/ 06-07-2025/ Shri Hit 
+[11:33:53]   [NO TRANSCRIPT] #962 Ekantik Vartalaap & Darshan/ 06-07-2025/ Shri Hit 
+[11:33:53]   Progress: 188/1166 | OK=2 NoSub=186 Banned=0 | Q&A pairs: 132 | 15.4min
+[11:33:55]   [FETCH] #960 Ekantik Vartalaap & Darshan/ 04-07-2025/ Shri Hit 
+[11:33:55]   [NO TRANSCRIPT] #960 Ekantik Vartalaap & Darshan/ 04-07-2025/ Shri Hit 
+[11:33:55]   Progress: 189/1166 | OK=2 NoSub=187 Banned=0 | Q&A pairs: 132 | 15.4min
+[11:33:56]   [FETCH] #961 Ekantik Vartalaap & Darshan/ 05-07-2025/ Shri Hit 
+[11:33:56]   [NO TRANSCRIPT] #961 Ekantik Vartalaap & Darshan/ 05-07-2025/ Shri Hit 
+[11:33:56]   Progress: 190/1166 | OK=2 NoSub=188 Banned=0 | Q&A pairs: 132 | 15.4min
+[11:33:59]   [FETCH] #959 Ekantik Vartalaap & Darshan/ 03-07-2025/ Shri Hit 
+[11:33:59]   [NO TRANSCRIPT] #959 Ekantik Vartalaap & Darshan/ 03-07-2025/ Shri Hit 
+[11:33:59]   Progress: 191/1166 | OK=2 NoSub=189 Banned=0 | Q&A pairs: 132 | 15.5min
+[11:34:00]   [FETCH] #958 Ekantik Vartalaap & Darshan/ 02-07-2025/ Shri Hit 
+[11:34:00]   [NO TRANSCRIPT] #958 Ekantik Vartalaap & Darshan/ 02-07-2025/ Shri Hit 
+[11:34:00]   Progress: 192/1166 | OK=2 NoSub=190 Banned=0 | Q&A pairs: 132 | 15.5min
+[11:34:03]   [FETCH] #956 Ekantik Vartalaap & Darshan/ 30-06-2025/ Shri Hit 
+[11:34:04]   [FETCH] #957 Ekantik Vartalaap & Darshan/ 01-07-2025/ Shri Hit 
+[11:34:04]   [NO TRANSCRIPT] #956 Ekantik Vartalaap & Darshan/ 30-06-2025/ Shri Hit 
+[11:34:04]   Progress: 193/1166 | OK=2 NoSub=191 Banned=0 | Q&A pairs: 132 | 15.6min
+[11:34:04]   [NO TRANSCRIPT] #957 Ekantik Vartalaap & Darshan/ 01-07-2025/ Shri Hit 
+[11:34:04]   Progress: 194/1166 | OK=2 NoSub=192 Banned=0 | Q&A pairs: 132 | 15.6min
+[11:34:09]   [FETCH] #954 Ekantik Vartalaap & Darshan/ 28-06-2025/ Shri Hit 
+[11:34:09]   [NO TRANSCRIPT] #954 Ekantik Vartalaap & Darshan/ 28-06-2025/ Shri Hit 
+[11:34:09]   Progress: 195/1166 | OK=2 NoSub=193 Banned=0 | Q&A pairs: 132 | 15.7min
+[11:34:10]   [FETCH] #955 Ekantik Vartalaap & Darshan/ 29-06-2025/ Shri Hit 
+[11:34:10]   [NO TRANSCRIPT] #955 Ekantik Vartalaap & Darshan/ 29-06-2025/ Shri Hit 
+[11:34:10]   Progress: 196/1166 | OK=2 NoSub=194 Banned=0 | Q&A pairs: 132 | 15.7min
+[11:34:12]   [FETCH] #953 Ekantik Vartalaap & Darshan/ 27-06-2025/ Shri Hit 
+[11:34:12]   [NO TRANSCRIPT] #953 Ekantik Vartalaap & Darshan/ 27-06-2025/ Shri Hit 
+[11:34:12]   Progress: 197/1166 | OK=2 NoSub=195 Banned=0 | Q&A pairs: 132 | 15.7min
+[11:34:15]   [FETCH] #952 Ekantik Vartalaap & Darshan/ 26-06-2025/ Shri Hit 
+[11:34:15]   [NO TRANSCRIPT] #952 Ekantik Vartalaap & Darshan/ 26-06-2025/ Shri Hit 
+[11:34:15]   Progress: 198/1166 | OK=2 NoSub=196 Banned=0 | Q&A pairs: 132 | 15.8min
+[11:34:16]   [FETCH] #951 Ekantik Vartalaap & Darshan/ 25-06-2025/ Shri Hit 
+[11:34:16]   [NO TRANSCRIPT] #951 Ekantik Vartalaap & Darshan/ 25-06-2025/ Shri Hit 
+[11:34:16]   Progress: 199/1166 | OK=2 NoSub=197 Banned=0 | Q&A pairs: 132 | 15.8min
+[11:34:18]   [FETCH] #950 Ekantik Vartalaap & Darshan/ 24-06-2025/ Shri Hit 
+[11:34:19]   [NO TRANSCRIPT] #950 Ekantik Vartalaap & Darshan/ 24-06-2025/ Shri Hit 
+[11:34:19]   Progress: 200/1166 | OK=2 NoSub=198 Banned=0 | Q&A pairs: 132 | 15.8min
+[11:34:20]   [FETCH] #949 Ekantik Vartalaap & Darshan/ 23-06-2025/ Shri Hit 
+[11:34:20]   [NO TRANSCRIPT] #949 Ekantik Vartalaap & Darshan/ 23-06-2025/ Shri Hit 
+[11:34:20]   Progress: 201/1166 | OK=2 NoSub=199 Banned=0 | Q&A pairs: 132 | 15.8min
+[11:34:25]   [FETCH] #948 Ekantik Vartalaap & Darshan/ 22-06-2025/ Shri Hit 
+[11:34:25]   [NO TRANSCRIPT] #948 Ekantik Vartalaap & Darshan/ 22-06-2025/ Shri Hit 
+[11:34:25]   Progress: 202/1166 | OK=2 NoSub=200 Banned=0 | Q&A pairs: 132 | 15.9min
+[11:34:26]   [FETCH] #947 Ekantik Vartalaap & Darshan/ 21-06-2025/ Shri Hit 
+[11:34:26]   [NO TRANSCRIPT] #947 Ekantik Vartalaap & Darshan/ 21-06-2025/ Shri Hit 
+[11:34:26]   Progress: 203/1166 | OK=2 NoSub=201 Banned=0 | Q&A pairs: 132 | 15.9min
+[11:34:30]   [FETCH] #946 Ekantik Vartalaap & Darshan/ 20-06-2025/ Shri Hit 
+[11:34:30]   [NO TRANSCRIPT] #946 Ekantik Vartalaap & Darshan/ 20-06-2025/ Shri Hit 
+[11:34:30]   Progress: 204/1166 | OK=2 NoSub=202 Banned=0 | Q&A pairs: 132 | 16.0min
+[11:34:32]   [FETCH] #945 Ekantik Vartalaap & Darshan/ 19-06-2025/ Shri Hit 
+[11:34:32]   [NO TRANSCRIPT] #945 Ekantik Vartalaap & Darshan/ 19-06-2025/ Shri Hit 
+[11:34:32]   Progress: 205/1166 | OK=2 NoSub=203 Banned=0 | Q&A pairs: 132 | 16.0min
+[11:34:33]   [FETCH] #944 Ekantik Vartalaap & Darshan/ 18-06-2025/ Shri Hit 
+[11:34:33]   [NO TRANSCRIPT] #944 Ekantik Vartalaap & Darshan/ 18-06-2025/ Shri Hit 
+[11:34:33]   Progress: 206/1166 | OK=2 NoSub=204 Banned=0 | Q&A pairs: 132 | 16.1min
+[11:34:34]   [FETCH] #943 Ekantik Vartalaap & Darshan/ 17-06-2025/ Shri Hit 
+[11:34:35]   [NO TRANSCRIPT] #943 Ekantik Vartalaap & Darshan/ 17-06-2025/ Shri Hit 
+[11:34:35]   Progress: 207/1166 | OK=2 NoSub=205 Banned=0 | Q&A pairs: 132 | 16.1min
+[11:34:37]   [FETCH] #942 Ekantik Vartalaap & Darshan/ 16-06-2025/ Shri Hit 
+[11:34:38]   [NO TRANSCRIPT] #942 Ekantik Vartalaap & Darshan/ 16-06-2025/ Shri Hit 
+[11:34:38]   Progress: 208/1166 | OK=2 NoSub=206 Banned=0 | Q&A pairs: 132 | 16.1min
+[11:34:39]   [FETCH] #941 Ekantik Vartalaap & Darshan/ 15-06-2025/ Shri Hit 
+[11:34:39]   [NO TRANSCRIPT] #941 Ekantik Vartalaap & Darshan/ 15-06-2025/ Shri Hit 
+[11:34:39]   Progress: 209/1166 | OK=2 NoSub=207 Banned=0 | Q&A pairs: 132 | 16.2min
+[11:34:42]   [FETCH] #940 Ekantik Vartalaap & Darshan/ 14-06-2025/ Shri Hit 
+[11:34:43]   [NO TRANSCRIPT] #940 Ekantik Vartalaap & Darshan/ 14-06-2025/ Shri Hit 
+[11:34:43]   Progress: 210/1166 | OK=2 NoSub=208 Banned=0 | Q&A pairs: 132 | 16.2min
+[11:34:45]   [FETCH] #939 Ekantik Vartalaap & Darshan/ 13-06-2025/ Shri Hit 
+[11:34:45]   [NO TRANSCRIPT] #939 Ekantik Vartalaap & Darshan/ 13-06-2025/ Shri Hit 
+[11:34:45]   Progress: 211/1166 | OK=2 NoSub=209 Banned=0 | Q&A pairs: 132 | 16.3min
+[11:34:49]   [FETCH] #938 Ekantik Vartalaap & Darshan/ 12-06-2025/ Shri Hit 
+[11:34:49]   [NO TRANSCRIPT] #938 Ekantik Vartalaap & Darshan/ 12-06-2025/ Shri Hit 
+[11:34:49]   Progress: 212/1166 | OK=2 NoSub=210 Banned=0 | Q&A pairs: 132 | 16.3min
+[11:34:51]   [FETCH] #937 Ekantik Vartalaap & Darshan/ 11-06-2025/ Shri Hit 
+[11:34:53]   [FETCH] #936 Ekantik Vartalaap & Darshan/ 10-06-2025/ Shri Hit 
+[11:35:00]   [OK] #936 Ekantik Vartalaap & Darshan/ 10-06-2025/ Shri Hit  (hi-auto, 1077 segs, 140KB)
+[11:35:00]   Ingesting 17 chunks: #936 Ekantik Vartalaap & Darshan/ 10-06-2025/ Shri Hit 
+[11:35:02]     Chunk 1/17: 0 pairs
+[11:35:03]   [OK] #937 Ekantik Vartalaap & Darshan/ 11-06-2025/ Shri Hit  (hi-auto, 1025 segs, 127KB)
+[11:35:03]   Ingesting 16 chunks: #937 Ekantik Vartalaap & Darshan/ 11-06-2025/ Shri Hit 
+[11:35:04]     Chunk 2/17: +3 pairs
+[11:35:04]     Chunk 1/16: +1 pairs
+[11:35:16]     Chunk 3/17: +2 pairs
+[11:35:30]     Chunk 4/17: +6 pairs
+[11:35:54]     Chunk 5/17: +25 pairs
+[11:36:15]     Chunk 6/17: +2 pairs
+[11:36:46]     Chunk 2/16: 0 pairs
+[11:36:48]     Chunk 7/17: +7 pairs
+[11:37:09]     Chunk 3/16: +8 pairs
+[11:37:41]     Chunk 8/17: +3 pairs
+[11:38:15]     Chunk 4/16: +4 pairs
+[11:38:27]     Chunk 5/16: +4 pairs
+[11:39:00]     Chunk 6/16: +3 pairs
+[11:39:23]     Chunk 9/17: 0 pairs
+[11:39:35]     Chunk 7/16: +10 pairs
+[11:40:06]     Chunk 10/17: +4 pairs
+[11:40:27]     Chunk 8/16: +3 pairs
+[11:40:50]     Chunk 11/17: +4 pairs
+[11:41:15]     Chunk 12/17: 0 pairs
+[11:41:49]     Chunk 9/16: 0 pairs
+[11:42:18]     Chunk 13/17: +4 pairs
+[11:42:31]     Chunk 10/16: +5 pairs
+[11:43:03]     Chunk 11/16: +4 pairs
+[11:43:26]     Chunk 12/16: 0 pairs
+[11:43:37]     Chunk 13/16: 0 pairs
+[11:43:38]     Chunk 14/16: +7 pairs
+[11:43:59]     Chunk 14/17: 0 pairs
+[11:44:01]     Chunk 15/16: 0 pairs
+[11:44:12]     Chunk 16/16: 0 pairs
+[11:44:12]   [INGESTED] #937 Ekantik Vartalaap & Darshan/ 11-06-2025/ Shri Hit  → 48 Q&A pairs
+[11:44:12]   Progress: 213/1166 | OK=3 NoSub=210 Banned=0 | Q&A pairs: 180 | 25.7min
+[11:44:17]   [FETCH] #935 Ekantik Vartalaap & Darshan/ 09-06-2025/ Shri Hit 
+[11:44:21]     Chunk 15/17: 0 pairs
+[11:44:21]   [OK] #935 Ekantik Vartalaap & Darshan/ 09-06-2025/ Shri Hit  (hi-auto, 1062 segs, 138KB)
+[11:44:21]   Ingesting 17 chunks: #935 Ekantik Vartalaap & Darshan/ 09-06-2025/ Shri Hit 
+[11:44:32]     Chunk 16/17: 0 pairs
+[11:44:44]     Chunk 17/17: 0 pairs
+[11:44:44]   [INGESTED] #936 Ekantik Vartalaap & Darshan/ 10-06-2025/ Shri Hit  → 58 Q&A pairs
+[11:44:44]   Progress: 214/1166 | OK=4 NoSub=210 Banned=0 | Q&A pairs: 238 | 26.2min
+[11:44:47]   [FETCH] #934 Ekantik Vartalaap & Darshan/ 08-06-2025/ Shri Hit 
+[11:44:52]   [OK] #934 Ekantik Vartalaap & Darshan/ 08-06-2025/ Shri Hit  (hi-auto, 1053 segs, 136KB)
+[11:44:52]   Ingesting 17 chunks: #934 Ekantik Vartalaap & Darshan/ 08-06-2025/ Shri Hit 
+[11:44:54]     Chunk 1/17: +5 pairs
+[11:45:14]     Chunk 1/17: +9 pairs
+[11:45:36]     Chunk 2/17: +4 pairs
+[11:45:56]     Chunk 2/17: +3 pairs
+[11:46:17]     Chunk 3/17: +2 pairs
+[11:46:38]     Chunk 3/17: +7 pairs
+[11:47:00]     Chunk 4/17: +4 pairs
+[11:47:30]     Chunk 4/17: +3 pairs
+[11:47:44]     Chunk 5/17: +8 pairs
+[11:48:17]     Chunk 6/17: +3 pairs
+[11:48:40]     Chunk 7/17: +4 pairs
+[11:49:03]     Chunk 8/17: +4 pairs
+[11:49:11]     Chunk 5/17: 0 pairs
+[11:49:26]     Chunk 9/17: +4 pairs
+[11:49:59]     Chunk 10/17: +7 pairs
+[11:50:32]     Chunk 11/17: +7 pairs
+[11:50:53]     Chunk 6/17: 0 pairs
+[11:50:58]     Chunk 12/17: 0 pairs
+[11:51:34]     Chunk 13/17: 0 pairs
+[11:52:06]     Chunk 14/17: 0 pairs
+[11:52:28]     Chunk 7/17: 0 pairs
+[11:52:58]     Chunk 15/17: 0 pairs
+[11:53:09]     Chunk 16/17: 0 pairs
+[11:53:12]     Chunk 17/17: 0 pairs
+[11:53:12]   [INGESTED] #934 Ekantik Vartalaap & Darshan/ 08-06-2025/ Shri Hit  → 57 Q&A pairs
+[11:53:12]   Progress: 215/1166 | OK=5 NoSub=210 Banned=0 | Q&A pairs: 295 | 34.7min
+[11:53:16]   [FETCH] #933 Ekantik Vartalaap & Darshan/ 07-06-2025/ Shri Hit 
+[11:53:21]   [OK] #933 Ekantik Vartalaap & Darshan/ 07-06-2025/ Shri Hit  (hi-auto, 1176 segs, 153KB)
+[11:53:21]   Ingesting 18 chunks: #933 Ekantik Vartalaap & Darshan/ 07-06-2025/ Shri Hit 
+[11:53:22]     Chunk 1/18: +3 pairs
+[11:53:45]     Chunk 2/18: +3 pairs
+[11:54:08]     Chunk 3/18: +2 pairs
+[11:54:09]     Chunk 8/17: 0 pairs
+[11:54:30]     Chunk 4/18: +4 pairs
+[11:55:02]     Chunk 5/18: 0 pairs
+[11:55:26]     Chunk 9/17: +12 pairs
+[11:55:48]     Chunk 10/17: +2 pairs
+[11:56:10]     Chunk 11/17: +3 pairs
+[11:56:33]     Chunk 12/17: +5 pairs
+[11:56:45]     Chunk 6/18: 0 pairs
+[11:56:56]     Chunk 7/18: +3 pairs
+[11:57:19]     Chunk 8/18: +3 pairs
+[11:57:43]     Chunk 9/18: +4 pairs
+[11:58:07]     Chunk 10/18: +5 pairs
+[11:58:14]     Chunk 13/17: 0 pairs
+[11:58:27]     Chunk 14/17: 0 pairs
+[11:58:50]     Chunk 15/17: +3 pairs
+[11:58:51]     Chunk 16/17: +8 pairs
+[11:59:02]     Chunk 17/17: 0 pairs
+[11:59:02]   [INGESTED] #935 Ekantik Vartalaap & Darshan/ 09-06-2025/ Shri Hit  → 50 Q&A pairs
+[11:59:02]   Progress: 216/1166 | OK=6 NoSub=210 Banned=0 | Q&A pairs: 345 | 40.5min
+[11:59:05]   [FETCH] #932 Ekantik Vartalaap & Darshan/ 06-06-2025/ Shri Hit 
+[11:59:09]   [OK] #932 Ekantik Vartalaap & Darshan/ 06-06-2025/ Shri Hit  (hi-auto, 1103 segs, 144KB)
+[11:59:09]   Ingesting 17 chunks: #932 Ekantik Vartalaap & Darshan/ 06-06-2025/ Shri Hit 
+[11:59:10]     Chunk 1/17: +1 pairs
+[11:59:31]     Chunk 11/18: +11 pairs
+[12:00:03]     Chunk 12/18: +3 pairs
+[12:00:26]     Chunk 2/17: +13 pairs
+[12:00:49]     Chunk 3/17: +5 pairs
+[12:01:22]     Chunk 4/17: +7 pairs
+[12:01:45]     Chunk 13/18: 0 pairs
+[12:01:54]     Chunk 5/17: +10 pairs
+[12:02:17]     Chunk 6/17: +5 pairs
+[12:02:37]     Chunk 14/18: +5 pairs
+[12:03:01]     Chunk 7/17: +5 pairs
+[12:03:29]     Chunk 15/18: +8 pairs
+[12:03:50]     Chunk 16/18: 0 pairs
+[12:03:52]     Chunk 17/18: +4 pairs
+[12:04:03]     Chunk 18/18: 0 pairs
+[12:04:03]   [INGESTED] #933 Ekantik Vartalaap & Darshan/ 07-06-2025/ Shri Hit  → 56 Q&A pairs
+[12:04:03]   Progress: 217/1166 | OK=7 NoSub=210 Banned=0 | Q&A pairs: 401 | 45.6min
+[12:04:07]   [FETCH] #931 Ekantik Vartalaap & Darshan/ 05-06-2025/ Shri Hit 
+[12:04:11]   [OK] #931 Ekantik Vartalaap & Darshan/ 05-06-2025/ Shri Hit  (hi-auto, 1043 segs, 133KB)
+[12:04:11]   Ingesting 16 chunks: #931 Ekantik Vartalaap & Darshan/ 05-06-2025/ Shri Hit 
+[12:04:13]     Chunk 1/16: 0 pairs
+[12:04:42]     Chunk 8/17: 0 pairs
+[12:04:46]     Chunk 9/17: +9 pairs
+[12:05:07]     Chunk 2/16: +9 pairs
+[12:05:27]     Chunk 10/17: 0 pairs
+[12:05:49]     Chunk 3/16: +5 pairs
+[12:06:20]     Chunk 11/17: +2 pairs
+[12:06:42]     Chunk 4/16: +4 pairs
+[12:07:12]     Chunk 12/17: +3 pairs
+[12:07:33]     Chunk 13/17: +3 pairs
+[12:07:56]     Chunk 14/17: +6 pairs
+[12:08:20]     Chunk 15/17: +4 pairs
+[12:08:23]     Chunk 5/16: 0 pairs
+[12:08:32]     Chunk 16/17: 0 pairs
+[12:08:33]     Chunk 17/17: 0 pairs
+[12:08:33]   [INGESTED] #932 Ekantik Vartalaap & Darshan/ 06-06-2025/ Shri Hit  → 73 Q&A pairs
+[12:08:33]   Progress: 218/1166 | OK=8 NoSub=210 Banned=0 | Q&A pairs: 474 | 50.1min
+[12:08:39]   [FETCH] #930 Ekantik Vartalaap & Darshan/ 04-06-2025/ Shri Hit 
+[12:08:43]   [OK] #930 Ekantik Vartalaap & Darshan/ 04-06-2025/ Shri Hit  (hi-auto, 1079 segs, 137KB)
+[12:08:43]   Ingesting 17 chunks: #930 Ekantik Vartalaap & Darshan/ 04-06-2025/ Shri Hit 
+[12:08:45]     Chunk 1/17: +3 pairs
+[12:09:06]     Chunk 6/16: +15 pairs
+[12:09:37]     Chunk 2/17: +1 pairs
+[12:09:57]     Chunk 7/16: +2 pairs
+[12:10:18]     Chunk 3/17: +2 pairs
+[12:10:42]     Chunk 8/16: +13 pairs
+[12:11:13]     Chunk 4/17: +7 pairs
+[12:11:35]     Chunk 9/16: +5 pairs
+[12:12:14] Total in cache  : 1264
+[12:12:14] Already on disk : 108
+[12:12:14] Remaining       : 1156
+[12:12:14] 
+Starting parallel fetch with 3 worker(s)…
+
+[12:12:17]   [FETCH] #1147 Ekantik Vartalaap & Darshan/ 07-01-2026/ Shri Hit
+[12:12:19]   [FETCH] #1146 Ekantik Vartalaap & Darshan/ 06-01-2026/ Shri Hit
+[12:12:19]   [FETCH] #1148 Ekantik Vartalaap & Darshan/ 08-01-2026/ Shri Hit
+[12:12:24]   [OK] #1147 Ekantik Vartalaap & Darshan/ 07-01-2026/ Shri Hit (hi-auto, 1264 segs, 167KB)
+[12:12:24]   Progress: 1/1156 | OK=1 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.2min
+[12:12:24]   [OK] #1146 Ekantik Vartalaap & Darshan/ 06-01-2026/ Shri Hit (hi-auto, 1369 segs, 180KB)
+[12:12:24]   Progress: 2/1156 | OK=2 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.2min
+[12:12:25]   [OK] #1148 Ekantik Vartalaap & Darshan/ 08-01-2026/ Shri Hit (hi-auto, 1349 segs, 179KB)
+[12:12:25]   Progress: 3/1156 | OK=3 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.2min
+[12:12:27]   [FETCH] #1145 Ekantik Vartalaap & Darshan/ 05-01-2026/ Shri Hit
+[12:12:28]   [FETCH] #1144 Ekantik Vartalaap & Darshan/ 04-01-2026/ Shri Hit
+[12:12:30]   [FETCH] #1143 Ekantik Vartalaap & Darshan/ 03-01-2026/ Shri Hit
+[12:12:31]   [OK] #1145 Ekantik Vartalaap & Darshan/ 05-01-2026/ Shri Hit (hi-auto, 1384 segs, 184KB)
+[12:12:31]   Progress: 4/1156 | OK=4 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.3min
+[12:12:34]   [OK] #1144 Ekantik Vartalaap & Darshan/ 04-01-2026/ Shri Hit (hi-auto, 1319 segs, 172KB)
+[12:12:34]   Progress: 5/1156 | OK=5 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.3min
+[12:12:35]   [FETCH] #1142 Ekantik Vartalaap & Darshan/ 02-01-2026/ Shri Hit
+[12:12:35]   [OK] #1143 Ekantik Vartalaap & Darshan/ 03-01-2026/ Shri Hit (hi-auto, 1207 segs, 154KB)
+[12:12:35]   Progress: 6/1156 | OK=6 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.4min
+[12:12:38]   [FETCH] #1141 Ekantik Vartalaap & Darshan/ 01-01-2026/ Shri Hit
+[12:12:39]   [OK] #1142 Ekantik Vartalaap & Darshan/ 02-01-2026/ Shri Hit (hi-auto, 1219 segs, 159KB)
+[12:12:39]   Progress: 7/1156 | OK=7 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.4min
+[12:12:39]   [FETCH] #1140 Ekantik Vartalaap & Darshan/ 31-12-2025/ Shri Hit
+[12:12:42]   [FETCH] #1139 Ekantik Vartalaap & Darshan/ 30-12-2025/ Shri Hit
+[12:12:43]   [OK] #1141 Ekantik Vartalaap & Darshan/ 01-01-2026/ Shri Hit (hi-auto, 1183 segs, 156KB)
+[12:12:43]   Progress: 8/1156 | OK=8 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.5min
+[12:12:44]   [OK] #1140 Ekantik Vartalaap & Darshan/ 31-12-2025/ Shri Hit (hi-auto, 1282 segs, 167KB)
+[12:12:44]   Progress: 9/1156 | OK=9 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.5min
+[12:12:46]   [OK] #1139 Ekantik Vartalaap & Darshan/ 30-12-2025/ Shri Hit (hi-auto, 1193 segs, 152KB)
+[12:12:46]   Progress: 10/1156 | OK=10 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.5min
+[12:12:47]   [FETCH] #1137 Ekantik Vartalaap & Darshan/ 28-12-2025/ Shri Hit
+[12:12:47]   [FETCH] #1138 Ekantik Vartalaap & Darshan/ 29-12-2025/ Shri Hit
+[12:12:49]   [FETCH] #1136 Ekantik Vartalaap & Darshan/ 27-12-2025/ Shri Hit
+[12:12:52]   [OK] #1137 Ekantik Vartalaap & Darshan/ 28-12-2025/ Shri Hit (hi-auto, 1463 segs, 188KB)
+[12:12:52]   Progress: 11/1156 | OK=11 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.6min
+[12:12:53]   [OK] #1138 Ekantik Vartalaap & Darshan/ 29-12-2025/ Shri Hit (hi-auto, 1244 segs, 159KB)
+[12:12:53]   Progress: 12/1156 | OK=12 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.6min
+[12:12:53]   [OK] #1136 Ekantik Vartalaap & Darshan/ 27-12-2025/ Shri Hit (hi-auto, 1203 segs, 164KB)
+[12:12:53]   Progress: 13/1156 | OK=13 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.7min
+[12:12:56]   [FETCH] #1135 Ekantik Vartalaap & Darshan/ 26-12-2025/ Shri Hit
+[12:12:57]   [FETCH] #1134 Ekantik Vartalaap & Darshan/ 25-12-2025/ Shri Hit
+[12:12:57]   [FETCH] #1133 Ekantik Vartalaap & Darshan/ 24-12-2025/ Shri Hit
+[12:13:01]   [OK] #1135 Ekantik Vartalaap & Darshan/ 26-12-2025/ Shri Hit (hi-auto, 1484 segs, 194KB)
+[12:13:01]   Progress: 14/1156 | OK=14 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.8min
+[12:13:02]   [OK] #1134 Ekantik Vartalaap & Darshan/ 25-12-2025/ Shri Hit (hi-auto, 1329 segs, 171KB)
+[12:13:02]   Progress: 15/1156 | OK=15 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.8min
+[12:13:02]   [OK] #1133 Ekantik Vartalaap & Darshan/ 24-12-2025/ Shri Hit (hi-auto, 1352 segs, 178KB)
+[12:13:02]   Progress: 16/1156 | OK=16 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.8min
+[12:13:05]   [FETCH] #1132 Ekantik Vartalaap & Darshan/ 23-12-2025/ Shri Hit
+[12:13:07]   [FETCH] #1131 Ekantik Vartalaap & Darshan/ 22-12-2025/ Shri Hit
+[12:13:08]   [FETCH] #1130 Ekantik Vartalaap & Darshan/ 21-12-2025/ Shri Hit
+[12:13:09]   [OK] #1132 Ekantik Vartalaap & Darshan/ 23-12-2025/ Shri Hit (hi-auto, 1186 segs, 148KB)
+[12:13:09]   Progress: 17/1156 | OK=17 NoSub=0 Banned=0 | Q&A pairs: 0 | 0.9min
+[12:13:12]   [OK] #1131 Ekantik Vartalaap & Darshan/ 22-12-2025/ Shri Hit (hi-auto, 1142 segs, 148KB)
+[12:13:12]   Progress: 18/1156 | OK=18 NoSub=0 Banned=0 | Q&A pairs: 0 | 1.0min
+[12:13:13]   [FETCH] #1129 Ekantik Vartalaap & Darshan/ 20-12-2025/ Shri Hit
+[12:13:13]   [OK] #1130 Ekantik Vartalaap & Darshan/ 21-12-2025/ Shri Hit (hi-auto, 1295 segs, 172KB)
+[12:13:13]   Progress: 19/1156 | OK=19 NoSub=0 Banned=0 | Q&A pairs: 0 | 1.0min
+[12:13:16]   [FETCH] #1127 Ekantik Vartalaap & Darshan/ 18-12-2025/ Shri Hit
+[12:13:17]   [OK] #1129 Ekantik Vartalaap & Darshan/ 20-12-2025/ Shri Hit (hi-auto, 1126 segs, 144KB)
+[12:13:17]   Progress: 20/1156 | OK=20 NoSub=0 Banned=0 | Q&A pairs: 0 | 1.1min
+[12:13:18]   [FETCH] #1128 Ekantik Vartalaap & Darshan/ 19-12-2025/ Shri Hit
+[12:13:21]   [NO TRANSCRIPT] #1127 Ekantik Vartalaap & Darshan/ 18-12-2025/ Shri Hit
+[12:13:21]   Progress: 21/1156 | OK=20 NoSub=1 Banned=0 | Q&A pairs: 0 | 1.1min
+[12:13:22]   [FETCH] #1126 Ekantik Vartalaap & Darshan/ 17-12-2025/ Shri Hit
+[12:13:23]   [NO TRANSCRIPT] #1128 Ekantik Vartalaap & Darshan/ 19-12-2025/ Shri Hit
+[12:13:23]   Progress: 22/1156 | OK=20 NoSub=2 Banned=0 | Q&A pairs: 0 | 1.2min
+[12:13:24]   [FETCH] #1125 Ekantik Vartalaap & Darshan/ 16-12-2025/ Shri Hit
+[12:13:26]   [NO TRANSCRIPT] #1126 Ekantik Vartalaap & Darshan/ 17-12-2025/ Shri Hit
+[12:13:26]   Progress: 23/1156 | OK=20 NoSub=3 Banned=0 | Q&A pairs: 0 | 1.2min
+[12:13:27]   [FETCH] #1124 Ekantik Vartalaap & Darshan/ 15-12-2025/ Shri Hit
+[12:13:30]   [NO TRANSCRIPT] #1125 Ekantik Vartalaap & Darshan/ 16-12-2025/ Shri Hit
+[12:13:30]   Progress: 24/1156 | OK=20 NoSub=4 Banned=0 | Q&A pairs: 0 | 1.3min
+[12:13:32]   [NO TRANSCRIPT] #1124 Ekantik Vartalaap & Darshan/ 15-12-2025/ Shri Hit
+[12:13:32]   Progress: 25/1156 | OK=20 NoSub=5 Banned=0 | Q&A pairs: 0 | 1.3min
+[12:13:32]   [FETCH] #1123 Ekantik Vartalaap & Darshan/ 14-12-2025/ Shri Hit
+[12:13:35]   [FETCH] #1122 Ekantik Vartalaap & Darshan/ 13-12-2025/ Shri Hit
+[12:13:36]   [FETCH] #1121 Ekantik Vartalaap & Darshan/ 12-12-2025/ Shri Hit
+[12:13:37]   [NO TRANSCRIPT] #1123 Ekantik Vartalaap & Darshan/ 14-12-2025/ Shri Hit
+[12:13:37]   Progress: 26/1156 | OK=20 NoSub=6 Banned=0 | Q&A pairs: 0 | 1.4min
+[12:13:39]   [FETCH] #1120 Ekantik Vartalaap & Darshan/ 11-12-2025/ Shri Hit
+[12:13:39]   [NO TRANSCRIPT] #1122 Ekantik Vartalaap & Darshan/ 13-12-2025/ Shri Hit
+[12:13:39]   Progress: 27/1156 | OK=20 NoSub=7 Banned=0 | Q&A pairs: 0 | 1.4min
+[12:13:41]   [NO TRANSCRIPT] #1121 Ekantik Vartalaap & Darshan/ 12-12-2025/ Shri Hit
+[12:13:41]   Progress: 28/1156 | OK=20 NoSub=8 Banned=0 | Q&A pairs: 0 | 1.5min
+[12:13:43]   [NO TRANSCRIPT] #1120 Ekantik Vartalaap & Darshan/ 11-12-2025/ Shri Hit
+[12:13:43]   Progress: 29/1156 | OK=20 NoSub=9 Banned=0 | Q&A pairs: 0 | 1.5min
+[12:13:44]   [FETCH] #1119 Ekantik Vartalaap & Darshan/ 10-12-2025/ Shri Hit
+[12:13:45]   [FETCH] #1118 Ekantik Vartalaap & Darshan/ 09-12-2025/ Shri Hit
+[12:13:46]   [FETCH] #1117 Ekantik Vartalaap & Darshan/ 08-12-2025/ Shri Hit
+[12:13:49]   [NO TRANSCRIPT] #1119 Ekantik Vartalaap & Darshan/ 10-12-2025/ Shri Hit
+[12:13:49]   Progress: 30/1156 | OK=20 NoSub=10 Banned=0 | Q&A pairs: 0 | 1.6min
+[12:13:50]   [NO TRANSCRIPT] #1118 Ekantik Vartalaap & Darshan/ 09-12-2025/ Shri Hit
+[12:13:50]   Progress: 31/1156 | OK=20 NoSub=11 Banned=0 | Q&A pairs: 0 | 1.6min
+[12:13:51]   [NO TRANSCRIPT] #1117 Ekantik Vartalaap & Darshan/ 08-12-2025/ Shri Hit
+[12:13:51]   Progress: 32/1156 | OK=20 NoSub=12 Banned=0 | Q&A pairs: 0 | 1.6min
+[12:13:52]   [FETCH] #1116 Ekantik Vartalaap & Darshan/ 07-12-2025/ Shri Hit
+[12:13:53]   [FETCH] #1115 Ekantik Vartalaap & Darshan/ 06-12-2025/ Shri Hit
+[12:13:56]   [FETCH] #1114 Ekantik Vartalaap & Darshan/ 05-12-2025/ Shri Hit
+[12:13:56]   [NO TRANSCRIPT] #1116 Ekantik Vartalaap & Darshan/ 07-12-2025/ Shri Hit
+[12:13:56]   Progress: 33/1156 | OK=20 NoSub=13 Banned=0 | Q&A pairs: 0 | 1.7min
+[12:13:58]   [NO TRANSCRIPT] #1115 Ekantik Vartalaap & Darshan/ 06-12-2025/ Shri Hit
+[12:13:58]   Progress: 34/1156 | OK=20 NoSub=14 Banned=0 | Q&A pairs: 0 | 1.7min
+[12:14:00]   [NO TRANSCRIPT] #1114 Ekantik Vartalaap & Darshan/ 05-12-2025/ Shri Hit
+[12:14:00]   Progress: 35/1156 | OK=20 NoSub=15 Banned=0 | Q&A pairs: 0 | 1.8min
+[12:14:02]   [FETCH] #1113 Ekantik Vartalaap & Darshan/ 04-12-2025/ Shri Hit
+[12:14:03]   [FETCH] #1112 Ekantik Vartalaap & Darshan/ 03-12-2025/ Shri Hit
+[12:14:06]   [FETCH] #1111 Ekantik Vartalaap & Darshan/ 02-12-2025/ Shri Hit
+[12:14:06]   [NO TRANSCRIPT] #1113 Ekantik Vartalaap & Darshan/ 04-12-2025/ Shri Hit
+[12:14:06]   Progress: 36/1156 | OK=20 NoSub=16 Banned=0 | Q&A pairs: 0 | 1.9min
+[12:14:08]   [NO TRANSCRIPT] #1112 Ekantik Vartalaap & Darshan/ 03-12-2025/ Shri Hit
+[12:14:08]   Progress: 37/1156 | OK=20 NoSub=17 Banned=0 | Q&A pairs: 0 | 1.9min
+[12:14:10]   [NO TRANSCRIPT] #1111 Ekantik Vartalaap & Darshan/ 02-12-2025/ Shri Hit
+[12:14:10]   Progress: 38/1156 | OK=20 NoSub=18 Banned=0 | Q&A pairs: 0 | 1.9min
+[12:14:10]   [FETCH] #1109 Ekantik Vartalaap & Darshan/ 30-11-2025/ Shri Hit
+[12:14:10]   [FETCH] #1110 Ekantik Vartalaap & Darshan/ 01-12-2025/ Shri Hit
+[12:14:14]   [FETCH] #1108 Ekantik Vartalaap & Darshan/ 29-11-2025/ Shri Hit
+[12:14:15]   [NO TRANSCRIPT] #1109 Ekantik Vartalaap & Darshan/ 30-11-2025/ Shri Hit
+[12:14:15]   Progress: 39/1156 | OK=20 NoSub=19 Banned=0 | Q&A pairs: 0 | 2.0min
+[12:14:15]   [NO TRANSCRIPT] #1110 Ekantik Vartalaap & Darshan/ 01-12-2025/ Shri Hit
+[12:14:15]   Progress: 40/1156 | OK=20 NoSub=20 Banned=0 | Q&A pairs: 0 | 2.0min
+[12:14:18]   [NO TRANSCRIPT] #1108 Ekantik Vartalaap & Darshan/ 29-11-2025/ Shri Hit
+[12:14:18]   Progress: 41/1156 | OK=20 NoSub=21 Banned=0 | Q&A pairs: 0 | 2.1min
+[12:14:19]   [FETCH] #1107 Ekantik Vartalaap & Darshan/ 28-11-2025/ Shri Hit
+[12:14:21]   [FETCH] #1106 Ekantik Vartalaap & Darshan/ 27-11-2025/ Shri Hit
+[12:14:23]   [FETCH] #1105 Ekantik Vartalaap & Darshan/ 26-11-2025/ Shri Hit
+[12:14:23]   [NO TRANSCRIPT] #1107 Ekantik Vartalaap & Darshan/ 28-11-2025/ Shri Hit
+[12:14:23]   Progress: 42/1156 | OK=20 NoSub=22 Banned=0 | Q&A pairs: 0 | 2.2min
+[12:14:25]   [NO TRANSCRIPT] #1106 Ekantik Vartalaap & Darshan/ 27-11-2025/ Shri Hit
+[12:14:25]   Progress: 43/1156 | OK=20 NoSub=23 Banned=0 | Q&A pairs: 0 | 2.2min
+[12:14:27]   [FETCH] #1104 Ekantik Vartalaap & Darshan/ 25-11-2025/ Shri Hit
+[12:14:27]   [NO TRANSCRIPT] #1105 Ekantik Vartalaap & Darshan/ 26-11-2025/ Shri Hit
+[12:14:27]   Progress: 44/1156 | OK=20 NoSub=24 Banned=0 | Q&A pairs: 0 | 2.2min
+[12:14:29]   [FETCH] #1103 Ekantik Vartalaap & Darshan/ 24-11-2025/ Shri Hit
+[12:14:32]   [NO TRANSCRIPT] #1104 Ekantik Vartalaap & Darshan/ 25-11-2025/ Shri Hit
+[12:14:32]   Progress: 45/1156 | OK=20 NoSub=25 Banned=0 | Q&A pairs: 0 | 2.3min
+[12:14:33]   [FETCH] #1102 Ekantik Vartalaap & Darshan/ 23-11-2025/ Shri Hit
+[12:14:33]   [NO TRANSCRIPT] #1103 Ekantik Vartalaap & Darshan/ 24-11-2025/ Shri Hit
+[12:14:33]   Progress: 46/1156 | OK=20 NoSub=26 Banned=0 | Q&A pairs: 0 | 2.3min
+[12:14:37]   [FETCH] #1100 Ekantik Vartalaap & Darshan/ 21-11-2025/ Shri Hit
+[12:14:37]   [NO TRANSCRIPT] #1102 Ekantik Vartalaap & Darshan/ 23-11-2025/ Shri Hit
+[12:14:37]   Progress: 47/1156 | OK=20 NoSub=27 Banned=0 | Q&A pairs: 0 | 2.4min
+[12:14:37]   [FETCH] #1101 Ekantik Vartalaap & Darshan/ 22-11-2025/ Shri Hit
+[12:14:41]   [FETCH] #1099 Ekantik Vartalaap & Darshan/ 20-11-2025/ Shri Hit
+[12:14:41]   [NO TRANSCRIPT] #1100 Ekantik Vartalaap & Darshan/ 21-11-2025/ Shri Hit
+[12:14:42]   Progress: 48/1156 | OK=20 NoSub=28 Banned=0 | Q&A pairs: 0 | 2.5min
+[12:14:42]   [NO TRANSCRIPT] #1101 Ekantik Vartalaap & Darshan/ 22-11-2025/ Shri Hit
+[12:14:42]   Progress: 49/1156 | OK=20 NoSub=29 Banned=0 | Q&A pairs: 0 | 2.5min
+[12:14:45]   [NO TRANSCRIPT] #1099 Ekantik Vartalaap & Darshan/ 20-11-2025/ Shri Hit
+[12:14:45]   Progress: 50/1156 | OK=20 NoSub=30 Banned=0 | Q&A pairs: 0 | 2.5min
+[12:14:46]   [FETCH] #1098 Ekantik Vartalaap & Darshan/ 19-11-2025/ Shri Hit
+[12:14:47]   [FETCH] #1097 Ekantik Vartalaap & Darshan/ 18-11-2025/ Shri Hit
+[12:14:49]   [FETCH] #1096 Ekantik Vartalaap & Darshan/ 17-11-2025/ Shri Hit
+[12:14:51]   [NO TRANSCRIPT] #1098 Ekantik Vartalaap & Darshan/ 19-11-2025/ Shri Hit
+[12:14:51]   Progress: 51/1156 | OK=20 NoSub=31 Banned=0 | Q&A pairs: 0 | 2.6min
+[12:14:52]   [NO TRANSCRIPT] #1097 Ekantik Vartalaap & Darshan/ 18-11-2025/ Shri Hit
+[12:14:52]   Progress: 52/1156 | OK=20 NoSub=32 Banned=0 | Q&A pairs: 0 | 2.6min
+[12:14:54]   [NO TRANSCRIPT] #1096 Ekantik Vartalaap & Darshan/ 17-11-2025/ Shri Hit
+[12:14:54]   Progress: 53/1156 | OK=20 NoSub=33 Banned=0 | Q&A pairs: 0 | 2.7min
+[12:14:55]   [FETCH] #1095 Ekantik Vartalaap & Darshan/ 16-11-2025/ Shri Hit
+[12:14:57]   [FETCH] #1093 Ekantik Vartalaap & Darshan/ 14-11-2025/ Shri Hit
+[12:14:58]   [FETCH] #1094 Ekantik Vartalaap & Darshan/ 15-11-2025/ Shri Hit
+[12:15:00]   [NO TRANSCRIPT] #1095 Ekantik Vartalaap & Darshan/ 16-11-2025/ Shri Hit
+[12:15:00]   Progress: 54/1156 | OK=20 NoSub=34 Banned=0 | Q&A pairs: 0 | 2.8min
+[12:15:02]   [NO TRANSCRIPT] #1093 Ekantik Vartalaap & Darshan/ 14-11-2025/ Shri Hit
+[12:15:02]   Progress: 55/1156 | OK=20 NoSub=35 Banned=0 | Q&A pairs: 0 | 2.8min
+[12:15:04]   [NO TRANSCRIPT] #1094 Ekantik Vartalaap & Darshan/ 15-11-2025/ Shri Hit
+[12:15:04]   Progress: 56/1156 | OK=20 NoSub=36 Banned=0 | Q&A pairs: 0 | 2.8min
+[12:15:05]   [FETCH] #1092 Ekantik Vartalaap & Darshan/ 13-11-2025/ Shri Hit
+[12:15:07]   [FETCH] #1091 Ekantik Vartalaap & Darshan/ 12-11-2025/ Shri Hit
+[12:15:09]   [NO TRANSCRIPT] #1092 Ekantik Vartalaap & Darshan/ 13-11-2025/ Shri Hit
+[12:15:09]   Progress: 57/1156 | OK=20 NoSub=37 Banned=0 | Q&A pairs: 0 | 2.9min
+[12:15:10]   [FETCH] #1090 Ekantik Vartalaap & Darshan/ 11-11-2025/ Shri Hit
+[12:15:12]   [FETCH] #1089 Ekantik Vartalaap & Darshan/ 10-11-2025/ Shri Hit
+[12:15:12]   [NO TRANSCRIPT] #1091 Ekantik Vartalaap & Darshan/ 12-11-2025/ Shri Hit
+[12:15:12]   Progress: 58/1156 | OK=20 NoSub=38 Banned=0 | Q&A pairs: 0 | 3.0min
+[12:15:14]   [FETCH] #1088 Ekantik Vartalaap & Darshan/ 09-11-2025/ Shri Hit
+[12:15:14]   [NO TRANSCRIPT] #1090 Ekantik Vartalaap & Darshan/ 11-11-2025/ Shri Hit
+[12:15:14]   Progress: 59/1156 | OK=20 NoSub=39 Banned=0 | Q&A pairs: 0 | 3.0min
+[12:15:17]   [NO TRANSCRIPT] #1089 Ekantik Vartalaap & Darshan/ 10-11-2025/ Shri Hit
+[12:15:17]   Progress: 60/1156 | OK=20 NoSub=40 Banned=0 | Q&A pairs: 0 | 3.0min
+[12:15:18]   [FETCH] #1087 Ekantik Vartalaap & Darshan/ 08-11-2025/ Shri Hit
+[12:15:19]   [NO TRANSCRIPT] #1088 Ekantik Vartalaap & Darshan/ 09-11-2025/ Shri Hit
+[12:15:19]   Progress: 61/1156 | OK=20 NoSub=41 Banned=0 | Q&A pairs: 0 | 3.1min
+[12:15:21]   [FETCH] #1086 Ekantik Vartalaap & Darshan/ 07-11-2025/ Shri Hit
+[12:15:23]   [NO TRANSCRIPT] #1087 Ekantik Vartalaap & Darshan/ 08-11-2025/ Shri Hit
+[12:15:23]   Progress: 62/1156 | OK=20 NoSub=42 Banned=0 | Q&A pairs: 0 | 3.1min
+[12:15:24]   [FETCH] #1085 Ekantik Vartalaap & Darshan/ 06-11-2025/ Shri Hit
+[12:15:26]   [NO TRANSCRIPT] #1086 Ekantik Vartalaap & Darshan/ 07-11-2025/ Shri Hit
+[12:15:26]   Progress: 63/1156 | OK=20 NoSub=43 Banned=0 | Q&A pairs: 0 | 3.2min
+[12:15:28]   [FETCH] #1084 Ekantik Vartalaap & Darshan/ 05-11-2025/ Shri Hit
+[12:15:29]   [NO TRANSCRIPT] #1085 Ekantik Vartalaap & Darshan/ 06-11-2025/ Shri Hit
+[12:15:29]   Progress: 64/1156 | OK=20 NoSub=44 Banned=0 | Q&A pairs: 0 | 3.2min
+[12:15:32]   [FETCH] #1082 Ekantik Vartalaap & Darshan/ 03-11-2025/ Shri Hit
+[12:15:32]   [FETCH] #1083 Ekantik Vartalaap & Darshan/ 04-11-2025/ Shri Hit
+[12:15:32]   [NO TRANSCRIPT] #1084 Ekantik Vartalaap & Darshan/ 05-11-2025/ Shri Hit
+[12:15:32]   Progress: 65/1156 | OK=20 NoSub=45 Banned=0 | Q&A pairs: 0 | 3.3min
+[12:15:37]   [NO TRANSCRIPT] #1082 Ekantik Vartalaap & Darshan/ 03-11-2025/ Shri Hit
+[12:15:37]   Progress: 66/1156 | OK=20 NoSub=46 Banned=0 | Q&A pairs: 0 | 3.4min
+[12:15:38]   [FETCH] #1081 Ekantik Vartalaap & Darshan/ 02-11-2025/ Shri Hit
+[12:15:38]   [NO TRANSCRIPT] #1083 Ekantik Vartalaap & Darshan/ 04-11-2025/ Shri Hit
+[12:15:38]   Progress: 67/1156 | OK=20 NoSub=47 Banned=0 | Q&A pairs: 0 | 3.4min
+[12:15:42]   [FETCH] #1080 Ekantik Vartalaap & Darshan/ 01-11-2025/ Shri Hit
+[12:15:43]   [FETCH] #1079 Ekantik Vartalaap & Darshan/ 31-10-2025/ Shri Hit
+[12:15:44]   [NO TRANSCRIPT] #1081 Ekantik Vartalaap & Darshan/ 02-11-2025/ Shri Hit
+[12:15:44]   Progress: 68/1156 | OK=20 NoSub=48 Banned=0 | Q&A pairs: 0 | 3.5min
+[12:15:48]   [NO TRANSCRIPT] #1080 Ekantik Vartalaap & Darshan/ 01-11-2025/ Shri Hit
+[12:15:48]   Progress: 69/1156 | OK=20 NoSub=49 Banned=0 | Q&A pairs: 0 | 3.6min
+[12:15:49]   [NO TRANSCRIPT] #1079 Ekantik Vartalaap & Darshan/ 31-10-2025/ Shri Hit
+[12:15:49]   Progress: 70/1156 | OK=20 NoSub=50 Banned=0 | Q&A pairs: 0 | 3.6min
+[12:15:49]   [FETCH] #1078 Ekantik Vartalaap & Darshan/ 30-10-2025/ Shri Hit
+[12:15:50]   [FETCH] #1077 Ekantik Vartalaap & Darshan/ 29-10-2025/ Shri Hit
+[12:15:55]   [NO TRANSCRIPT] #1078 Ekantik Vartalaap & Darshan/ 30-10-2025/ Shri Hit
+[12:15:55]   Progress: 71/1156 | OK=20 NoSub=51 Banned=0 | Q&A pairs: 0 | 3.7min
+[12:15:55]   [FETCH] #1076 Ekantik Vartalaap & Darshan/ 28-10-2025/ Shri Hit
+[12:15:56]   [NO TRANSCRIPT] #1077 Ekantik Vartalaap & Darshan/ 29-10-2025/ Shri Hit
+[12:15:56]   Progress: 72/1156 | OK=20 NoSub=52 Banned=0 | Q&A pairs: 0 | 3.7min
+[12:15:58]   [FETCH] #1074 Ekantik Vartalaap & Darshan/ 26-10-2025/ Shri Hit
+[12:16:00]   [NO TRANSCRIPT] #1076 Ekantik Vartalaap & Darshan/ 28-10-2025/ Shri Hit
+[12:16:00]   Progress: 73/1156 | OK=20 NoSub=53 Banned=0 | Q&A pairs: 0 | 3.8min
+[12:16:01]   [FETCH] #1075 Ekantik Vartalaap & Darshan/ 27-10-2025/ Shri Hit
+[12:16:03]   [NO TRANSCRIPT] #1074 Ekantik Vartalaap & Darshan/ 26-10-2025/ Shri Hit
+[12:16:03]   Progress: 74/1156 | OK=20 NoSub=54 Banned=0 | Q&A pairs: 0 | 3.8min
+[12:16:05]   [FETCH] #1072 Ekantik Vartalaap & Darshan/ 24-10-2025/ Shri Hit
+[12:16:06]   [FETCH] #1073 Ekantik Vartalaap & Darshan/ 25-10-2025/ Shri Hit
+[12:16:07]   [NO TRANSCRIPT] #1075 Ekantik Vartalaap & Darshan/ 27-10-2025/ Shri Hit
+[12:16:07]   Progress: 75/1156 | OK=20 NoSub=55 Banned=0 | Q&A pairs: 0 | 3.9min
+[12:16:11]   [NO TRANSCRIPT] #1072 Ekantik Vartalaap & Darshan/ 24-10-2025/ Shri Hit
+[12:16:11]   Progress: 76/1156 | OK=20 NoSub=56 Banned=0 | Q&A pairs: 0 | 3.9min
+[12:16:11]   [NO TRANSCRIPT] #1073 Ekantik Vartalaap & Darshan/ 25-10-2025/ Shri Hit
+[12:16:11]   Progress: 77/1156 | OK=20 NoSub=57 Banned=0 | Q&A pairs: 0 | 4.0min
+[12:16:12]   [FETCH] #1071 Ekantik Vartalaap & Darshan/ 23-10-2025/ Shri Hit
+[12:16:15]   [FETCH] #1070 Ekantik Vartalaap & Darshan/ 22-10-2025/ Shri Hit
+[12:16:16]   [FETCH] #1069 Ekantik Vartalaap & Darshan/ 21-10-2025/ Shri Hit
+[12:16:18]   [NO TRANSCRIPT] #1071 Ekantik Vartalaap & Darshan/ 23-10-2025/ Shri Hit
+[12:16:18]   Progress: 78/1156 | OK=20 NoSub=58 Banned=0 | Q&A pairs: 0 | 4.1min
+[12:16:20]   [NO TRANSCRIPT] #1070 Ekantik Vartalaap & Darshan/ 22-10-2025/ Shri Hit
+[12:16:20]   Progress: 79/1156 | OK=20 NoSub=59 Banned=0 | Q&A pairs: 0 | 4.1min
+[12:16:21]   [NO TRANSCRIPT] #1069 Ekantik Vartalaap & Darshan/ 21-10-2025/ Shri Hit
+[12:16:21]   Progress: 80/1156 | OK=20 NoSub=60 Banned=0 | Q&A pairs: 0 | 4.1min
+[12:16:22]   [FETCH] #1068 Ekantik Vartalaap & Darshan/ 20-10-2025/ Shri Hit
+[12:16:24]   [FETCH] #1067 Ekantik Vartalaap & Darshan/ 19-10-2025/ Shri Hit
+[12:16:25]   [FETCH] #1066 Ekantik Vartalaap & Darshan/ 18-10-2025/ Shri Hit
+[12:16:26]   [NO TRANSCRIPT] #1068 Ekantik Vartalaap & Darshan/ 20-10-2025/ Shri Hit
+[12:16:26]   Progress: 81/1156 | OK=20 NoSub=61 Banned=0 | Q&A pairs: 0 | 4.2min
+[12:16:29]   [NO TRANSCRIPT] #1067 Ekantik Vartalaap & Darshan/ 19-10-2025/ Shri Hit
+[12:16:29]   Progress: 82/1156 | OK=20 NoSub=62 Banned=0 | Q&A pairs: 0 | 4.2min
+[12:16:29]   [NO TRANSCRIPT] #1066 Ekantik Vartalaap & Darshan/ 18-10-2025/ Shri Hit
+[12:16:29]   Progress: 83/1156 | OK=20 NoSub=63 Banned=0 | Q&A pairs: 0 | 4.3min
+[12:16:32]   [FETCH] #1065 Ekantik Vartalaap & Darshan/ 17-10-2025/ Shri Hit
+[12:16:32]   [FETCH] #1064 Ekantik Vartalaap & Darshan/ 16-10-2025/ Shri Hit
+[12:16:33]   [FETCH] #1063 Ekantik Vartalaap & Darshan/ 15-10-2025/ Shri Hit
+[12:16:36]   [NO TRANSCRIPT] #1065 Ekantik Vartalaap & Darshan/ 17-10-2025/ Shri Hit
+[12:16:36]   Progress: 84/1156 | OK=20 NoSub=64 Banned=0 | Q&A pairs: 0 | 4.4min
+[12:16:39]   [NO TRANSCRIPT] #1064 Ekantik Vartalaap & Darshan/ 16-10-2025/ Shri Hit
+[12:16:39]   Progress: 85/1156 | OK=20 NoSub=65 Banned=0 | Q&A pairs: 0 | 4.4min
+[12:16:39]   [NO TRANSCRIPT] #1063 Ekantik Vartalaap & Darshan/ 15-10-2025/ Shri Hit
+[12:16:39]   Progress: 86/1156 | OK=20 NoSub=66 Banned=0 | Q&A pairs: 0 | 4.4min
+[12:16:41]   [FETCH] #1062 Ekantik Vartalaap & Darshan/ 14-10-2025/ Shri Hit
+[12:16:43]   [FETCH] #1060 Ekantik Vartalaap & Darshan/ 12-10-2025/ Shri Hit
+[12:16:45]   [FETCH] #1061 Ekantik Vartalaap & Darshan/ 13-10-2025/ Shri Hit
+[12:16:46]   [NO TRANSCRIPT] #1062 Ekantik Vartalaap & Darshan/ 14-10-2025/ Shri Hit
+[12:16:46]   Progress: 87/1156 | OK=20 NoSub=67 Banned=0 | Q&A pairs: 0 | 4.5min
+[12:16:49]   [FETCH] #1059 Ekantik Vartalaap & Darshan/ 11-10-2025/ Shri Hit
+[12:16:49]   [NO TRANSCRIPT] #1060 Ekantik Vartalaap & Darshan/ 12-10-2025/ Shri Hit
+[12:16:49]   Progress: 88/1156 | OK=20 NoSub=68 Banned=0 | Q&A pairs: 0 | 4.6min
+[12:16:51]   [NO TRANSCRIPT] #1061 Ekantik Vartalaap & Darshan/ 13-10-2025/ Shri Hit
+[12:16:51]   Progress: 89/1156 | OK=20 NoSub=69 Banned=0 | Q&A pairs: 0 | 4.6min
+[12:16:54]   [NO TRANSCRIPT] #1059 Ekantik Vartalaap & Darshan/ 11-10-2025/ Shri Hit
+[12:16:54]   Progress: 90/1156 | OK=20 NoSub=70 Banned=0 | Q&A pairs: 0 | 4.7min
+[12:16:55]   [FETCH] #1058 Ekantik Vartalaap & Darshan/ 10-10-2025/ Shri Hit
+[12:16:56]   [FETCH] #1057 Ekantik Vartalaap & Darshan/ 09-10-2025/ Shri Hit
+[12:16:58]   [FETCH] #1056 Ekantik Vartalaap & Darshan/ 08-10-2025/ Shri Hit
+[12:17:00]   [NO TRANSCRIPT] #1058 Ekantik Vartalaap & Darshan/ 10-10-2025/ Shri Hit
+[12:17:00]   Progress: 91/1156 | OK=20 NoSub=71 Banned=0 | Q&A pairs: 0 | 4.8min
+[12:17:01]   [NO TRANSCRIPT] #1057 Ekantik Vartalaap & Darshan/ 09-10-2025/ Shri Hit
+[12:17:01]   Progress: 92/1156 | OK=20 NoSub=72 Banned=0 | Q&A pairs: 0 | 4.8min
+[12:17:03]   [NO TRANSCRIPT] #1056 Ekantik Vartalaap & Darshan/ 08-10-2025/ Shri Hit
+[12:17:03]   Progress: 93/1156 | OK=20 NoSub=73 Banned=0 | Q&A pairs: 0 | 4.8min
+[12:17:05]   [FETCH] #1055 Ekantik Vartalaap & Darshan/ 07-10-2025/ Shri Hit
+[12:17:06]   [FETCH] #1054 Ekantik Vartalaap & Darshan/ 06-10-2025/ Shri Hit
+[12:17:06]   [FETCH] #1053 Ekantik Vartalaap & Darshan/ 05-10-2025/ Shri Hit
+[12:17:13]   [NO TRANSCRIPT] #1055 Ekantik Vartalaap & Darshan/ 07-10-2025/ Shri Hit
+[12:17:13]   Progress: 94/1156 | OK=20 NoSub=74 Banned=0 | Q&A pairs: 0 | 5.0min
+[12:17:13]   [NO TRANSCRIPT] #1053 Ekantik Vartalaap & Darshan/ 05-10-2025/ Shri Hit
+[12:17:13]   Progress: 95/1156 | OK=20 NoSub=75 Banned=0 | Q&A pairs: 0 | 5.0min
+[12:17:13]   [NO TRANSCRIPT] #1054 Ekantik Vartalaap & Darshan/ 06-10-2025/ Shri Hit
+[12:17:13]   Progress: 96/1156 | OK=20 NoSub=76 Banned=0 | Q&A pairs: 0 | 5.0min
+[12:17:16]   [FETCH] #1050 Ekantik Vartalaap & Darshan/ 02-10-2025/ Shri Hit
+[12:17:18]   [FETCH] #1052 Ekantik Vartalaap & Darshan/ 04-10-2025/ Shri Hit
+[12:17:18]   [FETCH] #1051 Ekantik Vartalaap & Darshan/ 03-10-2025/ Shri Hit
+[12:17:23]   [NO TRANSCRIPT] #1050 Ekantik Vartalaap & Darshan/ 02-10-2025/ Shri Hit
+[12:17:23]   Progress: 97/1156 | OK=20 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.1min
+[12:17:28]   [FETCH] #1049 Ekantik Vartalaap & Darshan/ 01-10-2025/ Shri Hit
+[12:17:30]   [OK] #1052 Ekantik Vartalaap & Darshan/ 04-10-2025/ Shri Hit (hi-auto, 1120 segs, 137KB)
+[12:17:30]   Progress: 98/1156 | OK=21 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.3min
+[12:17:31]   [OK] #1051 Ekantik Vartalaap & Darshan/ 03-10-2025/ Shri Hit (hi-auto, 1104 segs, 137KB)
+[12:17:31]   Progress: 99/1156 | OK=22 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.3min
+[12:17:33]   [FETCH] #1048 Ekantik Vartalaap & Darshan/ 30-09-2025/ Shri Hit
+[12:17:34]   [FETCH] #1047 Ekantik Vartalaap & Darshan/ 29-09-2025/ Shri Hit
+[12:17:38]   [OK] #1049 Ekantik Vartalaap & Darshan/ 01-10-2025/ Shri Hit (hi-auto, 1054 segs, 134KB)
+[12:17:38]   Progress: 100/1156 | OK=23 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.4min
+[12:17:40]   [OK] #1048 Ekantik Vartalaap & Darshan/ 30-09-2025/ Shri Hit (hi-auto, 1093 segs, 137KB)
+[12:17:40]   Progress: 101/1156 | OK=24 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.4min
+[12:17:41]   [FETCH] #1046 Ekantik Vartalaap & Darshan/ 28-09-2025/ Shri Hit
+[12:17:41]   [OK] #1047 Ekantik Vartalaap & Darshan/ 29-09-2025/ Shri Hit (hi-auto, 1238 segs, 155KB)
+[12:17:41]   Progress: 102/1156 | OK=25 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.5min
+[12:17:44]   [FETCH] #1045 Ekantik Vartalaap & Darshan/ 27-09-2025/ Shri Hit
+[12:17:45]   [FETCH] #1044 Ekantik Vartalaap & Darshan/ 26-09-2025/ Shri Hit
+[12:17:58]   [OK] #1045 Ekantik Vartalaap & Darshan/ 27-09-2025/ Shri Hit (hi-auto, 1154 segs, 143KB)
+[12:17:58]   [OK] #1046 Ekantik Vartalaap & Darshan/ 28-09-2025/ Shri Hit (hi-auto, 1163 segs, 143KB)
+[12:17:58]   Progress: 103/1156 | OK=26 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.7min
+[12:17:58]   Progress: 104/1156 | OK=27 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.7min
+[12:18:01]   [FETCH] #1042 Ekantik Vartalaap & Darshan/ 24-09-2025/ Shri Hit
+[12:18:01]   [FETCH] #1043 Ekantik Vartalaap & Darshan/ 25-09-2025/ Shri Hit
+[12:18:04]   [OK] #1044 Ekantik Vartalaap & Darshan/ 26-09-2025/ Shri Hit (hi-auto, 1005 segs, 129KB)
+[12:18:04]   Progress: 105/1156 | OK=28 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.8min
+[12:18:08]   [FETCH] #1041 Ekantik Vartalaap & Darshan/ 23-09-2025/ Shri Hit
+[12:18:08]   [OK] #1042 Ekantik Vartalaap & Darshan/ 24-09-2025/ Shri Hit (hi-auto, 822 segs, 100KB)
+[12:18:08]   Progress: 106/1156 | OK=29 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.9min
+[12:18:10]   [OK] #1043 Ekantik Vartalaap & Darshan/ 25-09-2025/ Shri Hit (hi-auto, 1003 segs, 129KB)
+[12:18:10]   Progress: 107/1156 | OK=30 NoSub=77 Banned=0 | Q&A pairs: 0 | 5.9min
+[12:18:12]   [FETCH] #1039 Ekantik Vartalaap & Darshan/ 21-09-2025/ Shri Hit
+[12:18:13]   [FETCH] #1040 Ekantik Vartalaap & Darshan/ 22-09-2025/ Shri Hit
+[12:18:14]   [OK] #1041 Ekantik Vartalaap & Darshan/ 23-09-2025/ Shri Hit (hi-auto, 1334 segs, 158KB)
+[12:18:14]   Progress: 108/1156 | OK=31 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.0min
+[12:18:17]   [FETCH] #1038 Ekantik Vartalaap & Darshan/ 20-09-2025/ Shri Hit
+[12:18:20]   [OK] #1039 Ekantik Vartalaap & Darshan/ 21-09-2025/ Shri Hit (hi-auto, 1074 segs, 133KB)
+[12:18:20]   Progress: 109/1156 | OK=32 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.1min
+[12:18:22]   [OK] #1040 Ekantik Vartalaap & Darshan/ 22-09-2025/ Shri Hit (hi-auto, 1075 segs, 132KB)
+[12:18:22]   Progress: 110/1156 | OK=33 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.1min
+[12:18:23]   [FETCH] #1037 Ekantik Vartalaap & Darshan/ 19-09-2025/ Shri Hit
+[12:18:24]   [FETCH] #1036 Ekantik Vartalaap & Darshan/ 18-09-2025/ Shri Hit
+[12:18:27]   [OK] #1038 Ekantik Vartalaap & Darshan/ 20-09-2025/ Shri Hit (hi-auto, 1188 segs, 148KB)
+[12:18:27]   Progress: 111/1156 | OK=34 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.2min
+[12:18:30]   [FETCH] #1035 Ekantik Vartalaap & Darshan/ 17-09-2025/ Shri Hit
+[12:18:32]   [OK] #1037 Ekantik Vartalaap & Darshan/ 19-09-2025/ Shri Hit (hi-auto, 1230 segs, 155KB)
+[12:18:32]   Progress: 112/1156 | OK=35 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.3min
+[12:18:33]   [OK] #1036 Ekantik Vartalaap & Darshan/ 18-09-2025/ Shri Hit (hi-auto, 1004 segs, 127KB)
+[12:18:34]   Progress: 113/1156 | OK=36 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.3min
+[12:18:36]   [FETCH] #1034 Ekantik Vartalaap & Darshan/ 16-09-2025/ Shri Hit
+[12:18:39]   [FETCH] #1033 Ekantik Vartalaap & Darshan/ 15-09-2025/ Shri Hit
+[12:18:40]   [OK] #1035 Ekantik Vartalaap & Darshan/ 17-09-2025/ Shri Hit (hi-auto, 1215 segs, 151KB)
+[12:18:40]   Progress: 114/1156 | OK=37 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.4min
+[12:18:42]   [FETCH] #1032 Ekantik Vartalaap & Darshan/ 14-09-2025/ Shri Hit
+[12:18:45]   [OK] #1034 Ekantik Vartalaap & Darshan/ 16-09-2025/ Shri Hit (hi-auto, 1161 segs, 146KB)
+[12:18:45]   Progress: 115/1156 | OK=38 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.5min
+[12:18:47]   [OK] #1033 Ekantik Vartalaap & Darshan/ 15-09-2025/ Shri Hit (hi-auto, 1171 segs, 142KB)
+[12:18:47]   Progress: 116/1156 | OK=39 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.6min
+[12:18:48]   [FETCH] #1031 Ekantik Vartalaap & Darshan/ 13-09-2025/ Shri Hit
+[12:18:50]   [OK] #1032 Ekantik Vartalaap & Darshan/ 14-09-2025/ Shri Hit (hi-auto, 1173 segs, 138KB)
+[12:18:50]   Progress: 117/1156 | OK=40 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.6min
+[12:18:50]   [FETCH] #1030 Ekantik Vartalaap & Darshan/ 12-09-2025/ Shri Hit
+[12:18:53]   [FETCH] #1029 Ekantik Vartalaap & Darshan/ 11-09-2025/ Shri Hit
+[12:18:56]   [OK] #1031 Ekantik Vartalaap & Darshan/ 13-09-2025/ Shri Hit (hi-auto, 1081 segs, 135KB)
+[12:18:56]   Progress: 118/1156 | OK=41 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.7min
+[12:18:58]   [OK] #1030 Ekantik Vartalaap & Darshan/ 12-09-2025/ Shri Hit (hi-auto, 1012 segs, 126KB)
+[12:18:58]   Progress: 119/1156 | OK=42 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.7min
+[12:19:00]   [FETCH] #1028 Ekantik Vartalaap & Darshan/ 10-09-2025/ Shri Hit
+[12:19:01]   [OK] #1029 Ekantik Vartalaap & Darshan/ 11-09-2025/ Shri Hit (hi-auto, 1076 segs, 137KB)
+[12:19:01]   Progress: 120/1156 | OK=43 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.8min
+[12:19:02]   [FETCH] #1027 Ekantik Vartalaap & Darshan/ 09-09-2025/ Shri Hit
+[12:19:03]   [FETCH] #1026 Ekantik Vartalaap & Darshan/ 08-09-2025/ Shri Hit
+[12:19:08]   [OK] #1028 Ekantik Vartalaap & Darshan/ 10-09-2025/ Shri Hit (hi-auto, 1090 segs, 136KB)
+[12:19:08]   Progress: 121/1156 | OK=44 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.9min
+[12:19:09]   [OK] #1027 Ekantik Vartalaap & Darshan/ 09-09-2025/ Shri Hit (hi-auto, 1119 segs, 137KB)
+[12:19:09]   Progress: 122/1156 | OK=45 NoSub=77 Banned=0 | Q&A pairs: 0 | 6.9min
+[12:19:12]   [OK] #1026 Ekantik Vartalaap & Darshan/ 08-09-2025/ Shri Hit (hi-auto, 1143 segs, 146KB)
+[12:19:12]   Progress: 123/1156 | OK=46 NoSub=77 Banned=0 | Q&A pairs: 0 | 7.0min
+[12:19:12]   [FETCH] #1024 Ekantik Vartalaap & Darshan/ 06-09-2025/ Shri Hit
+[12:19:13]   [FETCH] #1025 Ekantik Vartalaap & Darshan/ 07-09-2025/ Shri Hit
+[12:19:17]   [FETCH] #1023 Ekantik Vartalaap & Darshan/ 05-09-2025/ Shri Hit
+[12:19:21]   [NO TRANSCRIPT] #1024 Ekantik Vartalaap & Darshan/ 06-09-2025/ Shri Hit
+[12:19:21]   Progress: 124/1156 | OK=46 NoSub=78 Banned=0 | Q&A pairs: 0 | 7.1min
+[12:19:21]   [NO TRANSCRIPT] #1025 Ekantik Vartalaap & Darshan/ 07-09-2025/ Shri Hit
+[12:19:21]   Progress: 125/1156 | OK=46 NoSub=79 Banned=0 | Q&A pairs: 0 | 7.1min
+[12:19:23]   [FETCH] #1021 Ekantik Vartalaap & Darshan/ 03-09-2025/ Shri Hit
+[12:19:24]   [FETCH] #1022 Ekantik Vartalaap & Darshan/ 04-09-2025/ Shri Hit
+[12:19:25]   [NO TRANSCRIPT] #1023 Ekantik Vartalaap & Darshan/ 05-09-2025/ Shri Hit
+[12:19:25]   Progress: 126/1156 | OK=46 NoSub=80 Banned=0 | Q&A pairs: 0 | 7.2min
+[12:19:28]   [FETCH] #1020 Ekantik Vartalaap & Darshan/ 02-09-2025/ Shri Hit
+[12:19:33]   [NO TRANSCRIPT] #1021 Ekantik Vartalaap & Darshan/ 03-09-2025/ Shri Hit
+[12:19:33]   Progress: 127/1156 | OK=46 NoSub=81 Banned=0 | Q&A pairs: 0 | 7.3min
+[12:19:33]   [NO TRANSCRIPT] #1022 Ekantik Vartalaap & Darshan/ 04-09-2025/ Shri Hit
+[12:19:33]   Progress: 128/1156 | OK=46 NoSub=82 Banned=0 | Q&A pairs: 0 | 7.3min
+[12:19:36]   [FETCH] #1018 Ekantik Vartalaap & Darshan/ 31-08-2025/ Shri Hit
+[12:19:37]   [FETCH] #1019 Ekantik Vartalaap & Darshan/ 01-09-2025/ Shri Hit
+[12:19:38]   [NO TRANSCRIPT] #1020 Ekantik Vartalaap & Darshan/ 02-09-2025/ Shri Hit
+[12:19:38]   Progress: 129/1156 | OK=46 NoSub=83 Banned=0 | Q&A pairs: 0 | 7.4min
+[12:19:42]   [FETCH] #1017 Ekantik Vartalaap & Darshan/ 30-08-2025/ Shri Hit
+[12:19:46]   [NO TRANSCRIPT] #1019 Ekantik Vartalaap & Darshan/ 01-09-2025/ Shri Hit
+[12:19:46]   Progress: 130/1156 | OK=46 NoSub=84 Banned=0 | Q&A pairs: 0 | 7.5min
+[12:19:46]   [NO TRANSCRIPT] #1018 Ekantik Vartalaap & Darshan/ 31-08-2025/ Shri Hit
+[12:19:46]   Progress: 131/1156 | OK=46 NoSub=85 Banned=0 | Q&A pairs: 0 | 7.5min
+[12:19:48]   [FETCH] #1016 Ekantik Vartalaap & Darshan/ 29-08-2025/ Shri Hit
+[12:19:48]   [FETCH] #1015 Ekantik Vartalaap & Darshan/ 28-08-2025/ Shri Hit
+[12:19:51]   [NO TRANSCRIPT] #1017 Ekantik Vartalaap & Darshan/ 30-08-2025/ Shri Hit
+[12:19:51]   Progress: 132/1156 | OK=46 NoSub=86 Banned=0 | Q&A pairs: 0 | 7.6min
+[12:19:56]   [FETCH] #1014 Ekantik Vartalaap & Darshan/ 27-08-2025/ Shri Hit
+[12:20:00]   [NO TRANSCRIPT] #1016 Ekantik Vartalaap & Darshan/ 29-08-2025/ Shri Hit
+[12:20:00]   Progress: 133/1156 | OK=46 NoSub=87 Banned=0 | Q&A pairs: 0 | 7.8min
+[12:20:00]   [NO TRANSCRIPT] #1015 Ekantik Vartalaap & Darshan/ 28-08-2025/ Shri Hit
+[12:20:00]   Progress: 134/1156 | OK=46 NoSub=88 Banned=0 | Q&A pairs: 0 | 7.8min
+[12:20:03]   [FETCH] #1013 Ekantik Vartalaap & Darshan/ 26-08-2025/ Shri Hit
+[12:20:03]   [FETCH] #1012 Ekantik Vartalaap & Darshan/ 25-08-2025/ Shri Hit
+[12:20:07]   [NO TRANSCRIPT] #1014 Ekantik Vartalaap & Darshan/ 27-08-2025/ Shri Hit
+[12:20:07]   Progress: 135/1156 | OK=46 NoSub=89 Banned=0 | Q&A pairs: 0 | 7.9min
+[12:20:11]   [FETCH] #1011 Ekantik Vartalaap & Darshan/ 24-08-2025/ Shri Hit
+[12:20:13]   [NO TRANSCRIPT] #1013 Ekantik Vartalaap & Darshan/ 26-08-2025/ Shri Hit
+[12:20:13]   Progress: 136/1156 | OK=46 NoSub=90 Banned=0 | Q&A pairs: 0 | 8.0min
+[12:20:13]   [NO TRANSCRIPT] #1012 Ekantik Vartalaap & Darshan/ 25-08-2025/ Shri Hit
+[12:20:13]   Progress: 137/1156 | OK=46 NoSub=91 Banned=0 | Q&A pairs: 0 | 8.0min
+[12:20:17]   [FETCH] #1009 Ekantik Vartalaap & Darshan/ 22-08-2025/ Shri Hit
+[12:20:18]   [FETCH] #1010 Ekantik Vartalaap & Darshan/ 23-08-2025/ Shri Hit
+[12:20:22]   [NO TRANSCRIPT] #1011 Ekantik Vartalaap & Darshan/ 24-08-2025/ Shri Hit
+[12:20:22]   Progress: 138/1156 | OK=46 NoSub=92 Banned=0 | Q&A pairs: 0 | 8.1min
+[12:20:26]   [FETCH] #1008 Ekantik Vartalaap & Darshan/ 21-08-2025/ Shri Hit
+[12:20:28]   [NO TRANSCRIPT] #1010 Ekantik Vartalaap & Darshan/ 23-08-2025/ Shri Hit
+[12:20:28]   Progress: 139/1156 | OK=46 NoSub=93 Banned=0 | Q&A pairs: 0 | 8.2min
+[12:20:29]   [NO TRANSCRIPT] #1009 Ekantik Vartalaap & Darshan/ 22-08-2025/ Shri Hit
+[12:20:29]   Progress: 140/1156 | OK=46 NoSub=94 Banned=0 | Q&A pairs: 0 | 8.3min
+[12:20:31]   [FETCH] #1006 Ekantik Vartalaap & Darshan/ 19-08-2025/ Shri Hit
+[12:20:33]   [FETCH] #1007 Ekantik Vartalaap & Darshan/ 20-08-2025/ Shri Hit
+[12:20:50]   [NO TRANSCRIPT] #1008 Ekantik Vartalaap & Darshan/ 21-08-2025/ Shri Hit
+[12:20:50]   Progress: 141/1156 | OK=46 NoSub=95 Banned=0 | Q&A pairs: 0 | 8.6min
+[12:20:53]   [FETCH] #1005 Ekantik Vartalaap & Darshan/ 18-08-2025/ Shri Hit
+[12:20:56]   [NO TRANSCRIPT] #1007 Ekantik Vartalaap & Darshan/ 20-08-2025/ Shri Hit
+[12:20:56]   Progress: 142/1156 | OK=46 NoSub=96 Banned=0 | Q&A pairs: 0 | 8.7min
+[12:20:57]   [NO TRANSCRIPT] #1006 Ekantik Vartalaap & Darshan/ 19-08-2025/ Shri Hit
+[12:20:57]   Progress: 143/1156 | OK=46 NoSub=97 Banned=0 | Q&A pairs: 0 | 8.7min
+[12:20:58]   [FETCH] #1004 Ekantik Vartalaap & Darshan/ 17-08-2025/ Shri Hit
+[12:20:59]   [FETCH] #1003 Ekantik Vartalaap & Darshan/ 16-08-2025/ Shri Hit
+[12:21:12]   [NO TRANSCRIPT] #1005 Ekantik Vartalaap & Darshan/ 18-08-2025/ Shri Hit
+[12:21:12]   Progress: 144/1156 | OK=46 NoSub=98 Banned=0 | Q&A pairs: 0 | 9.0min
+[12:21:15]   [FETCH] #1002 Ekantik Vartalaap & Darshan/ 15-08-2025/ Shri Hit
+[12:21:21]   [NO TRANSCRIPT] #1003 Ekantik Vartalaap & Darshan/ 16-08-2025/ Shri Hit
+[12:21:21]   Progress: 145/1156 | OK=46 NoSub=99 Banned=0 | Q&A pairs: 0 | 9.1min
+[12:21:21]   [NO TRANSCRIPT] #1004 Ekantik Vartalaap & Darshan/ 17-08-2025/ Shri Hit
+[12:21:21]   Progress: 146/1156 | OK=46 NoSub=100 Banned=0 | Q&A pairs: 0 | 9.1min
+[12:21:23]   [FETCH] #1000 Ekantik Vartalaap & Darshan/ 13-08-2025/ Shri Hit
+[12:21:25]   [FETCH] #1001 Ekantik Vartalaap & Darshan/ 14-08-2025/ Shri Hit
+[12:21:33]   [NO TRANSCRIPT] #1002 Ekantik Vartalaap & Darshan/ 15-08-2025/ Shri Hit
+[12:21:33]   Progress: 147/1156 | OK=46 NoSub=101 Banned=0 | Q&A pairs: 0 | 9.3min
+[12:21:37]   [FETCH] #998 Ekantik Vartalaap & Darshan/ 11-08-2025/ Shri Hit 
+[12:21:40]   [NO TRANSCRIPT] #1000 Ekantik Vartalaap & Darshan/ 13-08-2025/ Shri Hit
+[12:21:40]   Progress: 148/1156 | OK=46 NoSub=102 Banned=0 | Q&A pairs: 0 | 9.4min
+[12:21:44]   [FETCH] #997 Ekantik Vartalaap & Darshan/ 10-08-2025/ Shri Hit 
+[12:21:44]   [NO TRANSCRIPT] #1001 Ekantik Vartalaap & Darshan/ 14-08-2025/ Shri Hit
+[12:21:44]   Progress: 149/1156 | OK=46 NoSub=103 Banned=0 | Q&A pairs: 0 | 9.5min
+[12:21:48]   [FETCH] #996 Ekantik Vartalaap & Darshan/ 09-08-2025/ Shri Hit 
+[12:21:51]   [NO TRANSCRIPT] #998 Ekantik Vartalaap & Darshan/ 11-08-2025/ Shri Hit 
+[12:21:51]   Progress: 150/1156 | OK=46 NoSub=104 Banned=0 | Q&A pairs: 0 | 9.6min
+[12:21:53]   [NO TRANSCRIPT] #997 Ekantik Vartalaap & Darshan/ 10-08-2025/ Shri Hit 
+[12:21:53]   Progress: 151/1156 | OK=46 NoSub=105 Banned=0 | Q&A pairs: 0 | 9.7min
+[12:21:56]   [FETCH] #995 Ekantik Vartalaap & Darshan/ 08-08-2025/ Shri Hit 
+[12:21:57]   [NO TRANSCRIPT] #996 Ekantik Vartalaap & Darshan/ 09-08-2025/ Shri Hit 
+[12:21:57]   Progress: 152/1156 | OK=46 NoSub=106 Banned=0 | Q&A pairs: 0 | 9.7min
+[12:21:58]   [FETCH] #994 Ekantik Vartalaap & Darshan/ 07-08-2025/ Shri Hit 
+[12:22:01]   [FETCH] #993 Ekantik Vartalaap & Darshan/ 06-08-2025/ Shri Hit 
+[12:22:02]   [NO TRANSCRIPT] #995 Ekantik Vartalaap & Darshan/ 08-08-2025/ Shri Hit 
+[12:22:02]   Progress: 153/1156 | OK=46 NoSub=107 Banned=0 | Q&A pairs: 0 | 9.8min
+[12:22:07]   [NO TRANSCRIPT] #994 Ekantik Vartalaap & Darshan/ 07-08-2025/ Shri Hit 
+[12:22:07]   Progress: 154/1156 | OK=46 NoSub=108 Banned=0 | Q&A pairs: 0 | 9.9min
+[12:22:07]   [FETCH] #992 Ekantik Vartalaap & Darshan/ 05-08-2025/ Shri Hit 
+[12:22:09]   [NO TRANSCRIPT] #993 Ekantik Vartalaap & Darshan/ 06-08-2025/ Shri Hit 
+[12:22:09]   Progress: 155/1156 | OK=46 NoSub=109 Banned=0 | Q&A pairs: 0 | 9.9min
+[12:22:11]   [FETCH] #991 Ekantik Vartalaap & Darshan/ 04-08-2025/ Shri Hit 
+[12:22:11]   [FETCH] #990 Ekantik Vartalaap & Darshan/ 03-08-2025/ Shri Hit 
+[12:22:14]   [NO TRANSCRIPT] #992 Ekantik Vartalaap & Darshan/ 05-08-2025/ Shri Hit 
+[12:22:14]   Progress: 156/1156 | OK=46 NoSub=110 Banned=0 | Q&A pairs: 0 | 10.0min
+[12:22:20]   [NO TRANSCRIPT] #990 Ekantik Vartalaap & Darshan/ 03-08-2025/ Shri Hit 
+[12:22:20]   Progress: 157/1156 | OK=46 NoSub=111 Banned=0 | Q&A pairs: 0 | 10.1min
+[12:22:20]   [NO TRANSCRIPT] #991 Ekantik Vartalaap & Darshan/ 04-08-2025/ Shri Hit 
+[12:22:20]   Progress: 158/1156 | OK=46 NoSub=112 Banned=0 | Q&A pairs: 0 | 10.1min
+[12:22:20]   [FETCH] #989 Ekantik Vartalaap & Darshan/ 02-08-2025/ Shri Hit 
+[12:22:24]   [FETCH] #987 Ekantik Vartalaap & Darshan/ 31-07-2025/ Shri Hit 
+[12:22:24]   [FETCH] #988 Ekantik Vartalaap & Darshan/ 01-08-2025/ Shri Hit 
+[12:22:26]   [NO TRANSCRIPT] #989 Ekantik Vartalaap & Darshan/ 02-08-2025/ Shri Hit 
+[12:22:26]   Progress: 159/1156 | OK=46 NoSub=113 Banned=0 | Q&A pairs: 0 | 10.2min
+[12:22:30]   [FETCH] #986 Ekantik Vartalaap & Darshan/ 30-07-2025/ Shri Hit 
+[12:22:32]   [NO TRANSCRIPT] #987 Ekantik Vartalaap & Darshan/ 31-07-2025/ Shri Hit 
+[12:22:32]   Progress: 160/1156 | OK=46 NoSub=114 Banned=0 | Q&A pairs: 0 | 10.3min
+[12:22:32]   [NO TRANSCRIPT] #988 Ekantik Vartalaap & Darshan/ 01-08-2025/ Shri Hit 
+[12:22:32]   Progress: 161/1156 | OK=46 NoSub=115 Banned=0 | Q&A pairs: 0 | 10.3min
+[12:22:35]   [FETCH] #984 Ekantik Vartalaap & Darshan/ 28-07-2025/ Shri Hit 
+[12:22:37]   [FETCH] #985 Ekantik Vartalaap & Darshan/ 29-07-2025/ Shri Hit 
+[12:22:38]   [NO TRANSCRIPT] #986 Ekantik Vartalaap & Darshan/ 30-07-2025/ Shri Hit 
+[12:22:38]   Progress: 162/1156 | OK=46 NoSub=116 Banned=0 | Q&A pairs: 0 | 10.4min
+[12:22:42]   [FETCH] #983 Ekantik Vartalaap & Darshan/ 27-07-2025/ Shri Hit 
+[12:22:43]   [NO TRANSCRIPT] #984 Ekantik Vartalaap & Darshan/ 28-07-2025/ Shri Hit 
+[12:22:43]   Progress: 163/1156 | OK=46 NoSub=117 Banned=0 | Q&A pairs: 0 | 10.5min
+[12:22:45]   [NO TRANSCRIPT] #985 Ekantik Vartalaap & Darshan/ 29-07-2025/ Shri Hit 
+[12:22:45]   Progress: 164/1156 | OK=46 NoSub=118 Banned=0 | Q&A pairs: 0 | 10.5min
+[12:22:49]   [FETCH] #981 Ekantik Vartalaap & Darshan/ 25-07-2025/ Shri Hit 
+[12:22:49]   [FETCH] #982 Ekantik Vartalaap & Darshan/ 26-07-2025/ Shri Hit 
+[12:22:49]   [NO TRANSCRIPT] #983 Ekantik Vartalaap & Darshan/ 27-07-2025/ Shri Hit 
+[12:22:49]   Progress: 165/1156 | OK=46 NoSub=119 Banned=0 | Q&A pairs: 0 | 10.6min
+[12:22:55]   [FETCH] #980 Ekantik Vartalaap & Darshan/ 24-07-2025/ Shri Hit 
+[12:22:56]   [NO TRANSCRIPT] #981 Ekantik Vartalaap & Darshan/ 25-07-2025/ Shri Hit 
+[12:22:56]   Progress: 166/1156 | OK=46 NoSub=120 Banned=0 | Q&A pairs: 0 | 10.7min
+[12:22:58]   [NO TRANSCRIPT] #982 Ekantik Vartalaap & Darshan/ 26-07-2025/ Shri Hit 
+[12:22:58]   Progress: 167/1156 | OK=46 NoSub=121 Banned=0 | Q&A pairs: 0 | 10.7min
+[12:22:59]   [FETCH] #979 Ekantik Vartalaap & Darshan/ 23-07-2025/ Shri Hit 
+[12:23:00]   [FETCH] #978 Ekantik Vartalaap & Darshan/ 22-07-2025/ Shri Hit 
+[12:23:01]   [NO TRANSCRIPT] #980 Ekantik Vartalaap & Darshan/ 24-07-2025/ Shri Hit 
+[12:23:01]   Progress: 168/1156 | OK=46 NoSub=122 Banned=0 | Q&A pairs: 0 | 10.8min
+[12:23:06]   [FETCH] #977 Ekantik Vartalaap & Darshan/ 21-07-2025/ Shri Hit 
+[12:23:10]   [NO TRANSCRIPT] #979 Ekantik Vartalaap & Darshan/ 23-07-2025/ Shri Hit 
+[12:23:10]   Progress: 169/1156 | OK=46 NoSub=123 Banned=0 | Q&A pairs: 0 | 10.9min
+[12:23:13]   [FETCH] #976 Ekantik Vartalaap & Darshan/ 20-07-2025/ Shri Hit 
+[12:23:15]   [NO TRANSCRIPT] #978 Ekantik Vartalaap & Darshan/ 22-07-2025/ Shri Hit 
+[12:23:15]   Progress: 170/1156 | OK=46 NoSub=124 Banned=0 | Q&A pairs: 0 | 11.0min
+[12:23:18]   [FETCH] #975 Ekantik Vartalaap & Darshan/ 19-07-2025/ Shri Hit 
+[12:23:26]   [NO TRANSCRIPT] #977 Ekantik Vartalaap & Darshan/ 21-07-2025/ Shri Hit 
+[12:23:26]   Progress: 171/1156 | OK=46 NoSub=125 Banned=0 | Q&A pairs: 0 | 11.2min
+[12:23:26]   [NO TRANSCRIPT] #976 Ekantik Vartalaap & Darshan/ 20-07-2025/ Shri Hit 
+[12:23:26]   Progress: 172/1156 | OK=46 NoSub=126 Banned=0 | Q&A pairs: 0 | 11.2min
+[12:23:26]   [NO TRANSCRIPT] #975 Ekantik Vartalaap & Darshan/ 19-07-2025/ Shri Hit 
+[12:23:26]   Progress: 173/1156 | OK=46 NoSub=127 Banned=0 | Q&A pairs: 0 | 11.2min
+[12:23:30]   [FETCH] #974 Ekantik Vartalaap & Darshan/ 18-07-2025/ Shri Hit 
+[12:23:31]   [FETCH] #972 Ekantik Vartalaap & Darshan/ 16-07-2025/ Shri Hit 
+[12:23:32]   [FETCH] #973 Ekantik Vartalaap & Darshan/ 17-07-2025/ Shri Hit 
+[12:23:40]   [NO TRANSCRIPT] #974 Ekantik Vartalaap & Darshan/ 18-07-2025/ Shri Hit 
+[12:23:40]   Progress: 174/1156 | OK=46 NoSub=128 Banned=0 | Q&A pairs: 0 | 11.4min
+[12:23:42]   [NO TRANSCRIPT] #972 Ekantik Vartalaap & Darshan/ 16-07-2025/ Shri Hit 
+[12:23:42]   Progress: 175/1156 | OK=46 NoSub=129 Banned=0 | Q&A pairs: 0 | 11.5min
+[12:23:43]   [NO TRANSCRIPT] #973 Ekantik Vartalaap & Darshan/ 17-07-2025/ Shri Hit 
+[12:23:43]   Progress: 176/1156 | OK=46 NoSub=130 Banned=0 | Q&A pairs: 0 | 11.5min
+[12:23:43]   [FETCH] #971 Ekantik Vartalaap & Darshan/ 15-07-2025/ Shri Hit 
+[12:23:45]   [FETCH] #969 Ekantik Vartalaap & Darshan/ 13-07-2025/ Shri Hit 
+[12:23:45]   [FETCH] #970 Ekantik Vartalaap & Darshan/ 14-07-2025/ Shri Hit 
+[12:23:53]   [NO TRANSCRIPT] #971 Ekantik Vartalaap & Darshan/ 15-07-2025/ Shri Hit 
+[12:23:53]   Progress: 177/1156 | OK=46 NoSub=131 Banned=0 | Q&A pairs: 0 | 11.7min
+[12:23:56]   [FETCH] #968 Ekantik Vartalaap & Darshan/ 12-07-2025/ Shri Hit 
+[12:23:57]   [NO TRANSCRIPT] #969 Ekantik Vartalaap & Darshan/ 13-07-2025/ Shri Hit 
+[12:23:57]   Progress: 178/1156 | OK=46 NoSub=132 Banned=0 | Q&A pairs: 0 | 11.7min
+[12:23:58]   [NO TRANSCRIPT] #970 Ekantik Vartalaap & Darshan/ 14-07-2025/ Shri Hit 
+[12:23:58]   Progress: 179/1156 | OK=46 NoSub=133 Banned=0 | Q&A pairs: 0 | 11.7min
+[12:23:59]   [FETCH] #967 Ekantik Vartalaap & Darshan/ 11-07-2025/ Shri Hit 
+[12:24:01]   [FETCH] #966 Ekantik Vartalaap & Darshan/ 10-07-2025/ Shri Hit 
+[12:24:06]   [NO TRANSCRIPT] #968 Ekantik Vartalaap & Darshan/ 12-07-2025/ Shri Hit 
+[12:24:06]   Progress: 180/1156 | OK=46 NoSub=134 Banned=0 | Q&A pairs: 0 | 11.9min
+[12:24:08]   [NO TRANSCRIPT] #967 Ekantik Vartalaap & Darshan/ 11-07-2025/ Shri Hit 
+[12:24:08]   Progress: 181/1156 | OK=46 NoSub=135 Banned=0 | Q&A pairs: 0 | 11.9min
+[12:24:08]   [FETCH] #965 Ekantik Vartalaap & Darshan/ 09-07-2025/ Shri Hit 
+[12:24:10]   [FETCH] #964 Ekantik Vartalaap & Darshan/ 08-07-2025/ Shri Hit 
+[12:24:10]   [NO TRANSCRIPT] #966 Ekantik Vartalaap & Darshan/ 10-07-2025/ Shri Hit 
+[12:24:10]   Progress: 182/1156 | OK=46 NoSub=136 Banned=0 | Q&A pairs: 0 | 11.9min
+[12:24:13]   [FETCH] #963 Ekantik Vartalaap & Darshan/ 07-07-2025/ Shri Hit 
+[12:24:17]   [NO TRANSCRIPT] #965 Ekantik Vartalaap & Darshan/ 09-07-2025/ Shri Hit 
+[12:24:17]   Progress: 183/1156 | OK=46 NoSub=137 Banned=0 | Q&A pairs: 0 | 12.1min
+[12:24:19]   [NO TRANSCRIPT] #964 Ekantik Vartalaap & Darshan/ 08-07-2025/ Shri Hit 
+[12:24:19]   Progress: 184/1156 | OK=46 NoSub=138 Banned=0 | Q&A pairs: 0 | 12.1min
+[12:24:21]   [FETCH] #962 Ekantik Vartalaap & Darshan/ 06-07-2025/ Shri Hit 
+[12:24:22]   [NO TRANSCRIPT] #963 Ekantik Vartalaap & Darshan/ 07-07-2025/ Shri Hit 
+[12:24:22]   Progress: 185/1156 | OK=46 NoSub=139 Banned=0 | Q&A pairs: 0 | 12.1min
+[12:24:25]   [FETCH] #961 Ekantik Vartalaap & Darshan/ 05-07-2025/ Shri Hit 
+[12:24:25]   [FETCH] #960 Ekantik Vartalaap & Darshan/ 04-07-2025/ Shri Hit 
+[12:24:29]   [NO TRANSCRIPT] #962 Ekantik Vartalaap & Darshan/ 06-07-2025/ Shri Hit 
+[12:24:29]   Progress: 186/1156 | OK=46 NoSub=140 Banned=0 | Q&A pairs: 0 | 12.3min
+[12:24:34]   [NO TRANSCRIPT] #960 Ekantik Vartalaap & Darshan/ 04-07-2025/ Shri Hit 
+[12:24:34]   Progress: 187/1156 | OK=46 NoSub=141 Banned=0 | Q&A pairs: 0 | 12.3min
+[12:24:35]   [NO TRANSCRIPT] #961 Ekantik Vartalaap & Darshan/ 05-07-2025/ Shri Hit 
+[12:24:35]   Progress: 188/1156 | OK=46 NoSub=142 Banned=0 | Q&A pairs: 0 | 12.4min
+[12:24:35]   [FETCH] #959 Ekantik Vartalaap & Darshan/ 03-07-2025/ Shri Hit 
+[12:24:38]   [FETCH] #958 Ekantik Vartalaap & Darshan/ 02-07-2025/ Shri Hit 
+[12:24:39]   [FETCH] #957 Ekantik Vartalaap & Darshan/ 01-07-2025/ Shri Hit 
+[12:24:44]   [NO TRANSCRIPT] #959 Ekantik Vartalaap & Darshan/ 03-07-2025/ Shri Hit 
+[12:24:44]   Progress: 189/1156 | OK=46 NoSub=143 Banned=0 | Q&A pairs: 0 | 12.5min
+[12:24:46]   [NO TRANSCRIPT] #958 Ekantik Vartalaap & Darshan/ 02-07-2025/ Shri Hit 
+[12:24:46]   Progress: 190/1156 | OK=46 NoSub=144 Banned=0 | Q&A pairs: 0 | 12.5min
+[12:24:48]   [NO TRANSCRIPT] #957 Ekantik Vartalaap & Darshan/ 01-07-2025/ Shri Hit 
+[12:24:48]   Progress: 191/1156 | OK=46 NoSub=145 Banned=0 | Q&A pairs: 0 | 12.6min
+[12:24:48]   [FETCH] #956 Ekantik Vartalaap & Darshan/ 30-06-2025/ Shri Hit 
+[12:24:51]   [FETCH] #954 Ekantik Vartalaap & Darshan/ 28-06-2025/ Shri Hit 
+[12:24:52]   [FETCH] #955 Ekantik Vartalaap & Darshan/ 29-06-2025/ Shri Hit 
+[12:24:55]   [NO TRANSCRIPT] #956 Ekantik Vartalaap & Darshan/ 30-06-2025/ Shri Hit 
+[12:24:55]   Progress: 192/1156 | OK=46 NoSub=146 Banned=0 | Q&A pairs: 0 | 12.7min
+[12:25:00]   [NO TRANSCRIPT] #954 Ekantik Vartalaap & Darshan/ 28-06-2025/ Shri Hit 
+[12:25:00]   [NO TRANSCRIPT] #955 Ekantik Vartalaap & Darshan/ 29-06-2025/ Shri Hit 
+[12:25:00]   Progress: 193/1156 | OK=46 NoSub=147 Banned=0 | Q&A pairs: 0 | 12.8min
+[12:25:00]   Progress: 194/1156 | OK=46 NoSub=148 Banned=0 | Q&A pairs: 0 | 12.8min
+[12:25:00]   [FETCH] #953 Ekantik Vartalaap & Darshan/ 27-06-2025/ Shri Hit 
+[12:25:04]   [FETCH] #952 Ekantik Vartalaap & Darshan/ 26-06-2025/ Shri Hit 
+[12:25:05]   [FETCH] #951 Ekantik Vartalaap & Darshan/ 25-06-2025/ Shri Hit 
+[12:25:06]   [NO TRANSCRIPT] #953 Ekantik Vartalaap & Darshan/ 27-06-2025/ Shri Hit 
+[12:25:06]   Progress: 195/1156 | OK=46 NoSub=149 Banned=0 | Q&A pairs: 0 | 12.9min
+[12:25:09]   [FETCH] #950 Ekantik Vartalaap & Darshan/ 24-06-2025/ Shri Hit 
+[12:25:12]   [NO TRANSCRIPT] #951 Ekantik Vartalaap & Darshan/ 25-06-2025/ Shri Hit 
+[12:25:12]   [NO TRANSCRIPT] #952 Ekantik Vartalaap & Darshan/ 26-06-2025/ Shri Hit 
+[12:25:12]   Progress: 196/1156 | OK=46 NoSub=150 Banned=0 | Q&A pairs: 0 | 13.0min
+[12:25:12]   Progress: 197/1156 | OK=46 NoSub=151 Banned=0 | Q&A pairs: 0 | 13.0min
+[12:25:16]   [NO TRANSCRIPT] #950 Ekantik Vartalaap & Darshan/ 24-06-2025/ Shri Hit 
+[12:25:16]   Progress: 198/1156 | OK=46 NoSub=152 Banned=0 | Q&A pairs: 0 | 13.0min
+[12:25:17]   [FETCH] #948 Ekantik Vartalaap & Darshan/ 22-06-2025/ Shri Hit 
+[12:25:17]   [FETCH] #949 Ekantik Vartalaap & Darshan/ 23-06-2025/ Shri Hit 
+[12:25:19]   [FETCH] #947 Ekantik Vartalaap & Darshan/ 21-06-2025/ Shri Hit 
+[12:25:25]   [NO TRANSCRIPT] #949 Ekantik Vartalaap & Darshan/ 23-06-2025/ Shri Hit 
+[12:25:25]   Progress: 199/1156 | OK=46 NoSub=153 Banned=0 | Q&A pairs: 0 | 13.2min
+[12:25:25]   [NO TRANSCRIPT] #948 Ekantik Vartalaap & Darshan/ 22-06-2025/ Shri Hit 
+[12:25:25]   Progress: 200/1156 | OK=46 NoSub=154 Banned=0 | Q&A pairs: 0 | 13.2min
+[12:25:26]   [NO TRANSCRIPT] #947 Ekantik Vartalaap & Darshan/ 21-06-2025/ Shri Hit 
+[12:25:26]   Progress: 201/1156 | OK=46 NoSub=155 Banned=0 | Q&A pairs: 0 | 13.2min
+[12:25:28]   [FETCH] #946 Ekantik Vartalaap & Darshan/ 20-06-2025/ Shri Hit 
+[12:25:28]   [FETCH] #945 Ekantik Vartalaap & Darshan/ 19-06-2025/ Shri Hit 
+[12:25:29]   [FETCH] #944 Ekantik Vartalaap & Darshan/ 18-06-2025/ Shri Hit 
+[12:25:35]   [NO TRANSCRIPT] #946 Ekantik Vartalaap & Darshan/ 20-06-2025/ Shri Hit 
+[12:25:35]   Progress: 202/1156 | OK=46 NoSub=156 Banned=0 | Q&A pairs: 0 | 13.4min
+[12:25:37]   [NO TRANSCRIPT] #944 Ekantik Vartalaap & Darshan/ 18-06-2025/ Shri Hit 
+[12:25:37]   Progress: 203/1156 | OK=46 NoSub=157 Banned=0 | Q&A pairs: 0 | 13.4min
+[12:25:37]   [NO TRANSCRIPT] #945 Ekantik Vartalaap & Darshan/ 19-06-2025/ Shri Hit 
+[12:25:37]   Progress: 204/1156 | OK=46 NoSub=158 Banned=0 | Q&A pairs: 0 | 13.4min
+[12:25:40]   [FETCH] #942 Ekantik Vartalaap & Darshan/ 16-06-2025/ Shri Hit 
+[12:25:41]   [FETCH] #943 Ekantik Vartalaap & Darshan/ 17-06-2025/ Shri Hit 
+[12:25:42]   [FETCH] #941 Ekantik Vartalaap & Darshan/ 15-06-2025/ Shri Hit 
+[12:25:47]   [NO TRANSCRIPT] #942 Ekantik Vartalaap & Darshan/ 16-06-2025/ Shri Hit 
+[12:25:47]   Progress: 205/1156 | OK=46 NoSub=159 Banned=0 | Q&A pairs: 0 | 13.6min
+[12:25:49]   [NO TRANSCRIPT] #943 Ekantik Vartalaap & Darshan/ 17-06-2025/ Shri Hit 
+[12:25:49]   Progress: 206/1156 | OK=46 NoSub=160 Banned=0 | Q&A pairs: 0 | 13.6min
+[12:25:50]   [NO TRANSCRIPT] #941 Ekantik Vartalaap & Darshan/ 15-06-2025/ Shri Hit 
+[12:25:50]   Progress: 207/1156 | OK=46 NoSub=161 Banned=0 | Q&A pairs: 0 | 13.6min
+[12:25:51]   [FETCH] #940 Ekantik Vartalaap & Darshan/ 14-06-2025/ Shri Hit 
+[12:25:53]   [FETCH] #939 Ekantik Vartalaap & Darshan/ 13-06-2025/ Shri Hit 
+[12:25:55]   [FETCH] #938 Ekantik Vartalaap & Darshan/ 12-06-2025/ Shri Hit 
+[12:25:59]   [NO TRANSCRIPT] #940 Ekantik Vartalaap & Darshan/ 14-06-2025/ Shri Hit 
+[12:25:59]   Progress: 208/1156 | OK=46 NoSub=162 Banned=0 | Q&A pairs: 0 | 13.8min
+[12:26:01]   [FETCH] #929 Ekantik Vartalaap & Darshan/ 03-06-2025/ Shri Hit 
+[12:26:02]   [NO TRANSCRIPT] #939 Ekantik Vartalaap & Darshan/ 13-06-2025/ Shri Hit 
+[12:26:02]   Progress: 209/1156 | OK=46 NoSub=163 Banned=0 | Q&A pairs: 0 | 13.8min
+[12:26:04]   [NO TRANSCRIPT] #938 Ekantik Vartalaap & Darshan/ 12-06-2025/ Shri Hit 
+[12:26:04]   Progress: 210/1156 | OK=46 NoSub=164 Banned=0 | Q&A pairs: 0 | 13.8min
+[12:26:04]   [FETCH] #928 Ekantik Vartalaap & Darshan/ 02-06-2025/ Shri Hit 
+[12:26:08]   [FETCH] #927 Ekantik Vartalaap & Darshan/ 01-06-2025/ Shri Hit 
+[12:26:09]   [NO TRANSCRIPT] #929 Ekantik Vartalaap & Darshan/ 03-06-2025/ Shri Hit 
+[12:26:09]   Progress: 211/1156 | OK=46 NoSub=165 Banned=0 | Q&A pairs: 0 | 13.9min
+[12:26:12]   [NO TRANSCRIPT] #928 Ekantik Vartalaap & Darshan/ 02-06-2025/ Shri Hit 
+[12:26:12]   Progress: 212/1156 | OK=46 NoSub=166 Banned=0 | Q&A pairs: 0 | 14.0min
+[12:26:14]   [FETCH] #926 Ekantik Vartalaap & Darshan/ 31-05-2025/ Shri Hit 
+[12:26:16]   [NO TRANSCRIPT] #927 Ekantik Vartalaap & Darshan/ 01-06-2025/ Shri Hit 
+[12:26:16]   Progress: 213/1156 | OK=46 NoSub=167 Banned=0 | Q&A pairs: 0 | 14.0min
+[12:26:16]   [FETCH] #925 Ekantik Vartalaap & Darshan/ 30-05-2025/ Shri Hit 
+[12:26:19]   [FETCH] #924 Ekantik Vartalaap & Darshan/ 29-05-2025/ Shri Hit 
+[12:26:22]   [NO TRANSCRIPT] #926 Ekantik Vartalaap & Darshan/ 31-05-2025/ Shri Hit 
+[12:26:22]   Progress: 214/1156 | OK=46 NoSub=168 Banned=0 | Q&A pairs: 0 | 14.1min
+[12:26:25]   [NO TRANSCRIPT] #925 Ekantik Vartalaap & Darshan/ 30-05-2025/ Shri Hit 
+[12:26:25]   Progress: 215/1156 | OK=46 NoSub=169 Banned=0 | Q&A pairs: 0 | 14.2min
+[12:26:27]   [FETCH] #923 Ekantik Vartalaap & Darshan/ 28-05-2025/ Shri Hit 
+[12:26:27]   [NO TRANSCRIPT] #924 Ekantik Vartalaap & Darshan/ 29-05-2025/ Shri Hit 
+[12:26:27]   Progress: 216/1156 | OK=46 NoSub=170 Banned=0 | Q&A pairs: 0 | 14.2min
+[12:26:30]   [FETCH] #922 Ekantik Vartalaap & Darshan/ 27-05-2025/ Shri Hit 
+[12:26:31]   [FETCH] #921 Ekantik Vartalaap & Darshan/ 26-05-2025/ Shri Hit 
+[12:26:34]   [NO TRANSCRIPT] #923 Ekantik Vartalaap & Darshan/ 28-05-2025/ Shri Hit 
+[12:26:34]   Progress: 217/1156 | OK=46 NoSub=171 Banned=0 | Q&A pairs: 0 | 14.3min
+[12:26:37]   [FETCH] #920 Ekantik Vartalaap & Darshan/ 25-05-2025/ Shri Hit 
+[12:26:39]   [NO TRANSCRIPT] #922 Ekantik Vartalaap & Darshan/ 27-05-2025/ Shri Hit 
+[12:26:39]   Progress: 218/1156 | OK=46 NoSub=172 Banned=0 | Q&A pairs: 0 | 14.4min
+[12:26:40]   [NO TRANSCRIPT] #921 Ekantik Vartalaap & Darshan/ 26-05-2025/ Shri Hit 
+[12:26:40]   Progress: 219/1156 | OK=46 NoSub=173 Banned=0 | Q&A pairs: 0 | 14.4min
+[12:26:43]   [FETCH] #919 Ekantik Vartalaap & Darshan/ 24-05-2025/ Shri Hit 
+[12:26:44]   [FETCH] #918 Ekantik Vartalaap & Darshan/ 23-05-2025/ Shri Hit 
+[12:26:46]   [NO TRANSCRIPT] #920 Ekantik Vartalaap & Darshan/ 25-05-2025/ Shri Hit 
+[12:26:46]   Progress: 220/1156 | OK=46 NoSub=174 Banned=0 | Q&A pairs: 0 | 14.5min
+[12:26:48]   [FETCH] #917 Ekantik Vartalaap & Darshan/ 22-05-2025/ Shri Hit 
+[12:26:51]   [NO TRANSCRIPT] #919 Ekantik Vartalaap & Darshan/ 24-05-2025/ Shri Hit 
+[12:26:51]   Progress: 221/1156 | OK=46 NoSub=175 Banned=0 | Q&A pairs: 0 | 14.6min
+[12:26:53]   [NO TRANSCRIPT] #918 Ekantik Vartalaap & Darshan/ 23-05-2025/ Shri Hit 
+[12:26:53]   Progress: 222/1156 | OK=46 NoSub=176 Banned=0 | Q&A pairs: 0 | 14.7min
+[12:26:56]   [NO TRANSCRIPT] #917 Ekantik Vartalaap & Darshan/ 22-05-2025/ Shri Hit 
+[12:26:56]   Progress: 223/1156 | OK=46 NoSub=177 Banned=0 | Q&A pairs: 0 | 14.7min
+[12:26:57]   [FETCH] #915 Ekantik Vartalaap & Darshan/ 20-05-2025/ Shri Hit 
+[12:26:57]   [FETCH] #916 Ekantik Vartalaap & Darshan/ 21-05-2025/ Shri Hit 
+[12:27:00]   [FETCH] #914 Ekantik Vartalaap & Darshan/ 19-05-2025/ Shri Hit 
+[12:27:06]   [NO TRANSCRIPT] #916 Ekantik Vartalaap & Darshan/ 21-05-2025/ Shri Hit 
+[12:27:06]   Progress: 224/1156 | OK=46 NoSub=178 Banned=0 | Q&A pairs: 0 | 14.9min
+[12:27:06]   [NO TRANSCRIPT] #915 Ekantik Vartalaap & Darshan/ 20-05-2025/ Shri Hit 
+[12:27:06]   Progress: 225/1156 | OK=46 NoSub=179 Banned=0 | Q&A pairs: 0 | 14.9min
+[12:27:08]   [NO TRANSCRIPT] #914 Ekantik Vartalaap & Darshan/ 19-05-2025/ Shri Hit 
+[12:27:08]   Progress: 226/1156 | OK=46 NoSub=180 Banned=0 | Q&A pairs: 0 | 14.9min
+[12:27:09]   [FETCH] #912 Ekantik Vartalaap & Darshan/ 17-05-2025/ Shri Hit 
+[12:27:10]   [FETCH] #913 Ekantik Vartalaap & Darshan/ 18-05-2025/ Shri Hit 
+[12:27:12]   [FETCH] #911 Ekantik Vartalaap & Darshan/ 16-05-2025/ Shri Hit 
+[12:27:17]   [NO TRANSCRIPT] #912 Ekantik Vartalaap & Darshan/ 17-05-2025/ Shri Hit 
+[12:27:17]   Progress: 227/1156 | OK=46 NoSub=181 Banned=0 | Q&A pairs: 0 | 15.1min
+[12:27:19]   [NO TRANSCRIPT] #913 Ekantik Vartalaap & Darshan/ 18-05-2025/ Shri Hit 
+[12:27:19]   Progress: 228/1156 | OK=46 NoSub=182 Banned=0 | Q&A pairs: 0 | 15.1min
+[12:27:21]   [FETCH] #909 Ekantik Vartalaap & Darshan/ 14-05-2025/ Shri Hit 
+[12:27:21]   [NO TRANSCRIPT] #911 Ekantik Vartalaap & Darshan/ 16-05-2025/ Shri Hit 
+[12:27:21]   Progress: 229/1156 | OK=46 NoSub=183 Banned=0 | Q&A pairs: 0 | 15.1min
+[12:27:22]   [FETCH] #910 Ekantik Vartalaap & Darshan/ 15-05-2025/ Shri Hit 
+[12:27:25]   [FETCH] #908 Ekantik Vartalaap & Darshan/ 13-05-2025/ Shri Hit 
+[12:27:28]   [NO TRANSCRIPT] #909 Ekantik Vartalaap & Darshan/ 14-05-2025/ Shri Hit 
+[12:27:28]   Progress: 230/1156 | OK=46 NoSub=184 Banned=0 | Q&A pairs: 0 | 15.2min
+[12:27:29]   [NO TRANSCRIPT] #910 Ekantik Vartalaap & Darshan/ 15-05-2025/ Shri Hit 
+[12:27:29]   Progress: 231/1156 | OK=46 NoSub=185 Banned=0 | Q&A pairs: 0 | 15.3min
+[12:27:32]   [FETCH] #906 Ekantik Vartalaap & Darshan/ 11-05-2025/ Shri Hit 
+[12:27:32]   [NO TRANSCRIPT] #908 Ekantik Vartalaap & Darshan/ 13-05-2025/ Shri Hit 
+[12:27:32]   Progress: 232/1156 | OK=46 NoSub=186 Banned=0 | Q&A pairs: 0 | 15.3min
+[12:27:33]   [FETCH] #907 Ekantik Vartalaap & Darshan/ 12-05-2025/ Shri Hit 
+[12:27:36]   [FETCH] #905 Ekantik Vartalaap & Darshan/ 10-05-2025/ Shri Hit 
+[12:27:41]   [NO TRANSCRIPT] #906 Ekantik Vartalaap & Darshan/ 11-05-2025/ Shri Hit 
+[12:27:41]   Progress: 233/1156 | OK=46 NoSub=187 Banned=0 | Q&A pairs: 0 | 15.4min
+[12:27:41]   [NO TRANSCRIPT] #907 Ekantik Vartalaap & Darshan/ 12-05-2025/ Shri Hit 
+[12:27:41]   Progress: 234/1156 | OK=46 NoSub=188 Banned=0 | Q&A pairs: 0 | 15.5min
+[12:27:43]   [FETCH] #903 Ekantik Vartalaap & Darshan/ 08-05-2025/ Shri Hit 
+[12:27:45]   [NO TRANSCRIPT] #905 Ekantik Vartalaap & Darshan/ 10-05-2025/ Shri Hit 
+[12:27:45]   Progress: 235/1156 | OK=46 NoSub=189 Banned=0 | Q&A pairs: 0 | 15.5min
+[12:27:46]   [FETCH] #904 Ekantik Vartalaap & Darshan/ 09-05-2025/ Shri Hit 
+[12:27:49]   [FETCH] #902 Ekantik Vartalaap & Darshan/ 07-05-2025/ Shri Hit 
+[12:27:52]   [NO TRANSCRIPT] #903 Ekantik Vartalaap & Darshan/ 08-05-2025/ Shri Hit 
+[12:27:52]   Progress: 236/1156 | OK=46 NoSub=190 Banned=0 | Q&A pairs: 0 | 15.6min
+[12:27:54]   [NO TRANSCRIPT] #904 Ekantik Vartalaap & Darshan/ 09-05-2025/ Shri Hit 
+[12:27:54]   Progress: 237/1156 | OK=46 NoSub=191 Banned=0 | Q&A pairs: 0 | 15.7min
+[12:27:56]   [FETCH] #901 Ekantik Vartalaap & Darshan/ 06-05-2025/ Shri Hit 
+[12:27:57]   [NO TRANSCRIPT] #902 Ekantik Vartalaap & Darshan/ 07-05-2025/ Shri Hit 
+[12:27:57]   Progress: 238/1156 | OK=46 NoSub=192 Banned=0 | Q&A pairs: 0 | 15.7min
+[12:27:59]   [FETCH] #900 Ekantik Vartalaap & Darshan/ 05-05-2025/ Shri Hit 
+[12:28:02]   [FETCH] #899 Ekantik Vartalaap & Darshan/ 04-05-2025/ Shri Hit 
+[12:28:04]   [NO TRANSCRIPT] #901 Ekantik Vartalaap & Darshan/ 06-05-2025/ Shri Hit 
+[12:28:04]   Progress: 239/1156 | OK=46 NoSub=193 Banned=0 | Q&A pairs: 0 | 15.8min
+[12:28:05]   [NO TRANSCRIPT] #900 Ekantik Vartalaap & Darshan/ 05-05-2025/ Shri Hit 
+[12:28:05]   Progress: 240/1156 | OK=46 NoSub=194 Banned=0 | Q&A pairs: 0 | 15.9min
+[12:28:07]   [FETCH] #898 Ekantik Vartalaap & Darshan/ 03-05-2025/ Shri Hit 
+[12:28:09]   [FETCH] #897 Ekantik Vartalaap & Darshan/ 02-05-2025/ Shri Hit 
+[12:28:11]   [NO TRANSCRIPT] #899 Ekantik Vartalaap & Darshan/ 04-05-2025/ Shri Hit 
+[12:28:11]   Progress: 241/1156 | OK=46 NoSub=195 Banned=0 | Q&A pairs: 0 | 16.0min
+[12:28:15]   [NO TRANSCRIPT] #898 Ekantik Vartalaap & Darshan/ 03-05-2025/ Shri Hit 
+[12:28:15]   Progress: 242/1156 | OK=46 NoSub=196 Banned=0 | Q&A pairs: 0 | 16.0min
+[12:28:16]   [NO TRANSCRIPT] #897 Ekantik Vartalaap & Darshan/ 02-05-2025/ Shri Hit 
+[12:28:16]   Progress: 243/1156 | OK=46 NoSub=197 Banned=0 | Q&A pairs: 0 | 16.0min
+[12:28:17]   [FETCH] #896 Ekantik Vartalaap & Darshan/ 01-05-2025/ Shri Hit 
+[12:28:18]   [FETCH] #895 Ekantik Vartalaap & Darshan/ 30-04-2025/ Shri Hit 
+[12:28:19]   [FETCH] #894 Ekantik Vartalaap & Darshan/ 29-04-2025/ Shri Hit 
+[12:28:25]   [NO TRANSCRIPT] #896 Ekantik Vartalaap & Darshan/ 01-05-2025/ Shri Hit 
+[12:28:25]   Progress: 244/1156 | OK=46 NoSub=198 Banned=0 | Q&A pairs: 0 | 16.2min
+[12:28:27]   [NO TRANSCRIPT] #895 Ekantik Vartalaap & Darshan/ 30-04-2025/ Shri Hit 
+[12:28:27]   Progress: 245/1156 | OK=46 NoSub=199 Banned=0 | Q&A pairs: 0 | 16.2min
+[12:28:28]   [NO TRANSCRIPT] #894 Ekantik Vartalaap & Darshan/ 29-04-2025/ Shri Hit 
+[12:28:28]   Progress: 246/1156 | OK=46 NoSub=200 Banned=0 | Q&A pairs: 0 | 16.2min
+[12:28:29]   [FETCH] #893 Ekantik Vartalaap & Darshan/ 28-04-2025/ Shri Hit 
+[12:28:30]   [FETCH] #892 Ekantik Vartalaap & Darshan/ 27-04-2025/ Shri Hit 
+[12:28:31]   [FETCH] #891 Ekantik Vartalaap & Darshan/ 26-04-2025/ Shri Hit 
+[12:28:39]   [NO TRANSCRIPT] #893 Ekantik Vartalaap & Darshan/ 28-04-2025/ Shri Hit 
+[12:28:39]   Progress: 247/1156 | OK=46 NoSub=201 Banned=0 | Q&A pairs: 0 | 16.4min
+[12:28:40]   [NO TRANSCRIPT] #892 Ekantik Vartalaap & Darshan/ 27-04-2025/ Shri Hit 
+[12:28:40]   Progress: 248/1156 | OK=46 NoSub=202 Banned=0 | Q&A pairs: 0 | 16.4min
+[12:28:40]   [NO TRANSCRIPT] #891 Ekantik Vartalaap & Darshan/ 26-04-2025/ Shri Hit 
+[12:28:40]   Progress: 249/1156 | OK=46 NoSub=203 Banned=0 | Q&A pairs: 0 | 16.4min
+[12:28:42]   [FETCH] #890 Ekantik Vartalaap & Darshan/ 25-04-2025/ Shri Hit 
+[12:28:45]   [FETCH] #889 Ekantik Vartalaap & Darshan/ 24-04-2025/ Shri Hit 
+[12:28:45]   [FETCH] #888 Ekantik Vartalaap & Darshan/ 23-04-2025/ Shri Hit 
+[12:28:51]   [NO TRANSCRIPT] #890 Ekantik Vartalaap & Darshan/ 25-04-2025/ Shri Hit 
+[12:28:51]   Progress: 250/1156 | OK=46 NoSub=204 Banned=0 | Q&A pairs: 0 | 16.6min
+[12:28:53]   [NO TRANSCRIPT] #888 Ekantik Vartalaap & Darshan/ 23-04-2025/ Shri Hit 
+[12:28:53]   Progress: 251/1156 | OK=46 NoSub=205 Banned=0 | Q&A pairs: 0 | 16.7min
+[12:28:54]   [NO TRANSCRIPT] #889 Ekantik Vartalaap & Darshan/ 24-04-2025/ Shri Hit 
+[12:28:54]   Progress: 252/1156 | OK=46 NoSub=206 Banned=0 | Q&A pairs: 0 | 16.7min
+[12:28:54]   [FETCH] #887 Ekantik Vartalaap & Darshan/ 22-04-2025/ Shri Hit 
+[12:28:57]   [FETCH] #886 Ekantik Vartalaap & Darshan/ 21-04-2025/ Shri Hit 
+[12:28:59]   [FETCH] #885 Ekantik Vartalaap & Darshan/ 20-04-2025/ Shri Hit 
+[12:29:02]   [NO TRANSCRIPT] #887 Ekantik Vartalaap & Darshan/ 22-04-2025/ Shri Hit 
+[12:29:02]   Progress: 253/1156 | OK=46 NoSub=207 Banned=0 | Q&A pairs: 0 | 16.8min
+[12:29:03]   [NO TRANSCRIPT] #886 Ekantik Vartalaap & Darshan/ 21-04-2025/ Shri Hit 
+[12:29:03]   Progress: 254/1156 | OK=46 NoSub=208 Banned=0 | Q&A pairs: 0 | 16.8min
+[12:29:04]   [FETCH] #884 Ekantik Vartalaap & Darshan/ 19-04-2025/ Shri Hit 
+[12:29:06]   [FETCH] #883 Ekantik Vartalaap & Darshan/ 18-04-2025/ Shri Hit 
+[12:29:06]   [NO TRANSCRIPT] #885 Ekantik Vartalaap & Darshan/ 20-04-2025/ Shri Hit 
+[12:29:06]   Progress: 255/1156 | OK=46 NoSub=209 Banned=0 | Q&A pairs: 0 | 16.9min
+[12:29:08]   [FETCH] #882 Ekantik Vartalaap & Darshan/ 17-04-2025/ Shri Hit 
+[12:29:11]   [NO TRANSCRIPT] #884 Ekantik Vartalaap & Darshan/ 19-04-2025/ Shri Hit 
+[12:29:11]   Progress: 256/1156 | OK=46 NoSub=210 Banned=0 | Q&A pairs: 0 | 16.9min
+[12:29:13]   [NO TRANSCRIPT] #883 Ekantik Vartalaap & Darshan/ 18-04-2025/ Shri Hit 
+[12:29:13]   Progress: 257/1156 | OK=46 NoSub=211 Banned=0 | Q&A pairs: 0 | 17.0min
+[12:29:14]   [NO TRANSCRIPT] #882 Ekantik Vartalaap & Darshan/ 17-04-2025/ Shri Hit 
+[12:29:14]   Progress: 258/1156 | OK=46 NoSub=212 Banned=0 | Q&A pairs: 0 | 17.0min
+[12:29:15]   [FETCH] #881 Ekantik Vartalaap & Darshan/ 16-04-2025/ Shri Hit 
+[12:29:16]   [FETCH] #880 Ekantik Vartalaap & Darshan/ 15-04-2025/ Shri Hit 
+[12:29:18]   [FETCH] #879 Ekantik Vartalaap & Darshan/ 14-04-2025/ Shri Hit 
+[12:29:22]   [NO TRANSCRIPT] #881 Ekantik Vartalaap & Darshan/ 16-04-2025/ Shri Hit 
+[12:29:22]   Progress: 259/1156 | OK=46 NoSub=213 Banned=0 | Q&A pairs: 0 | 17.1min
+[12:29:24]   [NO TRANSCRIPT] #880 Ekantik Vartalaap & Darshan/ 15-04-2025/ Shri Hit 
+[12:29:24]   Progress: 260/1156 | OK=46 NoSub=214 Banned=0 | Q&A pairs: 0 | 17.2min
+[12:29:25]   [FETCH] #878 Ekantik Vartalaap & Darshan/ 13-04-2025/ Shri Hit 
+[12:29:27]   [NO TRANSCRIPT] #879 Ekantik Vartalaap & Darshan/ 14-04-2025/ Shri Hit 
+[12:29:27]   Progress: 261/1156 | OK=46 NoSub=215 Banned=0 | Q&A pairs: 0 | 17.2min
+[12:29:29]   [FETCH] #877 Ekantik Vartalaap & Darshan/ 12-04-2025/ Shri Hit 
+[12:29:31]   [FETCH] #876 Ekantik Vartalaap & Darshan/ 11-04-2025/ Shri Hit 
+[12:29:33]   [NO TRANSCRIPT] #878 Ekantik Vartalaap & Darshan/ 13-04-2025/ Shri Hit 
+[12:29:33]   Progress: 262/1156 | OK=46 NoSub=216 Banned=0 | Q&A pairs: 0 | 17.3min
+[12:29:36]   [NO TRANSCRIPT] #877 Ekantik Vartalaap & Darshan/ 12-04-2025/ Shri Hit 
+[12:29:36]   Progress: 263/1156 | OK=46 NoSub=217 Banned=0 | Q&A pairs: 0 | 17.4min
+[12:29:37]   [NO TRANSCRIPT] #876 Ekantik Vartalaap & Darshan/ 11-04-2025/ Shri Hit 
+[12:29:37]   Progress: 264/1156 | OK=46 NoSub=218 Banned=0 | Q&A pairs: 0 | 17.4min
+[12:29:39]   [FETCH] #875 Ekantik Vartalaap & Darshan/ 10-04-2025/ Shri Hit 
+[12:29:41]   [FETCH] #874 Ekantik Vartalaap & Darshan/ 09-04-2025/ Shri Hit 
+[12:29:42]   [FETCH] #873 Ekantik Vartalaap & Darshan/ 08-04-2025/ Shri Hit 
+[12:29:45]   [NO TRANSCRIPT] #875 Ekantik Vartalaap & Darshan/ 10-04-2025/ Shri Hit 
+[12:29:45]   Progress: 265/1156 | OK=46 NoSub=219 Banned=0 | Q&A pairs: 0 | 17.5min
+[12:29:47]   [NO TRANSCRIPT] #874 Ekantik Vartalaap & Darshan/ 09-04-2025/ Shri Hit 
+[12:29:47]   Progress: 266/1156 | OK=46 NoSub=220 Banned=0 | Q&A pairs: 0 | 17.6min
+[12:29:48]   [FETCH] #872 Ekantik Vartalaap & Darshan/ 07-04-2025/ Shri Hit 
+[12:29:49]   [NO TRANSCRIPT] #873 Ekantik Vartalaap & Darshan/ 08-04-2025/ Shri Hit 
+[12:29:49]   Progress: 267/1156 | OK=46 NoSub=221 Banned=0 | Q&A pairs: 0 | 17.6min
+[12:29:49]   [FETCH] #871 Ekantik Vartalaap & Darshan/ 06-04-2025/ Shri Hit 
+[12:29:54]   [FETCH] #870 Ekantik Vartalaap & Darshan/ 05-04-2025/ Shri Hit 
+[12:29:54]   [NO TRANSCRIPT] #872 Ekantik Vartalaap & Darshan/ 07-04-2025/ Shri Hit 
+[12:29:54]   Progress: 268/1156 | OK=46 NoSub=222 Banned=0 | Q&A pairs: 0 | 17.7min
+[12:29:55]   [NO TRANSCRIPT] #871 Ekantik Vartalaap & Darshan/ 06-04-2025/ Shri Hit 
+[12:29:55]   Progress: 269/1156 | OK=46 NoSub=223 Banned=0 | Q&A pairs: 0 | 17.7min
+[12:29:59]   [NO TRANSCRIPT] #870 Ekantik Vartalaap & Darshan/ 05-04-2025/ Shri Hit 
+[12:29:59]   Progress: 270/1156 | OK=46 NoSub=224 Banned=0 | Q&A pairs: 0 | 17.8min
+[12:29:59]   [FETCH] #869 Ekantik Vartalaap & Darshan/ 04-04-2025/ Shri Hit 
+[12:30:00]   [FETCH] #868 Ekantik Vartalaap & Darshan/ 03-04-2025/ Shri Hit 
+[12:30:03]   [FETCH] #867 Ekantik Vartalaap & Darshan/ 02-04-2025/ Shri Hit 
+[12:30:06]   [NO TRANSCRIPT] #868 Ekantik Vartalaap & Darshan/ 03-04-2025/ Shri Hit 
+[12:30:06]   [NO TRANSCRIPT] #869 Ekantik Vartalaap & Darshan/ 04-04-2025/ Shri Hit 
+[12:30:06]   Progress: 271/1156 | OK=46 NoSub=225 Banned=0 | Q&A pairs: 0 | 17.9min
+[12:30:06]   Progress: 272/1156 | OK=46 NoSub=226 Banned=0 | Q&A pairs: 0 | 17.9min
+[12:30:09]   [NO TRANSCRIPT] #867 Ekantik Vartalaap & Darshan/ 02-04-2025/ Shri Hit 
+[12:30:09]   Progress: 273/1156 | OK=46 NoSub=227 Banned=0 | Q&A pairs: 0 | 17.9min
+[12:30:10]   [FETCH] #866 Ekantik Vartalaap & Darshan/ 01-04-2025/ Shri Hit 
+[12:30:12]   [FETCH] #865 Ekantik Vartalaap & Darshan/ 31-03-2025/ Shri Hit 
+[12:30:12]   [FETCH] #864 Ekantik Vartalaap & Darshan/ 30-03-2025/ Shri Hit 
+[12:30:16]   [NO TRANSCRIPT] #866 Ekantik Vartalaap & Darshan/ 01-04-2025/ Shri Hit 
+[12:30:16]   Progress: 274/1156 | OK=46 NoSub=228 Banned=0 | Q&A pairs: 0 | 18.0min
+[12:30:18]   [NO TRANSCRIPT] #865 Ekantik Vartalaap & Darshan/ 31-03-2025/ Shri Hit 
+[12:30:18]   Progress: 275/1156 | OK=46 NoSub=229 Banned=0 | Q&A pairs: 0 | 18.1min
+[12:30:19]   [NO TRANSCRIPT] #864 Ekantik Vartalaap & Darshan/ 30-03-2025/ Shri Hit 
+[12:30:19]   Progress: 276/1156 | OK=46 NoSub=230 Banned=0 | Q&A pairs: 0 | 18.1min
+[12:30:20]   [FETCH] #863 Ekantik Vartalaap & Darshan/ 29-03-2025/ Shri Hit 
+[12:30:24]   [FETCH] #862 Ekantik Vartalaap & Darshan/ 28-03-2025/ Shri Hit 
+[12:30:24]   [FETCH] #861 Ekantik Vartalaap & Darshan/ 27-03-2025/ Shri Hit 
+[12:30:25]   [NO TRANSCRIPT] #863 Ekantik Vartalaap & Darshan/ 29-03-2025/ Shri Hit 
+[12:30:25]   Progress: 277/1156 | OK=46 NoSub=231 Banned=0 | Q&A pairs: 0 | 18.2min
+[12:30:30]   [NO TRANSCRIPT] #861 Ekantik Vartalaap & Darshan/ 27-03-2025/ Shri Hit 
+[12:30:30]   Progress: 278/1156 | OK=46 NoSub=232 Banned=0 | Q&A pairs: 0 | 18.3min
+[12:30:31]   [FETCH] #860 Ekantik Vartalaap & Darshan/ 26-03-2025/ Shri Hit 
+[12:30:32]   [NO TRANSCRIPT] #862 Ekantik Vartalaap & Darshan/ 28-03-2025/ Shri Hit 
+[12:30:32]   Progress: 279/1156 | OK=46 NoSub=233 Banned=0 | Q&A pairs: 0 | 18.3min
+[12:30:35]   [FETCH] #859 Ekantik Vartalaap & Darshan/ 25-03-2025/ Shri Hit 
+[12:30:37]   [NO TRANSCRIPT] #860 Ekantik Vartalaap & Darshan/ 26-03-2025/ Shri Hit 
+[12:30:37]   Progress: 280/1156 | OK=46 NoSub=234 Banned=0 | Q&A pairs: 0 | 18.4min
+[12:30:37]   [FETCH] #858 Ekantik Vartalaap & Darshan/ 24-03-2025/ Shri Hit 
+[12:30:41]   [FETCH] #857 Ekantik Vartalaap & Darshan/ 23-03-2025/ Shri Hit 
+[12:30:41]   [NO TRANSCRIPT] #859 Ekantik Vartalaap & Darshan/ 25-03-2025/ Shri Hit 
+[12:30:41]   Progress: 281/1156 | OK=46 NoSub=235 Banned=0 | Q&A pairs: 0 | 18.4min
+[12:30:43]   [NO TRANSCRIPT] #858 Ekantik Vartalaap & Darshan/ 24-03-2025/ Shri Hit 
+[12:30:43]   Progress: 282/1156 | OK=46 NoSub=236 Banned=0 | Q&A pairs: 0 | 18.5min
+[12:30:46]   [FETCH] #855 Ekantik Vartalaap & Darshan/ 21-03-2025/ Shri Hit 
+[12:30:46]   [FETCH] #856 Ekantik Vartalaap & Darshan/ 22-03-2025/ Shri Hit 
+[12:30:47]   [NO TRANSCRIPT] #857 Ekantik Vartalaap & Darshan/ 23-03-2025/ Shri Hit 
+[12:30:47]   Progress: 283/1156 | OK=46 NoSub=237 Banned=0 | Q&A pairs: 0 | 18.5min
+[12:30:51]   [FETCH] #854 Ekantik Vartalaap & Darshan/ 20-03-2025/ Shri Hit 
+[12:30:52]   [NO TRANSCRIPT] #855 Ekantik Vartalaap & Darshan/ 21-03-2025/ Shri Hit 
+[12:30:52]   Progress: 284/1156 | OK=46 NoSub=238 Banned=0 | Q&A pairs: 0 | 18.6min
+[12:30:52]   [NO TRANSCRIPT] #856 Ekantik Vartalaap & Darshan/ 22-03-2025/ Shri Hit 
+[12:30:52]   Progress: 285/1156 | OK=46 NoSub=239 Banned=0 | Q&A pairs: 0 | 18.6min
+[12:30:55]   [FETCH] #852 Ekantik Vartalaap & Darshan/ 18-03-2025/ Shri Hit 
+[12:30:55]   [FETCH] #853 Ekantik Vartalaap & Darshan/ 19-03-2025/ Shri Hit 
+[12:30:57]   [NO TRANSCRIPT] #854 Ekantik Vartalaap & Darshan/ 20-03-2025/ Shri Hit 
+[12:30:57]   Progress: 286/1156 | OK=46 NoSub=240 Banned=0 | Q&A pairs: 0 | 18.7min
+[12:31:00]   [FETCH] #851 Ekantik Vartalaap & Darshan/ 17-03-2025/ Shri Hit 
+[12:31:01]   [NO TRANSCRIPT] #852 Ekantik Vartalaap & Darshan/ 18-03-2025/ Shri Hit 
+[12:31:01]   Progress: 287/1156 | OK=46 NoSub=241 Banned=0 | Q&A pairs: 0 | 18.8min
+[12:31:01]   [NO TRANSCRIPT] #853 Ekantik Vartalaap & Darshan/ 19-03-2025/ Shri Hit 
+[12:31:01]   Progress: 288/1156 | OK=46 NoSub=242 Banned=0 | Q&A pairs: 0 | 18.8min
+[12:31:03]   [FETCH] #849 Ekantik Vartalaap & Darshan/ 15-03-2025/ Shri Hit 
+[12:31:06]   [NO TRANSCRIPT] #851 Ekantik Vartalaap & Darshan/ 17-03-2025/ Shri Hit 
+[12:31:06]   Progress: 289/1156 | OK=46 NoSub=243 Banned=0 | Q&A pairs: 0 | 18.9min
+[12:31:07]   [FETCH] #850 Ekantik Vartalaap & Darshan/ 16-03-2025/ Shri Hit 
+[12:31:09]   [NO TRANSCRIPT] #849 Ekantik Vartalaap & Darshan/ 15-03-2025/ Shri Hit 
+[12:31:09]   Progress: 290/1156 | OK=46 NoSub=244 Banned=0 | Q&A pairs: 0 | 18.9min
+[12:31:09]   [FETCH] #848 Ekantik Vartalaap & Darshan/ 14-03-2025/ Shri Hit 
+[12:31:13]   [NO TRANSCRIPT] #850 Ekantik Vartalaap & Darshan/ 16-03-2025/ Shri Hit 
+[12:31:13]   Progress: 291/1156 | OK=46 NoSub=245 Banned=0 | Q&A pairs: 0 | 19.0min
+[12:31:14]   [FETCH] #847 Ekantik Vartalaap & Darshan/ 13-03-2025/ Shri Hit 
+[12:31:14]   [NO TRANSCRIPT] #848 Ekantik Vartalaap & Darshan/ 14-03-2025/ Shri Hit 
+[12:31:14]   Progress: 292/1156 | OK=46 NoSub=246 Banned=0 | Q&A pairs: 0 | 19.0min
+[12:31:17]   [FETCH] #846 Ekantik Vartalaap & Darshan/ 12-03-2025/ Shri Hit 
+[12:31:19]   [FETCH] #845 Ekantik Vartalaap & Darshan/ 11-03-2025/ Shri Hit 
+[12:31:21]   [NO TRANSCRIPT] #847 Ekantik Vartalaap & Darshan/ 13-03-2025/ Shri Hit 
+[12:31:21]   Progress: 293/1156 | OK=46 NoSub=247 Banned=0 | Q&A pairs: 0 | 19.1min
+[12:31:22]   [NO TRANSCRIPT] #846 Ekantik Vartalaap & Darshan/ 12-03-2025/ Shri Hit 
+[12:31:22]   Progress: 294/1156 | OK=46 NoSub=248 Banned=0 | Q&A pairs: 0 | 19.1min
+[12:31:24]   [FETCH] #844 Ekantik Vartalaap & Darshan/ 10-03-2025/ Shri Hit 
+[12:31:24]   [NO TRANSCRIPT] #845 Ekantik Vartalaap & Darshan/ 11-03-2025/ Shri Hit 
+[12:31:24]   Progress: 295/1156 | OK=46 NoSub=249 Banned=0 | Q&A pairs: 0 | 19.2min
+[12:31:26]   [FETCH] #843 Ekantik Vartalaap & Darshan/ 09-03-2025/ Shri Hit 
+[12:31:29]   [FETCH] #842 Ekantik Vartalaap & Darshan/ 08-03-2025/ Shri Hit 
+[12:31:31]   [NO TRANSCRIPT] #843 Ekantik Vartalaap & Darshan/ 09-03-2025/ Shri Hit 
+[12:31:31]   Progress: 296/1156 | OK=46 NoSub=250 Banned=0 | Q&A pairs: 0 | 19.3min
+[12:31:34]   [NO TRANSCRIPT] #842 Ekantik Vartalaap & Darshan/ 08-03-2025/ Shri Hit 
+[12:31:34]   Progress: 297/1156 | OK=46 NoSub=251 Banned=0 | Q&A pairs: 0 | 19.3min
+[12:31:34]   [NO TRANSCRIPT] #844 Ekantik Vartalaap & Darshan/ 10-03-2025/ Shri Hit 
+[12:31:34]   Progress: 298/1156 | OK=46 NoSub=252 Banned=0 | Q&A pairs: 0 | 19.3min
+[12:31:35]   [FETCH] #841 Ekantik Vartalaap & Darshan/ 07-03-2025/ Shri Hit 
+[12:31:39]   [FETCH] #840 Ekantik Vartalaap & Darshan/ 06-03-2025/ Shri Hit 
+[12:31:39]   [FETCH] #839 Ekantik Vartalaap & Darshan/ 05-03-2025/ Shri Hit 
+[12:31:41]   [NO TRANSCRIPT] #841 Ekantik Vartalaap & Darshan/ 07-03-2025/ Shri Hit 
+[12:31:41]   Progress: 299/1156 | OK=46 NoSub=253 Banned=0 | Q&A pairs: 0 | 19.5min
+[12:31:43]   [FETCH] #838  Ekantik Vartalaap & Darshan/ 04-03-2025/ Shri Hit
+[12:31:44]   [NO TRANSCRIPT] #840 Ekantik Vartalaap & Darshan/ 06-03-2025/ Shri Hit 
+[12:31:44]   Progress: 300/1156 | OK=46 NoSub=254 Banned=0 | Q&A pairs: 0 | 19.5min
+[12:31:44]   [NO TRANSCRIPT] #839 Ekantik Vartalaap & Darshan/ 05-03-2025/ Shri Hit 
+[12:31:44]   Progress: 301/1156 | OK=46 NoSub=255 Banned=0 | Q&A pairs: 0 | 19.5min
+[12:31:49]   [NO TRANSCRIPT] #838  Ekantik Vartalaap & Darshan/ 04-03-2025/ Shri Hit
+[12:31:49]   Progress: 302/1156 | OK=46 NoSub=256 Banned=0 | Q&A pairs: 0 | 19.6min
+[12:31:49]   [FETCH] #836  Ekantik Vartalaap & Darshan/ 02-03-2025/ Shri Hit
+[12:31:50]   [FETCH] #837  Ekantik Vartalaap & Darshan/ 03-03-2025/ Shri Hit
+[12:31:51]   [FETCH] #835  Ekantik Vartalaap & Darshan/ 01-03-2025/ Shri Hit
+[12:31:55]   [NO TRANSCRIPT] #836  Ekantik Vartalaap & Darshan/ 02-03-2025/ Shri Hit
+[12:31:55]   [NO TRANSCRIPT] #837  Ekantik Vartalaap & Darshan/ 03-03-2025/ Shri Hit
+[12:31:55]   Progress: 303/1156 | OK=46 NoSub=257 Banned=0 | Q&A pairs: 0 | 19.7min
+[12:31:55]   Progress: 304/1156 | OK=46 NoSub=258 Banned=0 | Q&A pairs: 0 | 19.7min
+[12:31:57]   [NO TRANSCRIPT] #835  Ekantik Vartalaap & Darshan/ 01-03-2025/ Shri Hit
+[12:31:57]   Progress: 305/1156 | OK=46 NoSub=259 Banned=0 | Q&A pairs: 0 | 19.7min
+[12:31:58]   [FETCH] #834  Ekantik Vartalaap & Darshan/ 28-02-2025/ Shri Hit
+[12:32:00]   [FETCH] #833  Ekantik Vartalaap & Darshan/ 27-02-2025/ Shri Hit
+[12:32:03]   [FETCH] #832  Ekantik Vartalaap & Darshan/ 26-02-2025/ Shri Hit
+[12:32:04]   [NO TRANSCRIPT] #834  Ekantik Vartalaap & Darshan/ 28-02-2025/ Shri Hit
+[12:32:04]   Progress: 306/1156 | OK=46 NoSub=260 Banned=0 | Q&A pairs: 0 | 19.8min
+[12:32:05]   [NO TRANSCRIPT] #833  Ekantik Vartalaap & Darshan/ 27-02-2025/ Shri Hit
+[12:32:05]   Progress: 307/1156 | OK=46 NoSub=261 Banned=0 | Q&A pairs: 0 | 19.9min
+[12:32:07]   [FETCH] #831  Ekantik Vartalaap & Darshan/ 25-02-2025/ Shri Hit
+[12:32:09]   [NO TRANSCRIPT] #832  Ekantik Vartalaap & Darshan/ 26-02-2025/ Shri Hit
+[12:32:09]   Progress: 308/1156 | OK=46 NoSub=262 Banned=0 | Q&A pairs: 0 | 19.9min
+[12:32:11]   [FETCH] #830  Ekantik Vartalaap & Darshan/ 24-02-2025/ Shri Hit
+[12:32:12]   [FETCH] #829  Ekantik Vartalaap & Darshan/ 23-02-2025/ Shri Hit
+[12:32:14]   [NO TRANSCRIPT] #831  Ekantik Vartalaap & Darshan/ 25-02-2025/ Shri Hit
+[12:32:14]   Progress: 309/1156 | OK=46 NoSub=263 Banned=0 | Q&A pairs: 0 | 20.0min
+[12:32:19]   [FETCH] #828  Ekantik Vartalaap & Darshan/ 22-02-2025/ Shri Hit
+[12:32:20]   [NO TRANSCRIPT] #830  Ekantik Vartalaap & Darshan/ 24-02-2025/ Shri Hit
+[12:32:20]   Progress: 310/1156 | OK=46 NoSub=264 Banned=0 | Q&A pairs: 0 | 20.1min
+[12:32:21]   [NO TRANSCRIPT] #829  Ekantik Vartalaap & Darshan/ 23-02-2025/ Shri Hit
+[12:32:21]   Progress: 311/1156 | OK=46 NoSub=265 Banned=0 | Q&A pairs: 0 | 20.1min
+[12:32:23]   [FETCH] #826  Ekantik Vartalaap & Darshan/ 20-02-2025/ Shri Hit
+[12:32:25]   [FETCH] #827  Ekantik Vartalaap & Darshan/ 21-02-2025/ Shri Hit
+[12:32:26]   [NO TRANSCRIPT] #828  Ekantik Vartalaap & Darshan/ 22-02-2025/ Shri Hit
+[12:32:26]   Progress: 312/1156 | OK=46 NoSub=266 Banned=0 | Q&A pairs: 0 | 20.2min
+[12:32:30]   [FETCH] #825  Ekantik Vartalaap & Darshan/ 19-02-2025/ Shri Hit
+[12:32:31]   [NO TRANSCRIPT] #826  Ekantik Vartalaap & Darshan/ 20-02-2025/ Shri Hit
+[12:32:31]   Progress: 313/1156 | OK=46 NoSub=267 Banned=0 | Q&A pairs: 0 | 20.3min
+[12:32:35]   [FETCH] #824  Ekantik Vartalaap & Darshan/ 18-02-2025/ Shri Hit
+[12:32:36]   [NO TRANSCRIPT] #827  Ekantik Vartalaap & Darshan/ 21-02-2025/ Shri Hit
+[12:32:36]   Progress: 314/1156 | OK=46 NoSub=268 Banned=0 | Q&A pairs: 0 | 20.4min
+[12:32:39]   [NO TRANSCRIPT] #825  Ekantik Vartalaap & Darshan/ 19-02-2025/ Shri Hit
+[12:32:39]   Progress: 315/1156 | OK=46 NoSub=269 Banned=0 | Q&A pairs: 0 | 20.4min
+[12:32:39]   [FETCH] #823  Ekantik Vartalaap & Darshan/ 17-02-2025/ Shri Hit
+[12:32:42]   [FETCH] #822  Ekantik Vartalaap & Darshan/ 16-02-2025/ Shri Hit
+[12:32:42]   [NO TRANSCRIPT] #824  Ekantik Vartalaap & Darshan/ 18-02-2025/ Shri Hit
+[12:32:42]   Progress: 316/1156 | OK=46 NoSub=270 Banned=0 | Q&A pairs: 0 | 20.5min
+[12:32:46]   [NO TRANSCRIPT] #823  Ekantik Vartalaap & Darshan/ 17-02-2025/ Shri Hit
+[12:32:46]   Progress: 317/1156 | OK=46 NoSub=271 Banned=0 | Q&A pairs: 0 | 20.5min
+[12:32:47]   [FETCH] #821  Ekantik Vartalaap & Darshan/ 15-02-2025/ Shri Hit
+[12:32:49]   [FETCH] #820  Ekantik Vartalaap & Darshan/ 14-02-2025/ Shri Hit
+[12:32:49]   [NO TRANSCRIPT] #822  Ekantik Vartalaap & Darshan/ 16-02-2025/ Shri Hit
+[12:32:49]   Progress: 318/1156 | OK=46 NoSub=272 Banned=0 | Q&A pairs: 0 | 20.6min
+[12:32:52]   [FETCH] #819  Ekantik Vartalaap & Darshan/ 13-02-2025/ Shri Hit
+[12:32:54]   [NO TRANSCRIPT] #821  Ekantik Vartalaap & Darshan/ 15-02-2025/ Shri Hit
+[12:32:54]   Progress: 319/1156 | OK=46 NoSub=273 Banned=0 | Q&A pairs: 0 | 20.7min
+[12:32:55]   [NO TRANSCRIPT] #820  Ekantik Vartalaap & Darshan/ 14-02-2025/ Shri Hit
+[12:32:55]   Progress: 320/1156 | OK=46 NoSub=274 Banned=0 | Q&A pairs: 0 | 20.7min
+[12:32:57]   [NO TRANSCRIPT] #819  Ekantik Vartalaap & Darshan/ 13-02-2025/ Shri Hit
+[12:32:57]   Progress: 321/1156 | OK=46 NoSub=275 Banned=0 | Q&A pairs: 0 | 20.7min
+[12:32:59]   [FETCH] #818 Ekantik Vartalaap & Darshan/ 12-02-2025/ Shri Hit 
+[12:33:00]   [FETCH] #816 Ekantik Vartalaap & Darshan/ 10-02-2025/ Shri Hit 
+[12:33:01]   [FETCH] #817 Ekantik Vartalaap & Darshan/ 11-02-2025/ Shri Hit 
+[12:33:09]   [NO TRANSCRIPT] #818 Ekantik Vartalaap & Darshan/ 12-02-2025/ Shri Hit 
+[12:33:09]   Progress: 322/1156 | OK=46 NoSub=276 Banned=0 | Q&A pairs: 0 | 20.9min
+[12:33:10]   [NO TRANSCRIPT] #816 Ekantik Vartalaap & Darshan/ 10-02-2025/ Shri Hit 
+[12:33:10]   Progress: 323/1156 | OK=46 NoSub=277 Banned=0 | Q&A pairs: 0 | 20.9min
+[12:33:10]   [NO TRANSCRIPT] #817 Ekantik Vartalaap & Darshan/ 11-02-2025/ Shri Hit 
+[12:33:10]   Progress: 324/1156 | OK=46 NoSub=278 Banned=0 | Q&A pairs: 0 | 20.9min
+[12:33:12]   [FETCH] #815 Ekantik Vartalaap & Darshan/ 09-02-2025/ Shri Hit 
+[12:33:13]   [FETCH] #813 Ekantik Vartalaap & Darshan/ 07-02-2025/ Shri Hit 
+[12:33:14]   [FETCH] #814 Ekantik Vartalaap & Darshan/ 08-02-2025/ Shri Hit 
+[12:33:23]   [NO TRANSCRIPT] #815 Ekantik Vartalaap & Darshan/ 09-02-2025/ Shri Hit 
+[12:33:23]   Progress: 325/1156 | OK=46 NoSub=279 Banned=0 | Q&A pairs: 0 | 21.1min
+[12:33:24]   [NO TRANSCRIPT] #813 Ekantik Vartalaap & Darshan/ 07-02-2025/ Shri Hit 
+[12:33:24]   Progress: 326/1156 | OK=46 NoSub=280 Banned=0 | Q&A pairs: 0 | 21.2min
+[12:33:24]   [NO TRANSCRIPT] #814 Ekantik Vartalaap & Darshan/ 08-02-2025/ Shri Hit 
+[12:33:24]   Progress: 327/1156 | OK=46 NoSub=281 Banned=0 | Q&A pairs: 0 | 21.2min
+[12:33:26]   [FETCH] #811 Ekantik Vartalaap & Darshan/ 05-02-2025/ Shri Hit 
+[12:33:28]   [FETCH] #810 Ekantik Vartalaap & Darshan/ 04-02-2025/ Shri Hit 
+[12:33:28]   [FETCH] #812 Ekantik Vartalaap & Darshan/ 06-02-2025/ Shri Hit 
+[12:33:37]   [NO TRANSCRIPT] #811 Ekantik Vartalaap & Darshan/ 05-02-2025/ Shri Hit 
+[12:33:37]   Progress: 328/1156 | OK=46 NoSub=282 Banned=0 | Q&A pairs: 0 | 21.4min
+[12:33:38]   [NO TRANSCRIPT] #812 Ekantik Vartalaap & Darshan/ 06-02-2025/ Shri Hit 
+[12:33:38]   Progress: 329/1156 | OK=46 NoSub=283 Banned=0 | Q&A pairs: 0 | 21.4min
+[12:33:38]   [NO TRANSCRIPT] #810 Ekantik Vartalaap & Darshan/ 04-02-2025/ Shri Hit 
+[12:33:38]   Progress: 330/1156 | OK=46 NoSub=284 Banned=0 | Q&A pairs: 0 | 21.4min
+[12:33:41]   [FETCH] #809 Ekantik Vartalaap & Darshan/ 03-02-2025/ Shri Hit 
+[12:33:41]   [FETCH] #808 Ekantik Vartalaap & Darshan/ 02-02-2025/ Shri Hit 
+[12:33:42]   [FETCH] #807 Ekantik Vartalaap & Darshan/ 01-02-2025/ Shri Hit 
+[12:33:51]   [NO TRANSCRIPT] #808 Ekantik Vartalaap & Darshan/ 02-02-2025/ Shri Hit 
+[12:33:51]   Progress: 331/1156 | OK=46 NoSub=285 Banned=0 | Q&A pairs: 0 | 21.6min
+[12:33:51]   [NO TRANSCRIPT] #807 Ekantik Vartalaap & Darshan/ 01-02-2025/ Shri Hit 
+[12:33:51]   Progress: 332/1156 | OK=46 NoSub=286 Banned=0 | Q&A pairs: 0 | 21.6min
+[12:33:51]   [NO TRANSCRIPT] #809 Ekantik Vartalaap & Darshan/ 03-02-2025/ Shri Hit 
+[12:33:51]   Progress: 333/1156 | OK=46 NoSub=287 Banned=0 | Q&A pairs: 0 | 21.6min
+[12:33:54]   [FETCH] #806 Ekantik Vartalaap & Darshan/ 31-01-2025/ Shri Hit 
+[12:33:55]   [FETCH] #805 Ekantik Vartalaap & Darshan/ 30-01-2025/ Shri Hit 
+[12:33:56]   [FETCH] #804 Ekantik Vartalaap & Darshan/ 29-01-2025/ Shri Hit 
+[12:34:03]   [NO TRANSCRIPT] #806 Ekantik Vartalaap & Darshan/ 31-01-2025/ Shri Hit 
+[12:34:03]   Progress: 334/1156 | OK=46 NoSub=288 Banned=0 | Q&A pairs: 0 | 21.8min
+[12:34:03]   [NO TRANSCRIPT] #804 Ekantik Vartalaap & Darshan/ 29-01-2025/ Shri Hit 
+[12:34:03]   Progress: 335/1156 | OK=46 NoSub=289 Banned=0 | Q&A pairs: 0 | 21.8min
+[12:34:04]   [NO TRANSCRIPT] #805 Ekantik Vartalaap & Darshan/ 30-01-2025/ Shri Hit 
+[12:34:04]   Progress: 336/1156 | OK=46 NoSub=290 Banned=0 | Q&A pairs: 0 | 21.8min
+[12:34:06]   [FETCH] #801 Ekantik Vartalaap & Darshan/ 26-01-2025/ Shri Hit 
+[12:34:07]   [FETCH] #802 Ekantik Vartalaap & Darshan/ 27-01-2025/ Shri Hit 
+[12:34:08]   [FETCH] #803 Ekantik Vartalaap & Darshan/ 28-01-2025/ Shri Hit 
+[12:34:13]   [NO TRANSCRIPT] #801 Ekantik Vartalaap & Darshan/ 26-01-2025/ Shri Hit 
+[12:34:13]   Progress: 337/1156 | OK=46 NoSub=291 Banned=0 | Q&A pairs: 0 | 22.0min
+[12:34:14]   [NO TRANSCRIPT] #802 Ekantik Vartalaap & Darshan/ 27-01-2025/ Shri Hit 
+[12:34:14]   Progress: 338/1156 | OK=46 NoSub=292 Banned=0 | Q&A pairs: 0 | 22.0min
+[12:34:14]   [NO TRANSCRIPT] #803 Ekantik Vartalaap & Darshan/ 28-01-2025/ Shri Hit 
+[12:34:14]   Progress: 339/1156 | OK=46 NoSub=293 Banned=0 | Q&A pairs: 0 | 22.0min
+[12:34:17]   [FETCH] #800 Ekantik Vartalaap & Darshan/ 25-01-2025/ Shri Hit 
+[12:34:17]   [FETCH] #798 Ekantik Vartalaap & Darshan/ 23-01-2025/ Shri Hit 
+[12:34:18]   [FETCH] #799 Ekantik Vartalaap & Darshan/ 24-01-2025/ Shri Hit 
+[12:34:28]   [NO TRANSCRIPT] #798 Ekantik Vartalaap & Darshan/ 23-01-2025/ Shri Hit 
+[12:34:28]   Progress: 340/1156 | OK=46 NoSub=294 Banned=0 | Q&A pairs: 0 | 22.2min
+[12:34:28]   [NO TRANSCRIPT] #799 Ekantik Vartalaap & Darshan/ 24-01-2025/ Shri Hit 
+[12:34:28]   Progress: 341/1156 | OK=46 NoSub=295 Banned=0 | Q&A pairs: 0 | 22.2min
+[12:34:28]   [NO TRANSCRIPT] #800 Ekantik Vartalaap & Darshan/ 25-01-2025/ Shri Hit 
+[12:34:28]   Progress: 342/1156 | OK=46 NoSub=296 Banned=0 | Q&A pairs: 0 | 22.2min
+[12:34:30]   [FETCH] #797 Ekantik Vartalaap & Darshan/ 22-01-2025/ Shri Hit 
+[12:34:32]   [FETCH] #796 Ekantik Vartalaap & Darshan/ 21-01-2025/ Shri Hit 
+[12:34:33]   [FETCH] #795 Ekantik Vartalaap & Darshan/ 20-01-2025/ Shri Hit 
+[12:34:39]   [NO TRANSCRIPT] #797 Ekantik Vartalaap & Darshan/ 22-01-2025/ Shri Hit 
+[12:34:39]   Progress: 343/1156 | OK=46 NoSub=297 Banned=0 | Q&A pairs: 0 | 22.4min
+[12:34:41]   [NO TRANSCRIPT] #796 Ekantik Vartalaap & Darshan/ 21-01-2025/ Shri Hit 
+[12:34:41]   Progress: 344/1156 | OK=46 NoSub=298 Banned=0 | Q&A pairs: 0 | 22.5min
+[12:34:41]   [FETCH] #794 Ekantik Vartalaap & Darshan/ 19-01-2025/ Shri Hit 
+[12:34:43]   [FETCH] #793 Ekantik Vartalaap & Darshan/ 18-01-2025/ Shri Hit 
+[12:34:43]   [NO TRANSCRIPT] #795 Ekantik Vartalaap & Darshan/ 20-01-2025/ Shri Hit 
+[12:34:43]   Progress: 345/1156 | OK=46 NoSub=299 Banned=0 | Q&A pairs: 0 | 22.5min
+[12:34:47]   [NO TRANSCRIPT] #794 Ekantik Vartalaap & Darshan/ 19-01-2025/ Shri Hit 
+[12:34:47]   Progress: 346/1156 | OK=46 NoSub=300 Banned=0 | Q&A pairs: 0 | 22.6min
+[12:34:48]   [FETCH] #792 Ekantik Vartalaap & Darshan/ 17-01-2025/ Shri Hit 
+[12:34:51]   [FETCH] #791 Ekantik Vartalaap & Darshan/ 16-01-2025/ Shri Hit 
+[12:34:53]   [NO TRANSCRIPT] #793 Ekantik Vartalaap & Darshan/ 18-01-2025/ Shri Hit 
+[12:34:53]   Progress: 347/1156 | OK=46 NoSub=301 Banned=0 | Q&A pairs: 0 | 22.7min
+[12:34:56]   [FETCH] #790 Ekantik Vartalaap & Darshan/ 15-01-2025/ Shri Hit 
+[12:34:58]   [NO TRANSCRIPT] #792 Ekantik Vartalaap & Darshan/ 17-01-2025/ Shri Hit 
+[12:34:58]   Progress: 348/1156 | OK=46 NoSub=302 Banned=0 | Q&A pairs: 0 | 22.7min
+[12:34:58]   [NO TRANSCRIPT] #791 Ekantik Vartalaap & Darshan/ 16-01-2025/ Shri Hit 
+[12:34:58]   Progress: 349/1156 | OK=46 NoSub=303 Banned=0 | Q&A pairs: 0 | 22.7min
+[12:35:01]   [FETCH] #789 Ekantik Vartalaap & Darshan/ 14-01-2025/ Shri Hit 
+[12:35:01]   [NO TRANSCRIPT] #790 Ekantik Vartalaap & Darshan/ 15-01-2025/ Shri Hit 
+[12:35:01]   Progress: 350/1156 | OK=46 NoSub=304 Banned=0 | Q&A pairs: 0 | 22.8min
+[12:35:02]   [FETCH] #788 Ekantik Vartalaap & Darshan/ 13-01-2025/ Shri Hit 
+[12:35:06]   [NO TRANSCRIPT] #789 Ekantik Vartalaap & Darshan/ 14-01-2025/ Shri Hit 
+[12:35:06]   Progress: 351/1156 | OK=46 NoSub=305 Banned=0 | Q&A pairs: 0 | 22.9min
+[12:35:07]   [FETCH] #787 Ekantik Vartalaap & Darshan/ 12-01-2025/ Shri Hit 
+[12:35:09]   [NO TRANSCRIPT] #788 Ekantik Vartalaap & Darshan/ 13-01-2025/ Shri Hit 
+[12:35:09]   Progress: 352/1156 | OK=46 NoSub=306 Banned=0 | Q&A pairs: 0 | 22.9min
+[12:35:12]   [FETCH] #785 Ekantik Vartalaap & Darshan/ 10-01-2025/ Virat Koh
+[12:35:12]   [FETCH] #786 Ekantik Vartalaap & Darshan/ 11-01-2025/ Shri Hit 
+[12:35:12]   [NO TRANSCRIPT] #787 Ekantik Vartalaap & Darshan/ 12-01-2025/ Shri Hit 
+[12:35:12]   Progress: 353/1156 | OK=46 NoSub=307 Banned=0 | Q&A pairs: 0 | 23.0min
+[12:35:17]   [FETCH] #784 Ekantik Vartalaap & Darshan/ 09-01-2025/ Shri Hit 
+[12:35:17]   [NO TRANSCRIPT] #786 Ekantik Vartalaap & Darshan/ 11-01-2025/ Shri Hit 
+[12:35:17]   Progress: 354/1156 | OK=46 NoSub=308 Banned=0 | Q&A pairs: 0 | 23.1min
+[12:35:18]   [NO TRANSCRIPT] #785 Ekantik Vartalaap & Darshan/ 10-01-2025/ Virat Koh
+[12:35:18]   Progress: 355/1156 | OK=46 NoSub=309 Banned=0 | Q&A pairs: 0 | 23.1min
+[12:35:20]   [FETCH] #782 Ekantik Vartalaap & Darshan/ 07-01-2025/ Shri Hit 
+[12:35:22]   [FETCH] #783 Ekantik Vartalaap & Darshan/ 08-01-2025/ Shri Hit 
+[12:35:24]   [NO TRANSCRIPT] #784 Ekantik Vartalaap & Darshan/ 09-01-2025/ Shri Hit 
+[12:35:24]   Progress: 356/1156 | OK=46 NoSub=310 Banned=0 | Q&A pairs: 0 | 23.2min
+[12:35:25]   [NO TRANSCRIPT] #782 Ekantik Vartalaap & Darshan/ 07-01-2025/ Shri Hit 
+[12:35:25]   Progress: 357/1156 | OK=46 NoSub=311 Banned=0 | Q&A pairs: 0 | 23.2min
+[12:35:27]   [FETCH] #780 Ekantik Vartalaap & Darshan/ 05-01-2025/ Shri Hit 
+[12:35:28]   [FETCH] #781 Ekantik Vartalaap & Darshan/ 06-01-2025/ Shri Hit 
+[12:35:29]   [NO TRANSCRIPT] #783 Ekantik Vartalaap & Darshan/ 08-01-2025/ Shri Hit 
+[12:35:29]   Progress: 358/1156 | OK=46 NoSub=312 Banned=0 | Q&A pairs: 0 | 23.2min
+[12:35:33]   [NO TRANSCRIPT] #780 Ekantik Vartalaap & Darshan/ 05-01-2025/ Shri Hit 
+[12:35:33]   Progress: 359/1156 | OK=46 NoSub=313 Banned=0 | Q&A pairs: 0 | 23.3min
+[12:35:33]   [FETCH] #779 Ekantik Vartalaap & Darshan/ 04-01-2025/ Shri Hit 
+[12:35:34]   [NO TRANSCRIPT] #781 Ekantik Vartalaap & Darshan/ 06-01-2025/ Shri Hit 
+[12:35:34]   Progress: 360/1156 | OK=46 NoSub=314 Banned=0 | Q&A pairs: 0 | 23.3min
+[12:35:37]   [FETCH] #778 Ekantik Vartalaap & Darshan/ 03-01-2025/ Shri Hit 
+[12:35:39]   [NO TRANSCRIPT] #779 Ekantik Vartalaap & Darshan/ 04-01-2025/ Shri Hit 
+[12:35:39]   Progress: 361/1156 | OK=46 NoSub=315 Banned=0 | Q&A pairs: 0 | 23.4min
+[12:35:39]   [FETCH] #777 Ekantik Vartalaap & Darshan/ 02-01-2025/ Shri Hit 
+[12:35:43]   [FETCH] #776 Ekantik Vartalaap & Darshan/ 01-01-2025/ Shri Hit 
+[12:35:44]   [NO TRANSCRIPT] #778 Ekantik Vartalaap & Darshan/ 03-01-2025/ Shri Hit 
+[12:35:44]   Progress: 362/1156 | OK=46 NoSub=316 Banned=0 | Q&A pairs: 0 | 23.5min
+[12:35:45]   [NO TRANSCRIPT] #777 Ekantik Vartalaap & Darshan/ 02-01-2025/ Shri Hit 
+[12:35:45]   Progress: 363/1156 | OK=46 NoSub=317 Banned=0 | Q&A pairs: 0 | 23.5min
+[12:35:47]   [FETCH] #775 Ekantik Vartalaap & Darshan/ 31-12-2024/ Shri Hit 
+[12:35:50]   [NO TRANSCRIPT] #776 Ekantik Vartalaap & Darshan/ 01-01-2025/ Shri Hit 
+[12:35:50]   Progress: 364/1156 | OK=46 NoSub=318 Banned=0 | Q&A pairs: 0 | 23.6min
+[12:35:50]   [FETCH] #774 Ekantik Vartalaap & Darshan/ 30-12-2024/ Shri Hit 
+[12:35:54]   [FETCH] #773 Ekantik Vartalaap & Darshan/ 29-12-2024/ Shri Hit 
+[12:35:54]   [NO TRANSCRIPT] #775 Ekantik Vartalaap & Darshan/ 31-12-2024/ Shri Hit 
+[12:35:54]   Progress: 365/1156 | OK=46 NoSub=319 Banned=0 | Q&A pairs: 0 | 23.7min
