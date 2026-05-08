@@ -4,11 +4,21 @@ AI-powered spiritual Q&A assistant trained on the teachings of **Shri Hit Preman
 
 ---
 
-## Quick Start
+## 🚀 Functionality
+
+- **Semantic Q&A**: Asks spiritual questions and receives answers strictly grounded in Maharaj Ji's teachings.
+- **Timestamped References**: Every answer comes with direct links to the exact moment in the YouTube video where the topic was discussed.
+- **Multilingual Support**: Supports queries in Hindi and English (uses a multilingual embedding model).
+- **Automated Ingestion**: Background tasks and scripts to fetch latest videos from the "Bhajan Marg" channel, extract Q&A pairs via LLM, and update the vector index automatically.
+- **Professional UI**: Modern, responsive dashboard built with Tailwind CSS and FastAPI.
+
+---
+
+## 🛠 Quick Start
 
 ### Prerequisites
-- Python 3.11+ on PATH
-- API key for at least one LLM provider (Groq recommended — free, fast)
+- Python 3.11+
+- API key for at least one LLM provider (Groq recommended)
 
 ### Setup
 
@@ -18,6 +28,7 @@ git clone <your-repo-url>
 cd "Premanand AI"
 
 # 2. Create & activate a virtual environment
+# Note: If you have an existing 'venv', it's recommended to recreate it
 python -m venv venv
 venv\Scripts\activate          # Windows
 # source venv/bin/activate     # Linux / macOS
@@ -37,7 +48,22 @@ The server auto-detects a free port starting at 8000. Open `http://localhost:800
 
 ---
 
-## Running Tests
+## 📊 Data Pipeline (End-to-End)
+
+The project includes a robust pipeline to go from raw YouTube videos to a searchable AI:
+
+1. **Standalone Bulk Ingestion**:
+   Run `python fetch_and_ingest.py` to fetch videos from the channel, download transcripts, and extract Q&A pairs in bulk. It handles retries, rate-limiting, and state management.
+   
+2. **Background Updates**:
+   Use the `/api/process-channel` endpoint to trigger a background task that scans for new videos and updates the database while the app is running.
+
+3. **Vector Index**:
+   The app uses FAISS (Facebook AI Similarity Search) with `paraphrase-multilingual-MiniLM-L12-v2` embeddings for high-speed, relevant retrieval.
+
+---
+
+## 🧪 Running Tests
 
 ```powershell
 pip install pytest httpx pytest-asyncio   # one-time, already in requirements.lock

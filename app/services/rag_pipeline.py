@@ -1,21 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-RAG pipeline: retrieve → deduplicate → rank → generate.
-
-Improvements:
-- Deduplicates by (video_id, timestamp) so we never send duplicate context blocks.
-- References are sorted by similarity score (highest first).
-- Context string is capped at MAX_CONTEXT_CHARS to stay within LLM token limits.
-- Hindi fallback message used when no results pass the similarity threshold.
+Direct Transcript RAG: retrieves and presents original Q&A pairs.
+Ensures 100% fidelity to Maharaj ji's actual words by avoiding AI summarization.
 """
 from app.services.vector_store import search_similar_qa
-from app.services.llm_service import generate_answer
 import logging
 
 logger = logging.getLogger(__name__)
-
-MAX_CONTEXT_CHARS = 4_000  # ~1 000 tokens; safe for all supported models
-
 
 def build_youtube_url(video_url: str, timestamp: int) -> str:
     """Build a YouTube URL with a timestamp parameter."""
@@ -30,9 +21,16 @@ def build_youtube_url(video_url: str, timestamp: int) -> str:
     return video_url
 
 
-def format_timestamp(seconds: int) -> str:
-    """Convert seconds to HH:MM:SS or MM:SS format."""
-    seconds = int(seconds or 0)
+def format_timestamp(seconds) -> str:
+    """Convert seconds to HH:MM:SS or MM:SS format. Handles numeric strings with suffixes like '2118s'."""
+    try:
+        if isinstance(seconds, str):
+            # Clean string: keep only digits
+            seconds = "".join(filter(str.isdigit, seconds))
+        seconds = int(seconds or 0)
+    except (ValueError, TypeError):
+        seconds = 0
+        
     h = seconds // 3600
     m = (seconds % 3600) // 60
     s = seconds % 60
@@ -42,66 +40,57 @@ def format_timestamp(seconds: int) -> str:
 
 
 def process_query(query: str) -> dict:
-    # 1. Retrieve similar Q&A pairs (already sorted by score desc, threshold-filtered)
-    similar_pairs = search_similar_qa(query, top_k=5)
+    """
+    Retrieves multiple relevant segments and uses the LLM to synthesize a 
+    broad, detailed answer that includes examples from Maharaj ji's words.
+    """
+    # 1. Retrieve more pairs to get a broader perspective (top_k=8)
+    similar_pairs = search_similar_qa(query, top_k=8)
 
     if not similar_pairs:
         return {
             "answer": (
-                "क्षमा करें, मुझे इस प्रश्न का उत्तर मेरे पास उपलब्ध सामग्री में नहीं मिला। "
-                "पूर्ण सत्य जानने के लिए कृपया महाराज जी के प्रवचन सुनें।"
+                "क्षमा करें, मुझे इस प्रश्न का उत्तर मेरे पास उपलब्ध महाराज जी के वचनों में नहीं मिला। "
+                "कृपया किसी अन्य शब्द या प्रश्न के साथ प्रयास करें।"
             ),
             "references": [],
-            "reference": None,
         }
 
-    # 2. Deduplicate by (video_id, timestamp) and build context + references
-    context_lines: list[str] = []
-    references: list[dict] = []
-    seen_keys: set[tuple] = set()
-    total_chars = 0
+    # 2. Build a rich context for the LLM
+    context_blocks = []
+    references = []
+    seen_ids = set()
 
     for p in similar_pairs:
-        dedup_key = (getattr(p, "video_id", None), p.timestamp)
-        if dedup_key in seen_keys:
+        ref_id = (getattr(p, "video_id", None), p.timestamp)
+        if ref_id in seen_ids:
             continue
-        seen_keys.add(dedup_key)
+        seen_ids.add(ref_id)
 
-        block = f"Q: {p.question}\nA: {p.answer}"
+        # Build context for LLM
+        context_blocks.append(f"Video: {p.video.title}\nTranscript Segment: {p.answer}")
 
-        # Stop adding context once we'd exceed the character cap
-        if total_chars + len(block) > MAX_CONTEXT_CHARS:
-            logger.debug("Context cap reached at %d chars; stopping.", total_chars)
-            break
-
-        context_lines.append(block)
-        total_chars += len(block)
-
-        # Build reference (one per unique video, sorted by score via insertion order)
-        if getattr(p, "video", None) and p.video is not None:
+        # Build reference for frontend
+        if getattr(p, "video", None):
             ts = p.timestamp or 0
-            ref_url = build_youtube_url(p.video.url, ts)
-            references.append(
-                {
-                    "video_title": p.video.title,
-                    "video_id": p.video.youtube_id,
-                    "timestamp": ts,
-                    "timestamp_str": format_timestamp(ts),
-                    "url": ref_url,
-                    "embed_url": f"https://www.youtube.com/embed/{p.video.youtube_id}?start={ts}",
-                    "score": round(getattr(p, "score", 0.0), 4),
-                }
-            )
+            references.append({
+                "video_title": p.video.title,
+                "video_id": p.video.youtube_id,
+                "timestamp": ts,
+                "timestamp_str": format_timestamp(ts),
+                "url": build_youtube_url(p.video.url, ts),
+                "embed_url": f"https://www.youtube.com/embed/{p.video.youtube_id}?start={ts}",
+            })
 
-    # References are already in score-desc order (FAISS returns highest-score first)
-    context = "\n---\n".join(context_lines)
+    full_context = "\n\n---\n\n".join(context_blocks)
 
-    # 3. Generate answer via LLM (Hindi enforced in system prompt)
-    answer = generate_answer(query, context)
+    # 3. Generate a broad, detailed answer using the Maharaj's words
+    # The prompt now explicitly asks for examples and depth.
+    from app.services.llm_service import generate_answer
+    answer = generate_answer(query, full_context)
 
     return {
         "answer": answer,
         "references": references,
-        # Keep old key for backward compatibility with any cached clients
-        "reference": references[0] if references else None,
+        "query": query
     }

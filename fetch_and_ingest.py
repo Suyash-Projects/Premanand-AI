@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
+r"""
 fetch_and_ingest.py  —  Combined pipeline: fetch remaining transcripts + ingest to DB.
 
 Strategy:
@@ -63,11 +63,49 @@ def log(msg: str):
 
 # ── video list ────────────────────────────────────────────────────────────────
 
-def load_video_list() -> list:
-    if os.path.exists(VIDEO_LIST_CACHE):
+def scan_channel_videos(max_videos: int = 1000) -> list:
+    """Uses yt-dlp to scan the channel and return a list of all video metadata."""
+    import yt_dlp
+    
+    # Using the /videos URL is more reliable for finding all uploads
+    SCAN_URL = f"{CHANNEL_URL}/videos"
+    log(f"Scanning channel for up to {max_videos} videos: {SCAN_URL}")
+    
+    opts = _yt_opts()
+    opts["extract_flat"] = True
+    # If max_videos is 0, we fetch all. Otherwise we limit.
+    if max_videos > 0:
+        opts["playlist_items"] = f"1-{max_videos}"
+    
+    videos = []
+    try:
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            result = ydl.extract_info(SCAN_URL, download=False)
+            if "entries" in result:
+                for entry in result["entries"]:
+                    if entry and entry.get("id"):
+                        videos.append({
+                            "id": entry["id"],
+                            "title": entry.get("title", "Unknown Title"),
+                            "url": entry.get("url", f"https://www.youtube.com/watch?v={entry['id']}"),
+                            "playlist": result.get("title", "Channel")
+                        })
+                
+                # Save to cache
+                with open(VIDEO_LIST_CACHE, "w", encoding="utf-8") as f:
+                    json.dump(videos, f, ensure_ascii=False, indent=2)
+                log(f"Successfully scanned {len(videos)} videos and saved to {VIDEO_LIST_CACHE}")
+                return videos
+    except Exception as e:
+        log(f"ERROR scanning channel: {e}")
+    return []
+
+
+def load_video_list(refresh: bool = False) -> list:
+    if not refresh and os.path.exists(VIDEO_LIST_CACHE):
         with open(VIDEO_LIST_CACHE, "r", encoding="utf-8") as f:
             return json.load(f)
-    return []
+    return scan_channel_videos()
 
 # ── transcript fetching ───────────────────────────────────────────────────────
 
@@ -79,8 +117,9 @@ def _yt_opts() -> dict:
         "writesubtitles": False,      # we fetch subtitle URLs ourselves
         "writeautomaticsub": False,
         "lazy_playlist": True,
-        "socket_timeout": 20,
-        "extractor_retries": 3,
+        "socket_timeout": 30,
+        "extractor_retries": 5,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     }
     if os.path.exists("cookies.txt"):
         opts["cookiefile"] = "cookies.txt"
@@ -105,8 +144,8 @@ def fetch_transcript(v: dict) -> tuple[dict, object, str | None]:
                 f"https://www.youtube.com/watch?v={vid_id}", download=False
             )
     except Exception as exc:
-        err = str(exc)
-        if "429" in err or "bot" in err.lower() or "challenge" in err.lower():
+        err = str(exc).lower()
+        if "429" in err or "too many requests" in err or "bot" in err or "challenge" in err:
             return v, "RATE_LIMITED", None
         return v, "NO_TRANSCRIPT", None
 
@@ -119,16 +158,21 @@ def fetch_transcript(v: dict) -> tuple[dict, object, str | None]:
     sub_data  = None
     lang_used = None
 
-    for lang in ["hi", "en"]:
-        for pool, suffix in [(manual_subs, "manual"), (auto_subs, "auto")]:
-            if lang in pool:
-                for fmt in pool[lang]:
-                    if fmt.get("ext") == "json3":
-                        sub_data  = fmt
-                        lang_used = f"{lang}-{suffix}"
-                        break
-            if sub_data:
-                break
+    # Priority: Manual Hindi -> Auto Hindi -> Manual English -> Auto English
+    priority = [
+        ("hi", manual_subs, "manual"),
+        ("hi", auto_subs, "auto"),
+        ("en", manual_subs, "manual"),
+        ("en", auto_subs, "auto")
+    ]
+
+    for lang, pool, suffix in priority:
+        if lang in pool:
+            for fmt in pool[lang]:
+                if fmt.get("ext") == "json3":
+                    sub_data  = fmt
+                    lang_used = f"{lang}-{suffix}"
+                    break
         if sub_data:
             break
 
@@ -136,10 +180,19 @@ def fetch_transcript(v: dict) -> tuple[dict, object, str | None]:
         return v, "NO_TRANSCRIPT", None
 
     try:
-        req = urllib.request.Request(sub_data["url"])
+        # Browser-like headers to avoid bot detection on the JSON3 endpoint
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9,hi;q=0.8",
+            "Referer": f"https://www.youtube.com/watch?v={vid_id}",
+            "Origin": "https://www.youtube.com"
+        }
+        req = urllib.request.Request(sub_data["url"], headers=headers)
         with urllib.request.urlopen(req, timeout=15) as resp:
             raw = json.loads(resp.read().decode("utf-8"))
-    except Exception:
+    except Exception as e:
+        log(f"    [FETCH ERROR] {e}")
         return v, "NO_TRANSCRIPT", None
 
     transcript = []
@@ -372,6 +425,7 @@ def main():
     parser.add_argument("--no-faiss",     action="store_true", help="Skip FAISS indexing (DB only — saves RAM)")
     parser.add_argument("--workers",      type=int, default=FETCH_WORKERS, help=f"Parallel fetch workers (default {FETCH_WORKERS})")
     parser.add_argument("--limit",        type=int, default=0, help="Process at most N videos (0 = all)")
+    parser.add_argument("--refresh",      action="store_true", help="Force a new scan of the YouTube channel")
     args = parser.parse_args()
 
     do_fetch   = not args.ingest_only
@@ -397,9 +451,9 @@ def main():
                 skip_faiss = True
 
     # ── build work queue ───────────────────────────────────────────────────
-    all_videos = load_video_list()
+    all_videos = load_video_list(refresh=args.refresh)
     if not all_videos:
-        log("ERROR: video_list_cache.json not found! Run the old fetcher first.")
+        log("ERROR: Could not load or scan video list.")
         return
 
     if args.ingest_only:

@@ -23,7 +23,7 @@ __pycache__/
 
 # Databases & Vector Stores
 *.db
-!bhaktimarg_qa.db
+
 *.sqlite3
 faiss_index/
 *.index
@@ -46,8 +46,7 @@ requirements.lock
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db
+
 
 # Logs
 *.log

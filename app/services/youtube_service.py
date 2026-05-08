@@ -1,43 +1,56 @@
 import logging
-from typing import List
+import json
+import urllib.request
+from typing import List, Optional, Tuple
 from sqlalchemy.orm import Session
-from youtube_transcript_api import YouTubeTranscriptApi
 from app.models.db_models import Video, QAPair
 from app.database.connection import get_db
 from app.services.llm_service import extract_qa_pairs
 from app.services.vector_store import add_to_index
 import yt_dlp
 import traceback
+import os
+import time
+import random
 
 logger = logging.getLogger(__name__)
 
 CHANNEL_URL = "https://www.youtube.com/@BhajanMarg"
 PROGRESS_FILE = "extraction_progress.txt"
 
-import os
-import time
-
 def log_progress(msg: str):
     """Helper to write visible progress to a text file for the user."""
     timestamp = time.strftime("%H:%M:%S")
+    line = f"[{timestamp}] {msg}"
     with open(PROGRESS_FILE, "a", encoding="utf-8") as f:
-        f.write(f"[{timestamp}] {msg}\n")
+        f.write(line + "\n")
     logger.info(msg)
+
+def _get_yt_opts() -> dict:
+    opts = {
+        "quiet": True,
+        "ignoreerrors": True,
+        "skip_download": True,
+        "writesubtitles": False,
+        "writeautomaticsub": False,
+        "socket_timeout": 30,
+        "extractor_retries": 5,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    }
+    if os.path.exists("cookies.txt"):
+        opts["cookiefile"] = "cookies.txt"
+    return opts
 
 def fetch_latest_videos(max_count: int = 10) -> List[dict]:
     """Uses yt-dlp to fetch the latest video metadata from the channel."""
     logger.info(f"Fetching latest {max_count} videos from {CHANNEL_URL}")
-    ydl_opts = {
-        'extract_flat': True,
-        'playlist_items': f'1-{max_count}',
-        'quiet': True,
-        'ignoreerrors': True
-    }
+    ydl_opts = _get_yt_opts()
+    ydl_opts['extract_flat'] = True
+    ydl_opts['playlist_items'] = f'1-{max_count}'
     
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         result = ydl.extract_info(CHANNEL_URL, download=False)
         if 'entries' in result:
-            # yt-dlp returns entries which contain video 'id', 'title', 'url'
             videos = []
             for entry in result['entries']:
                 if entry and entry.get('id'):
@@ -49,12 +62,73 @@ def fetch_latest_videos(max_count: int = 10) -> List[dict]:
             return videos
     return []
 
-def get_transcript_chunks(video_id: str, chunk_duration: int = 180) -> List[str]:
-    """Fetches Hindi/Auto-Hindi transcript and groups text into physical chunks with timestamps."""
+def get_stealth_transcript(video_id: str) -> Tuple[Optional[List[dict]], Optional[str]]:
+    """Fetches transcript using stealthy headers and priority selection (Manual -> Auto)."""
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['hi'])
+        with yt_dlp.YoutubeDL(_get_yt_opts()) as ydl:
+            info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=False)
+    except Exception as exc:
+        logger.error(f"yt-dlp error for {video_id}: {exc}")
+        return None, None
+
+    if not info:
+        return None, None
+
+    auto_subs = info.get("automatic_captions", {})
+    manual_subs = info.get("subtitles", {})
+    sub_data = None
+    lang_used = None
+
+    priority = [
+        ("hi", manual_subs, "manual"),
+        ("hi", auto_subs, "auto"),
+        ("en", manual_subs, "manual"),
+        ("en", auto_subs, "auto")
+    ]
+
+    for lang, pool, suffix in priority:
+        if lang in pool:
+            for fmt in pool[lang]:
+                if fmt.get("ext") == "json3":
+                    sub_data = fmt
+                    lang_used = f"{lang}-{suffix}"
+                    break
+        if sub_data:
+            break
+
+    if not (sub_data and sub_data.get("url")):
+        return None, None
+
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9,hi;q=0.8",
+            "Referer": f"https://www.youtube.com/watch?v={video_id}",
+            "Origin": "https://www.youtube.com"
+        }
+        req = urllib.request.Request(sub_data["url"], headers=headers)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            raw = json.loads(resp.read().decode("utf-8"))
+        
+        transcript = []
+        for event in raw.get("events", []):
+            if "segs" in event:
+                text = "".join(seg.get("utf8", "") for seg in event["segs"]).strip()
+                if text and text != "\n":
+                    transcript.append({
+                        "start": event.get("tStartMs", 0) / 1000,
+                        "text": text,
+                    })
+        return transcript, lang_used
     except Exception as e:
-        logger.warning(f"Could not fetch transcript for {video_id}: {e}")
+        logger.error(f"Transcript fetch error for {video_id}: {e}")
+        return None, None
+
+def get_transcript_chunks(video_id: str, chunk_duration: int = 180) -> List[str]:
+    """Fetches transcript and groups text into physical chunks with timestamps."""
+    transcript, lang = get_stealth_transcript(video_id)
+    if not transcript:
         return []
 
     chunks = []
@@ -62,7 +136,6 @@ def get_transcript_chunks(video_id: str, chunk_duration: int = 180) -> List[str]
     current_chunk_start = 0
     
     for item in transcript:
-        # e.g. [45s] यह प्रश्न है...
         text_with_timestamp = f"[{int(item['start'])}s] {item['text']} "
         
         if item['start'] - current_chunk_start > chunk_duration:
