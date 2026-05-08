@@ -23,6 +23,7 @@ __pycache__/
 
 # Databases & Vector Stores
 *.db
+!bhaktimarg_qa.db
 *.sqlite3
 faiss_index/
 *.index
