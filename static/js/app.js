@@ -53,9 +53,17 @@ document.addEventListener('DOMContentLoaded', () => {
             // Remove loader
             document.getElementById(loadingId).remove();
 
-            // Append answer
+            // Format markdown-style bold **text** to HTML <strong>text</strong>
+            function formatMarkdown(text) {
+                return text
+                    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-saffron-300 font-semibold">$1</strong>')
+                    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+                    .replace(/^• (.+)$/gm, '<li class="ml-4 list-disc">$1</li>')
+                    .replace(/\n/g, '<br>');
+            }
+
             let formattedResponse = `
-                <div class="whitespace-pre-wrap">${data.answer}</div>
+                <div class="whitespace-pre-wrap">${formatMarkdown(data.answer)}</div>
             `;
 
             // Build references from new `references` array (with fallback to old `reference`)

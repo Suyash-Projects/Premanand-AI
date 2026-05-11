@@ -1,0 +1,25 @@
+[22:36:52] ============================================================
+[22:36:52] STARTING FULL TRANSCRIPT EXTRACTION
+[22:36:52] ============================================================
+[22:36:58] Total videos in DB: 409
+[22:36:58] Videos needing extraction: 218
+[22:36:58] [1/218] Bhajan Marg - Videos...
+[22:36:58]   No transcript available: UCEk1jBxAl6fe-_G37G7huQA - 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UCEk1jBxAl6fe-_G37G7huQA! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[22:37:00]   yt-dlp fallback error: ERROR: [youtube] UCEk1jBxAl6: Video unavailable
+[22:37:00]   [X] No transcript
+[22:37:00] [2/218] #1224 Ekantik Vartalaap & Darshan/03-04-2026/ Shri...
+[22:37:01]   Transcript fetch error: H8Z3qUMXsCs - no element found: line 1, column 0
+[22:37:03]   [+ve] 9 segments
+[22:39:14]   [OK] 2 QA pairs extracted
+[22:39:14] [3/218] #1236 Ekantik Vartalaap & Darshan/15-04-2026/ Shri...
+[22:39:15]   Transcript fetch error: KyGcmmB8hhY - no element found: line 1, column 0
+[22:39:18]   [+ve] 10 segments
+[22:42:41]   [OK] 1 QA pairs extracted
+[22:42:41] [4/218] #1232 Ekantik Vartalaap & Darshan/11-04-2026/ Shri...
+[22:42:41]   Transcript fetch error: NgzVYyD8bL8 - no element found: line 1, column 0
+[22:42:43]   [+ve] 8 segments

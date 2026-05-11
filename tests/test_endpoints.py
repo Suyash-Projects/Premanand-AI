@@ -20,17 +20,23 @@ from unittest.mock import patch
 # ---------------------------------------------------------------------------
 
 def test_get_videos_returns_list(client):
-    """GET /api/videos should return HTTP 200 with a JSON list."""
+    """GET /api/videos should return HTTP 200 with paginated response."""
     resp = client.get("/api/videos")
     assert resp.status_code == 200
     data = resp.json()
-    assert isinstance(data, list), "Expected a JSON array"
+    assert "items" in data, "Expected paginated response with 'items' key"
+    assert "total" in data
+    assert "page" in data
+    assert "page_size" in data
+    assert "total_pages" in data
+    assert isinstance(data["items"], list), "Expected items to be a list"
 
 
 def test_get_videos_schema(client):
     """Each video in the list must have id, title, youtube_id, url fields."""
     resp = client.get("/api/videos")
-    videos = resp.json()
+    data = resp.json()
+    videos = data.get("items", [])
     if videos:  # Only validate schema if there is at least one record
         v = videos[0]
         assert "id" in v
@@ -68,12 +74,15 @@ def test_admin_stats_counts_are_positive(client):
 # ---------------------------------------------------------------------------
 
 def test_admin_health_keys(client):
-    """GET /api/admin/health should return status, groq, openrouter, apifree keys."""
+    """GET /api/admin/health should return status, database, llm_providers, redis keys."""
     resp = client.get("/api/admin/health")
     assert resp.status_code == 200
     data = resp.json()
-    for key in ("status", "groq", "openrouter", "apifree"):
-        assert key in data, f"Missing key: {key}"
+    assert "status" in data, "Missing status key"
+    assert "database" in data, "Missing database key"
+    assert "vector_index" in data, "Missing vector_index key"
+    assert "llm_providers" in data, "Missing llm_providers key"
+    assert "redis" in data, "Missing redis key"
 
 
 # ---------------------------------------------------------------------------
